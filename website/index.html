@@ -1,0 +1,143 @@
+<!doctype html>
+<html class="no-js" lang="">
+
+<head>
+    <meta charset="utf-8">
+    <title></title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
+          crossorigin="anonymous">
+    <link rel="stylesheet" href="css/main.css"/>
+    <link rel="stylesheet" href="css/normalize.css"/>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
+            crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="http://code.jquery.com/ui/1.11.4/themes/smoothness/jquery-ui.css">
+    <script src="http://code.jquery.com/jquery-1.10.2.js"></script>
+    <script src="http://code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
+    <script src="js/main.js"></script>
+    <meta name="theme-color" content="#fafafa">
+</head>
+
+<body>
+<div class="dashboard">
+    <div class="filter_column">
+        <h3>Filter</h3>
+        <div class="filter">
+            <label class="filter--label">Make</label>
+            <div class="dropdown">
+                <button class="btn w-100 bg-light dropdown-toggle" type="button" id="dropdownMenuButton"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Select a brand
+                </button>
+                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                    <a class="dropdown-item" href="#">Ferrari</a>
+                    <a class="dropdown-item" href="#">Ford</a>
+                    <a class="dropdown-item" href="#">Joe mamma</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="filter">
+            <label class="filter--label">Year Range</label>
+            <div style="margin: 5px 10px 3px 10px;" id="slider-range"></div>
+            <div class="flex justify-between">
+                <span id="year1">1996</span>
+                <span id="year2">2020</span>
+            </div>
+        </div>
+
+        <div class="filter">
+            <label class="filter--label">Transmission</label>
+            <div class="flex justify-between">
+                <button id="manual" class="multi_selection--button"
+                        onclick="handleFilterToggle('transmission', 'manual')">Manual
+                </button>
+                <button id="automatic" class="multi_selection--button"
+                        onclick="handleFilterToggle('transmission', 'automatic')">Automatic
+                </button>
+            </div>
+        </div>
+
+        <div class="filter">
+            <label class="filter--label">No. of Doors</label>
+            <div class="flex justify-between">
+                <button id="twoDoors" class="multi_selection--button"
+                        onclick="handleFilterToggle('noOfDoors', 'twoDoors')">Two Doors
+                </button>
+                <button id="fourDoors" class="multi_selection--button"
+                        onclick="handleFilterToggle('noOfDoors', 'fourDoors')">Four Doors
+                </button>
+            </div>
+        </div>
+
+        <div class="filter">
+            <label class="filter--label">Vehicle Style</label>
+            <div class="flex justify-between mb-2">
+                <button id="sedan" class="multi_selection--button"
+                        onclick="handleFilterToggle('vehicleStyle', 'sedan')">Sedan
+                </button>
+                <button id="coupe" class="multi_selection--button"
+                        onclick="handleFilterToggle('vehicleStyle', 'coupe')">Coupe
+                </button>
+            </div>
+            <div class="flex justify-between mb-2">
+                <button id="convertible" class="multi_selection--button"
+                        onclick="handleFilterToggle('vehicleStyle', 'convertible')">Convertible
+                </button>
+                <button id="wagon" class="multi_selection--button"
+                        onclick="handleFilterToggle('vehicleStyle', 'wagon')">Wagon
+                </button>
+            </div>
+            <div class="flex justify-between mb-2">
+                <button id="hatchback" class="multi_selection--button"
+                        onclick="handleFilterToggle('vehicleStyle', 'hatchback')">Hatchback
+                </button>
+                <button id="minivan" class="multi_selection--button"
+                        onclick="handleFilterToggle('vehicleStyle', 'minivan')">Minivan
+                </button>
+            </div>
+            <div class="flex justify-between">
+                <button id="suv" class="multi_selection--button" onclick="handleFilterToggle('vehicleStyle', 'suv')">
+                    SUV
+                </button>
+            </div>
+        </div>
+
+        <div class="filter">
+            <label class="filter--label">Fuel Type</label>
+            <div class="flex justify-between">
+                <button id="gasoline" class="multi_selection--button"
+                        onclick="handleFilterToggle('fuelType', 'gasoline')">Gasoline
+                </button>
+                <button id="diesel" class="multi_selection--button" onclick="handleFilterToggle('fuelType', 'diesel')">
+                    Diesel
+                </button>
+            </div>
+        </div>
+
+        <div class="filter">
+            <label class="filter--label">No. of Cylinders</label>
+            <div style="margin: 5px 10px 3px 10px;" id="slider-range2"></div>
+            <div class="flex justify-between">
+                <span id="cylinder1">1</span>
+                <span id="cylinder2">20</span>
+            </div>
+        </div>
+
+    </div>
+    <div class="results_column">
+        <div class="results_header">
+            <div class="flex-column">
+                <span class="header_text--first">Find your</span>
+                <span class="header_text--second">ecofriendly car today!</span>
+            </div>
+            <img class="results_header--img" src="img/results-header.jpg"/>
+        </div>
+    </div>
+</div>
+</body>
+
+</html>
