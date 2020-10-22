@@ -1,0 +1,526 @@
+{
+  "baseIRI": "http://example/base/",
+  "namespaces": {
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "skos": "http://www.w3.org/2004/02/skos/core#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "auto": "http://example.com/group36/",
+    "owl": "http://www.w3.org/2002/07/owl#"
+  },
+  "subjectMappings": [
+    {
+      "propertyMappings": [
+        {
+          "property": {
+            "transformation": {
+              "expression": "auto",
+              "language": "prefix"
+            },
+            "valueSource": {
+              "source": "constant",
+              "constant": "hasManufacturer"
+            }
+          },
+          "values": [
+            {
+              "transformation": {
+                "expression": "auto",
+                "language": "prefix"
+              },
+              "valueSource": {
+                "columnName": "Make",
+                "source": "column"
+              },
+              "valueType": {
+                "propertyMappings": [],
+                "type": "iri",
+                "typeMappings": []
+              }
+            }
+          ]
+        },
+        {
+          "property": {
+            "transformation": {
+              "expression": "auto",
+              "language": "prefix"
+            },
+            "valueSource": {
+              "source": "constant",
+              "constant": "hasModel"
+            }
+          },
+          "values": [
+            {
+              "valueSource": {
+                "columnName": "Model",
+                "source": "column"
+              },
+              "valueType": {
+                "type": "datatype_literal",
+                "datatype": {
+                  "transformation": {
+                    "expression": "xsd",
+                    "language": "prefix"
+                  },
+                  "valueSource": {
+                    "source": "constant",
+                    "constant": "string"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "property": {
+            "transformation": {
+              "expression": "auto",
+              "language": "prefix"
+            },
+            "valueSource": {
+              "source": "constant",
+              "constant": "hasEngineSizeLiters"
+            }
+          },
+          "values": [
+            {
+              "valueSource": {
+                "columnName": "Engine Size(L)",
+                "source": "column"
+              },
+              "valueType": {
+                "type": "datatype_literal",
+                "datatype": {
+                  "transformation": {
+                    "expression": "xsd",
+                    "language": "prefix"
+                  },
+                  "valueSource": {
+                    "source": "constant",
+                    "constant": "float"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "property": {
+            "transformation": {
+              "expression": "auto",
+              "language": "prefix"
+            },
+            "valueSource": {
+              "source": "constant",
+              "constant": "hasCylinders"
+            }
+          },
+          "values": [
+            {
+              "valueSource": {
+                "columnName": "Cylinders",
+                "source": "column"
+              },
+              "valueType": {
+                "type": "datatype_literal",
+                "datatype": {
+                  "transformation": {
+                    "expression": "xsd",
+                    "language": "prefix"
+                  },
+                  "valueSource": {
+                    "source": "constant",
+                    "constant": "int"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "property": {
+            "transformation": {
+              "expression": "auto",
+              "language": "prefix"
+            },
+            "valueSource": {
+              "source": "constant",
+              "constant": "hasFuelConsumptionCity"
+            }
+          },
+          "values": [
+            {
+              "valueSource": {
+                "columnName": "Fuel Consumption City (L/100 km)",
+                "source": "column"
+              },
+              "valueType": {
+                "type": "datatype_literal",
+                "datatype": {
+                  "transformation": {
+                    "expression": "xsd",
+                    "language": "prefix"
+                  },
+                  "valueSource": {
+                    "source": "constant",
+                    "constant": "float"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "property": {
+            "transformation": {
+              "expression": "auto",
+              "language": "prefix"
+            },
+            "valueSource": {
+              "source": "constant",
+              "constant": "hasFuelConsumptionHighway"
+            }
+          },
+          "values": [
+            {
+              "valueSource": {
+                "columnName": "Fuel Consumption Hwy (L/100 km)",
+                "source": "column"
+              },
+              "valueType": {
+                "type": "datatype_literal",
+                "datatype": {
+                  "transformation": {
+                    "expression": "xsd",
+                    "language": "prefix"
+                  },
+                  "valueSource": {
+                    "source": "constant",
+                    "constant": "float"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "property": {
+            "transformation": {
+              "expression": "auto",
+              "language": "prefix"
+            },
+            "valueSource": {
+              "source": "constant",
+              "constant": "hasFuelConsumptionCombined"
+            }
+          },
+          "values": [
+            {
+              "valueSource": {
+                "columnName": "Fuel Consumption Comb (L/100 km)",
+                "source": "column"
+              },
+              "valueType": {
+                "type": "datatype_literal",
+                "datatype": {
+                  "transformation": {
+                    "expression": "xsd",
+                    "language": "prefix"
+                  },
+                  "valueSource": {
+                    "source": "constant",
+                    "constant": "float"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "property": {
+            "transformation": {
+              "expression": "auto",
+              "language": "prefix"
+            },
+            "valueSource": {
+              "source": "constant",
+              "constant": "hasCO2Emissions"
+            }
+          },
+          "values": [
+            {
+              "valueSource": {
+                "columnName": "CO2 Emissions(g/km)",
+                "source": "column"
+              },
+              "valueType": {
+                "type": "datatype_literal",
+                "datatype": {
+                  "transformation": {
+                    "expression": "xsd",
+                    "language": "prefix"
+                  },
+                  "valueSource": {
+                    "source": "constant",
+                    "constant": "int"
+                  }
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "subject": {
+        "transformation": {
+          "expression": "auto",
+          "language": "prefix"
+        },
+        "valueSource": {
+          "columnName": "Name",
+          "source": "column"
+        }
+      },
+      "typeMappings": [
+        {
+          "transformation": {
+            "expression": "auto",
+            "language": "prefix"
+          },
+          "valueSource": {
+            "source": "constant",
+            "constant": "Car"
+          }
+        }
+      ]
+    },
+    {
+      "propertyMappings": [],
+      "subject": {
+        "transformation": {
+          "expression": "auto",
+          "language": "prefix"
+        },
+        "valueSource": {
+          "columnName": "Make",
+          "source": "column"
+        }
+      },
+      "typeMappings": [
+        {
+          "transformation": {
+            "expression": "auto",
+            "language": "prefix"
+          },
+          "valueSource": {
+            "source": "constant",
+            "constant": "CarManufacturer"
+          }
+        }
+      ]
+    },
+    {
+      "propertyMappings": [],
+      "subject": {
+        "transformation": {
+          "expression": "auto",
+          "language": "prefix"
+        },
+        "valueSource": {
+          "source": "constant",
+          "constant": "hasManufacturer"
+        }
+      },
+      "typeMappings": [
+        {
+          "transformation": {
+            "expression": "owl",
+            "language": "prefix"
+          },
+          "valueSource": {
+            "source": "constant",
+            "constant": "ObjectProperty"
+          }
+        }
+      ]
+    },
+    {
+      "propertyMappings": [],
+      "subject": {
+        "transformation": {
+          "expression": "auto",
+          "language": "prefix"
+        },
+        "valueSource": {
+          "source": "constant",
+          "constant": "hasModel"
+        }
+      },
+      "typeMappings": [
+        {
+          "transformation": {
+            "expression": "owl",
+            "language": "prefix"
+          },
+          "valueSource": {
+            "source": "constant",
+            "constant": "DatatypeProperty"
+          }
+        }
+      ]
+    },
+    {
+      "propertyMappings": [],
+      "subject": {
+        "transformation": {
+          "expression": "auto",
+          "language": "prefix"
+        },
+        "valueSource": {
+          "source": "constant",
+          "constant": "hasEngineSizeLiters"
+        }
+      },
+      "typeMappings": [
+        {
+          "transformation": {
+            "expression": "owl",
+            "language": "prefix"
+          },
+          "valueSource": {
+            "source": "constant",
+            "constant": "DatatypeProperty"
+          }
+        }
+      ]
+    },
+    {
+      "propertyMappings": [],
+      "subject": {
+        "transformation": {
+          "expression": "auto",
+          "language": "prefix"
+        },
+        "valueSource": {
+          "source": "constant",
+          "constant": "hasCylinders"
+        }
+      },
+      "typeMappings": [
+        {
+          "transformation": {
+            "expression": "owl",
+            "language": "prefix"
+          },
+          "valueSource": {
+            "source": "constant",
+            "constant": "DatatypeProperty"
+          }
+        }
+      ]
+    },
+    {
+      "propertyMappings": [],
+      "subject": {
+        "transformation": {
+          "expression": "auto",
+          "language": "prefix"
+        },
+        "valueSource": {
+          "source": "constant",
+          "constant": "hasFuelConsumptionCity"
+        }
+      },
+      "typeMappings": [
+        {
+          "transformation": {
+            "expression": "owl",
+            "language": "prefix"
+          },
+          "valueSource": {
+            "source": "constant",
+            "constant": "DatatypeProperty"
+          }
+        }
+      ]
+    },
+    {
+      "propertyMappings": [],
+      "subject": {
+        "transformation": {
+          "expression": "auto",
+          "language": "prefix"
+        },
+        "valueSource": {
+          "source": "constant",
+          "constant": "hasFuelConsumptionHighway"
+        }
+      },
+      "typeMappings": [
+        {
+          "transformation": {
+            "expression": "owl",
+            "language": "prefix"
+          },
+          "valueSource": {
+            "source": "constant",
+            "constant": "DatatypeProperty"
+          }
+        }
+      ]
+    },
+    {
+      "propertyMappings": [],
+      "subject": {
+        "transformation": {
+          "expression": "auto",
+          "language": "prefix"
+        },
+        "valueSource": {
+          "source": "constant",
+          "constant": "hasFuelConsumptionCombined"
+        }
+      },
+      "typeMappings": [
+        {
+          "transformation": {
+            "expression": "owl",
+            "language": "prefix"
+          },
+          "valueSource": {
+            "source": "constant",
+            "constant": "DatatypeProperty"
+          }
+        }
+      ]
+    },
+    {
+      "propertyMappings": [],
+      "subject": {
+        "transformation": {
+          "expression": "auto",
+          "language": "prefix"
+        },
+        "valueSource": {
+          "source": "constant",
+          "constant": "hasCO2Emissions"
+        }
+      },
+      "typeMappings": [
+        {
+          "transformation": {
+            "expression": "owl",
+            "language": "prefix"
+          },
+          "valueSource": {
+            "source": "constant",
+            "constant": "DatatypeProperty"
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,929 @@
+Name,Make,Model,Year,Engine Fuel Type,Engine HP,Engine Cylinders,Transmission Type,Driven_Wheels,Number of Doors,Market Category,Car Body Style,highway MPG,city MPG
+ACURA CL,ACURA,CL,2001,premium unleaded (required),225,6,Automatic,FrontWheelDrive,2,Luxury,Coupe,27,17
+ACURA ILX,ACURA,ILX,2015,premium unleaded (recommended),201,4,Manual,FrontWheelDrive,4,"Luxury,Performance",Sedan,31,22
+ACURA ILX HYBRID,ACURA,ILX Hybrid,2014,premium unleaded (recommended),111,4,Automatic,FrontWheelDrive,4,"Luxury,Hybrid",Sedan,38,39
+ACURA INTEGRA,ACURA,Integra,1999,regular unleaded,140,4,Manual,FrontWheelDrive,4,Luxury,Sedan,29,22
+ACURA LEGEND,ACURA,Legend,1993,regular unleaded,200,6,Manual,FrontWheelDrive,4,Luxury,Sedan,23,15
+ACURA MDX,ACURA,MDX,2015,premium unleaded (recommended),290,6,Automatic,AllWheelDrive,4,"Crossover,Luxury",SUV,27,18
+ACURA NSX,ACURA,NSX,2004,regular unleaded,290,6,Manual,RearWheelDrive,2,"Exotic,Luxury,High-Performance",Coupe,22,16
+ACURA RDX,ACURA,RDX,2015,premium unleaded (recommended),273,6,Automatic,AllWheelDrive,4,"Crossover,Luxury",SUV,27,19
+ACURA RL,ACURA,RL,2010,premium unleaded (required),300,6,Automatic,AllWheelDrive,4,"Luxury,Performance",Sedan,22,16
+ACURA RLX,ACURA,RLX,2015,premium unleaded (recommended),310,6,Automatic,FrontWheelDrive,4,"Luxury,Performance",Sedan,31,20
+ACURA RSX,ACURA,RSX,2004,regular unleaded,160,4,Manual,FrontWheelDrive,2,"Hatchback,Luxury,Performance",Hatchback,30,24
+ACURA SLX,ACURA,SLX,1997,regular unleaded,190,6,Automatic,four wheel drive,4,Luxury,SUV,17,13
+ACURA TL,ACURA,TL,2012,premium unleaded (required),305,6,Automatic,AllWheelDrive,4,"Luxury,Performance",Sedan,26,18
+ACURA TLX,ACURA,TLX,2015,premium unleaded (recommended),290,6,Automatic,AllWheelDrive,4,Luxury,Sedan,31,21
+ACURA TSX,ACURA,TSX,2012,premium unleaded (recommended),201,4,Automatic,FrontWheelDrive,4,Luxury,Sedan,31,22
+ACURA TSX SPORT WAGON,ACURA,TSX Sport Wagon,2012,premium unleaded (recommended),201,4,Automatic,FrontWheelDrive,4,Luxury,Wagon,30,22
+ACURA VIGOR,ACURA,Vigor,1992,regular unleaded,176,5,Manual,FrontWheelDrive,4,Luxury,Sedan,24,18
+ACURA ZDX,ACURA,ZDX,2011,premium unleaded (required),300,6,Automatic,AllWheelDrive,4,"Crossover,Hatchback,Luxury",Hatchback,23,16
+ALFA ROMEO 4C,ALFA ROMEO,4C,2015,premium unleaded (required),237,4,Automated_Manual,RearWheelDrive,2,"Luxury,High-Performance",Convertible,34,24
+ASTON MARTIN DB7,ASTON MARTIN,DB7,2003,premium unleaded (required),420,12,Automatic,RearWheelDrive,2,"Exotic,Factory Tuner,High-Performance",Coupe,18,11
+ASTON MARTIN DB9,ASTON MARTIN,DB9,2013,premium unleaded (required),510,12,Automatic,RearWheelDrive,2,"Exotic,High-Performance",Convertible,19,13
+ASTON MARTIN DB9 GT,ASTON MARTIN,DB9 GT,2016,premium unleaded (required),540,12,Automatic,RearWheelDrive,2,"Exotic,High-Performance",Coupe,19,13
+ASTON MARTIN DBS,ASTON MARTIN,DBS,2010,premium unleaded (required),510,12,Automatic,RearWheelDrive,2,"Exotic,High-Performance",Convertible,18,12
+ASTON MARTIN RAPIDE,ASTON MARTIN,Rapide,2010,premium unleaded (required),470,12,Automatic,RearWheelDrive,4,"Exotic,High-Performance",Sedan,19,13
+ASTON MARTIN RAPIDE S,ASTON MARTIN,Rapide S,2014,premium unleaded (required),550,12,Automatic,RearWheelDrive,4,"Exotic,High-Performance",Sedan,19,13
+ASTON MARTIN V12 VANQUISH,ASTON MARTIN,V12 Vanquish,2004,premium unleaded (required),460,12,Automatic,RearWheelDrive,2,"Exotic,High-Performance",Coupe,18,11
+ASTON MARTIN V12 VANTAGE,ASTON MARTIN,V12 Vantage,2011,premium unleaded (required),510,12,Manual,RearWheelDrive,2,"Exotic,High-Performance",Coupe,17,11
+ASTON MARTIN V12 VANTAGE S,ASTON MARTIN,V12 Vantage S,2015,premium unleaded (required),565,12,Automated_Manual,RearWheelDrive,2,"Exotic,High-Performance",Coupe,18,12
+ASTON MARTIN V8 VANTAGE,ASTON MARTIN,V8 Vantage,2014,premium unleaded (required),430,8,Manual,RearWheelDrive,2,"Exotic,High-Performance",Convertible,19,13
+ASTON MARTIN VANQUISH,ASTON MARTIN,Vanquish,2014,premium unleaded (required),565,12,Automatic,RearWheelDrive,2,"Exotic,High-Performance",Convertible,19,13
+ASTON MARTIN VIRAGE,ASTON MARTIN,Virage,2012,premium unleaded (required),490,12,Automatic,RearWheelDrive,2,"Exotic,High-Performance",Coupe,18,13
+AUDI 100,AUDI,100,1992,regular unleaded,172,6,Manual,FrontWheelDrive,4,Luxury,Sedan,24,17
+AUDI 200,AUDI,200,1990,regular unleaded,162,5,Automatic,FrontWheelDrive,4,Luxury,Sedan,20,16
+AUDI 80,AUDI,80,1990,regular unleaded,108,4,Manual,FrontWheelDrive,4,Luxury,Sedan,28,19
+AUDI 90,AUDI,90,1993,regular unleaded,172,6,Manual,AllWheelDrive,4,Luxury,Sedan,20,15
+AUDI A3,AUDI,A3,2015,diesel,150,4,Automated_Manual,FrontWheelDrive,4,"Diesel,Luxury",Sedan,43,31
+AUDI A4,AUDI,A4,2015,premium unleaded (required),220,4,Automatic,AllWheelDrive,4,Luxury,Sedan,31,22
+AUDI A4 ALLROAD,AUDI,A4 allroad,2017,premium unleaded (recommended),252,4,Automated_Manual,AllWheelDrive,4,Luxury,Wagon,28,23
+AUDI A5,AUDI,A5,2016,premium unleaded (required),220,4,Automatic,AllWheelDrive,2,Luxury,Coupe,31,22
+AUDI A6,AUDI,A6,2015,diesel,240,6,Automatic,AllWheelDrive,4,"Diesel,Luxury",Sedan,38,24
+AUDI A7,AUDI,A7,2015,premium unleaded (required),310,6,Automatic,AllWheelDrive,4,"Luxury,Performance",Sedan,28,18
+AUDI A8,AUDI,A8,2016,diesel,240,6,Automatic,AllWheelDrive,4,"Diesel,Luxury",Sedan,36,24
+AUDI ALLROAD,AUDI,allroad,2014,premium unleaded (recommended),220,4,Automatic,AllWheelDrive,4,Luxury,Wagon,27,20
+AUDI ALLROAD QUATTRO,AUDI,allroad quattro,2003,regular unleaded,250,6,Manual,AllWheelDrive,4,"Crossover,Luxury,Performance",Wagon,21,14
+AUDI CABRIOLET,AUDI,Cabriolet,1996,regular unleaded,172,6,Automatic,FrontWheelDrive,2,Luxury,Convertible,22,17
+AUDI COUPE,AUDI,Coupe,1990,regular unleaded,164,5,Manual,AllWheelDrive,2,"Hatchback,Factory Tuner,Luxury,Performance",Hatchback,22,16
+AUDI Q3,AUDI,Q3,2015,premium unleaded (recommended),200,4,Automatic,FrontWheelDrive,4,"Crossover,Luxury",SUV,29,20
+AUDI Q5,AUDI,Q5,2015,premium unleaded (required),272,6,Automatic,AllWheelDrive,4,"Crossover,Luxury",SUV,26,18
+AUDI Q7,AUDI,Q7,2014,diesel,240,6,Automatic,AllWheelDrive,4,"Crossover,Luxury,Diesel",SUV,28,19
+AUDI R8,AUDI,R8,2014,premium unleaded (required),525,10,Manual,AllWheelDrive,2,"Luxury,High-Performance",Convertible,19,12
+AUDI RS 4,AUDI,RS 4,2007,premium unleaded (required),420,8,Manual,AllWheelDrive,4,"Factory Tuner,Luxury,High-Performance",Sedan,20,13
+AUDI RS 5,AUDI,RS 5,2013,premium unleaded (required),450,8,Automated_Manual,AllWheelDrive,2,"Factory Tuner,Luxury,High-Performance",Convertible,23,16
+AUDI RS 6,AUDI,RS 6,2003,premium unleaded (required),450,8,Automatic,AllWheelDrive,4,"Factory Tuner,Luxury,High-Performance",Sedan,20,14
+AUDI RS 7,AUDI,RS 7,2015,premium unleaded (required),560,8,Automatic,AllWheelDrive,4,"Factory Tuner,Luxury,High-Performance",Sedan,27,16
+AUDI S3,AUDI,S3,2015,premium unleaded (required),292,4,Automated_Manual,AllWheelDrive,4,"Factory Tuner,Luxury,High-Performance",Sedan,31,23
+AUDI S4,AUDI,S4,2014,premium unleaded (required),333,6,Automated_Manual,AllWheelDrive,4,"Factory Tuner,Luxury,High-Performance",Sedan,28,18
+AUDI S5,AUDI,S5,2016,premium unleaded (required),333,6,Automated_Manual,AllWheelDrive,2,"Factory Tuner,Luxury,Performance",Convertible,26,18
+AUDI S6,AUDI,S6,2015,premium unleaded (required),420,8,Automated_Manual,AllWheelDrive,4,"Factory Tuner,Luxury,High-Performance",Sedan,27,17
+AUDI S7,AUDI,S7,2015,premium unleaded (required),420,8,Automated_Manual,AllWheelDrive,4,"Factory Tuner,Luxury,High-Performance",Sedan,27,17
+AUDI S8,AUDI,S8,2015,premium unleaded (required),520,8,Automatic,AllWheelDrive,4,"Factory Tuner,Luxury,High-Performance",Sedan,27,17
+AUDI SQ5,AUDI,SQ5,2015,premium unleaded (required),354,6,Automatic,AllWheelDrive,4,"Crossover,Factory Tuner,Luxury,High-Performance",SUV,24,17
+AUDI TT,AUDI,TT,2015,premium unleaded (recommended),211,4,Automated_Manual,AllWheelDrive,2,Luxury,Convertible,31,22
+AUDI TT RS,AUDI,TT RS,2012,premium unleaded (required),360,5,Manual,AllWheelDrive,2,"Factory Tuner,Luxury,High-Performance",Coupe,25,18
+AUDI TTS,AUDI,TTS,2015,premium unleaded (required),265,4,Automated_Manual,AllWheelDrive,2,"Factory Tuner,Luxury,Performance",Convertible,31,22
+AUDI V8,AUDI,V8,1992,regular unleaded,276,8,Automatic,AllWheelDrive,4,"Luxury,Performance",Sedan,18,13
+BENTLEY ARNAGE,BENTLEY,Arnage,2007,premium unleaded (required),450,8,Automatic,RearWheelDrive,4,"Exotic,Luxury,Performance",Sedan,15,10
+BENTLEY AZURE,BENTLEY,Azure,2007,premium unleaded (required),450,8,Automatic,RearWheelDrive,2,"Exotic,Luxury",Convertible,15,10
+BENTLEY AZURE T,BENTLEY,Azure T,2010,premium unleaded (required),500,8,Automatic,RearWheelDrive,2,"Exotic,Luxury,High-Performance",Convertible,15,9
+BENTLEY BROOKLANDS,BENTLEY,Brooklands,2009,premium unleaded (required),530,8,Automatic,RearWheelDrive,2,"Exotic,Luxury,High-Performance",Coupe,14,10
+BENTLEY CONTINENTAL,BENTLEY,Continental,2001,premium unleaded (required),420,8,Automatic,RearWheelDrive,2,"Exotic,Luxury,Performance",Coupe,15,10
+BENTLEY CONTINENTAL FLYING SPUR,BENTLEY,Continental Flying Spur,2011,flex-fuel (premium unleaded required/E85),552,12,Automatic,AllWheelDrive,4,"Exotic,Flex Fuel,Luxury,High-Performance",Sedan,18,11
+BENTLEY CONTINENTAL FLYING SPUR SPEED,BENTLEY,Continental Flying Spur Speed,2011,premium unleaded (required),600,12,Automatic,AllWheelDrive,4,"Exotic,Factory Tuner,Luxury,High-Performance",Sedan,17,10
+BENTLEY CONTINENTAL GT,BENTLEY,Continental GT,2014,premium unleaded (required),500,8,Automatic,AllWheelDrive,2,"Exotic,Luxury,High-Performance",Coupe,24,15
+BENTLEY CONTINENTAL GT SPEED,BENTLEY,Continental GT Speed,2010,premium unleaded (required),600,12,Automatic,AllWheelDrive,2,"Exotic,Factory Tuner,Luxury,High-Performance",Coupe,17,10
+BENTLEY CONTINENTAL GT SPEED CONVERTIBLE,BENTLEY,Continental GT Speed Convertible,2014,flex-fuel (premium unleaded required/E85),626,12,Automatic,AllWheelDrive,2,"Exotic,Flex Fuel,Factory Tuner,Luxury,High-Performance",Convertible,20,12
+BENTLEY CONTINENTAL GT3-R,BENTLEY,Continental GT3-R,2015,premium unleaded (required),572,8,Automatic,AllWheelDrive,2,"Exotic,Factory Tuner,Luxury,High-Performance",Coupe,23,13
+BENTLEY CONTINENTAL GTC,BENTLEY,Continental GTC,2012,flex-fuel (premium unleaded required/E85),567,12,Automatic,AllWheelDrive,2,"Exotic,Flex Fuel,Luxury,High-Performance",Convertible,19,11
+BENTLEY CONTINENTAL GTC SPEED,BENTLEY,Continental GTC Speed,2010,premium unleaded (required),600,12,Automatic,AllWheelDrive,2,"Exotic,Factory Tuner,Luxury,High-Performance",Convertible,17,10
+BENTLEY CONTINENTAL SUPERSPORTS,BENTLEY,Continental Supersports,2010,flex-fuel (premium unleaded required/E85),621,12,Automatic,AllWheelDrive,2,"Exotic,Flex Fuel,Factory Tuner,Luxury,High-Performance",Coupe,19,12
+BENTLEY CONTINENTAL SUPERSPORTS CONVERTIBLE,BENTLEY,Continental Supersports Convertible,2011,flex-fuel (premium unleaded required/E85),621,12,Automatic,AllWheelDrive,2,"Exotic,Flex Fuel,Factory Tuner,Luxury,High-Performance",Convertible,19,12
+BENTLEY FLYING SPUR,BENTLEY,Flying Spur,2014,flex-fuel (premium unleaded required/E85),616,12,Automatic,AllWheelDrive,4,"Exotic,Flex Fuel,Luxury,High-Performance",Sedan,20,12
+BENTLEY MULSANNE,BENTLEY,Mulsanne,2014,premium unleaded (required),505,8,Automatic,RearWheelDrive,4,"Exotic,Luxury,High-Performance",Sedan,18,11
+BENTLEY SUPERSPORTS CONVERTIBLE ISR,BENTLEY,Supersports Convertible ISR,2013,flex-fuel (premium unleaded required/E85),631,12,Automatic,AllWheelDrive,2,"Exotic,Flex Fuel,Factory Tuner,Luxury,High-Performance",Convertible,19,12
+BMW 1 SERIES,BMW,1 Series,2011,premium unleaded (required),300,6,Manual,RearWheelDrive,2,"Luxury,Performance",Convertible,28,19
+BMW 1 SERIES M,BMW,1 Series M,2011,premium unleaded (required),335,6,Manual,RearWheelDrive,2,"Factory Tuner,Luxury,High-Performance",Coupe,26,19
+BMW 2 SERIES,BMW,2 Series,2016,premium unleaded (required),240,4,Automatic,RearWheelDrive,2,"Luxury,Performance",Coupe,35,23
+BMW 3 SERIES,BMW,3 Series,2015,premium unleaded (required),241,4,Automatic,AllWheelDrive,4,Luxury,Wagon,33,22
+BMW 3 SERIES GRAN TURISMO,BMW,3 Series Gran Turismo,2015,premium unleaded (required),300,6,Automatic,AllWheelDrive,4,"Hatchback,Luxury,Performance",Hatchback,30,20
+BMW 4 SERIES,BMW,4 Series,2015,premium unleaded (required),300,6,Automatic,AllWheelDrive,2,"Luxury,Performance",Convertible,29,20
+BMW 4 SERIES GRAN COUPE,BMW,4 Series Gran Coupe,2015,premium unleaded (required),240,4,Automatic,AllWheelDrive,4,Luxury,Sedan,33,22
+BMW 5 SERIES,BMW,5 Series,2015,premium unleaded (required),443,8,Automatic,AllWheelDrive,4,"Luxury,High-Performance",Sedan,25,16
+BMW 5 SERIES GRAN TURISMO,BMW,5 Series Gran Turismo,2015,premium unleaded (required),300,6,Automatic,RearWheelDrive,4,"Hatchback,Luxury",Hatchback,28,19
+BMW 6 SERIES,BMW,6 Series,2015,premium unleaded (required),445,8,Automatic,RearWheelDrive,2,"Luxury,High-Performance",Convertible,25,17
+BMW 6 SERIES GRAN COUPE,BMW,6 Series Gran Coupe,2015,premium unleaded (required),445,8,Automatic,AllWheelDrive,4,"Luxury,High-Performance",Sedan,24,16
+BMW 7 SERIES,BMW,7 Series,2015,premium unleaded (required),535,12,Automatic,RearWheelDrive,4,"Luxury,High-Performance",Sedan,20,13
+BMW 8 SERIES,BMW,8 Series,1995,regular unleaded,282,8,Automatic,RearWheelDrive,2,"Luxury,Performance",Coupe,22,15
+BMW ACTIVEHYBRID 5,BMW,ActiveHybrid 5,2014,premium unleaded (required),335,6,Automatic,RearWheelDrive,4,"Luxury,Performance,Hybrid",Sedan,30,23
+BMW ACTIVEHYBRID 7,BMW,ActiveHybrid 7,2013,premium unleaded (required),350,6,Automatic,RearWheelDrive,4,"Luxury,Performance,Hybrid",Sedan,30,22
+BMW ACTIVEHYBRID X6,BMW,ActiveHybrid X6,2010,premium unleaded (required),480,8,Automatic,AllWheelDrive,4,"Crossover,Luxury,Performance,Hybrid",SUV,19,17
+BMW ALPINA,BMW,Alpina,2003,premium unleaded (required),375,8,Automatic,RearWheelDrive,2,"Exotic,Factory Tuner,Luxury,High-Performance",Convertible,19,13
+BMW ALPINA B6 GRAN COUPE,BMW,ALPINA B6 Gran Coupe,2015,premium unleaded (required),540,8,Automatic,AllWheelDrive,4,"Factory Tuner,Luxury,High-Performance",Sedan,24,16
+BMW ALPINA B7,BMW,ALPINA B7,2014,premium unleaded (required),540,8,Automatic,AllWheelDrive,4,"Factory Tuner,Luxury,High-Performance",Sedan,24,16
+BMW I3,BMW,i3,2015,electric,170,0,Direct_Drive,RearWheelDrive,4,"Hatchback,Luxury",Hatchback,111,137
+BMW M,BMW,M,2001,premium unleaded (required),315,6,Manual,RearWheelDrive,2,"Factory Tuner,Luxury,High-Performance",Coupe,23,15
+BMW M2,BMW,M2,2016,premium unleaded (required),365,6,Manual,RearWheelDrive,2,"Factory Tuner,Luxury,High-Performance",Coupe,26,18
+BMW M3,BMW,M3,2015,premium unleaded (required),425,6,Manual,RearWheelDrive,4,"Factory Tuner,Luxury,High-Performance",Sedan,26,17
+BMW M4,BMW,M4,2015,premium unleaded (required),425,6,Manual,RearWheelDrive,2,"Factory Tuner,Luxury,High-Performance",Coupe,26,17
+BMW M4 GTS,BMW,M4 GTS,2016,premium unleaded (required),493,6,Automated_Manual,RearWheelDrive,2,"Factory Tuner,Luxury,High-Performance",Coupe,23,16
+BMW M5,BMW,M5,2014,premium unleaded (required),552,8,Automated_Manual,RearWheelDrive,4,"Factory Tuner,Luxury,High-Performance",Sedan,20,14
+BMW M6,BMW,M6,2015,premium unleaded (required),560,8,Automated_Manual,RearWheelDrive,2,"Factory Tuner,Luxury,High-Performance",Convertible,20,14
+BMW M6 GRAN COUPE,BMW,M6 Gran Coupe,2015,premium unleaded (required),560,8,Automated_Manual,RearWheelDrive,4,"Factory Tuner,Luxury,High-Performance",Sedan,20,14
+BMW X1,BMW,X1,2015,premium unleaded (required),240,4,Automatic,RearWheelDrive,4,"Crossover,Luxury,Performance",SUV,34,23
+BMW X3,BMW,X3,2015,premium unleaded (required),300,6,Automatic,AllWheelDrive,4,"Crossover,Luxury,Performance",SUV,26,19
+BMW X4,BMW,X4,2015,premium unleaded (required),240,4,Automatic,AllWheelDrive,4,"Crossover,Luxury",SUV,28,20
+BMW X5,BMW,X5,2015,diesel,255,6,Automatic,AllWheelDrive,4,"Crossover,Luxury,Diesel",SUV,31,24
+BMW X5 M,BMW,X5 M,2015,premium unleaded (required),567,8,Automatic,AllWheelDrive,4,"Crossover,Factory Tuner,Luxury,High-Performance",SUV,19,14
+BMW X6,BMW,X6,2015,premium unleaded (required),300,6,Automatic,AllWheelDrive,4,"Crossover,Luxury",SUV,27,18
+BMW X6 M,BMW,X6 M,2015,premium unleaded (required),567,8,Automatic,AllWheelDrive,4,"Crossover,Factory Tuner,Luxury,High-Performance",SUV,19,14
+BMW Z3,BMW,Z3,2000,regular unleaded,193,6,Manual,RearWheelDrive,2,"Luxury,Performance",Convertible,24,17
+BMW Z4,BMW,Z4,2014,premium unleaded (required),240,4,Manual,RearWheelDrive,2,"Luxury,Performance",Convertible,34,22
+BMW Z4 M,BMW,Z4 M,2007,premium unleaded (required),330,6,Manual,RearWheelDrive,2,"Factory Tuner,Luxury,High-Performance",Coupe,22,15
+BMW Z8,BMW,Z8,2001,premium unleaded (required),394,8,Manual,RearWheelDrive,2,"Exotic,Luxury,High-Performance",Convertible,19,12
+BUGATTI VEYRON 16.4,BUGATTI,Veyron 16.4,2008,premium unleaded (required),1001,16,Automated_Manual,AllWheelDrive,2,"Exotic,High-Performance",Coupe,14,8
+BUICK CASCADA,BUICK,Cascada,2016,premium unleaded (recommended),200,4,Automatic,FrontWheelDrive,2,N/A,Convertible,27,20
+BUICK CENTURY,BUICK,Century,2003,regular unleaded,175,6,Automatic,FrontWheelDrive,4,N/A,Sedan,26,18
+BUICK ELECTRA,BUICK,Electra,1990,regular unleaded,165,6,Automatic,FrontWheelDrive,4,N/A,Sedan,25,16
+BUICK ENCLAVE,BUICK,Enclave,2015,regular unleaded,288,6,Automatic,AllWheelDrive,4,Crossover,SUV,22,16
+BUICK ENCORE,BUICK,Encore,2015,regular unleaded,138,4,Automatic,AllWheelDrive,4,Crossover,SUV,30,23
+BUICK ENVISION,BUICK,Envision,2016,premium unleaded (recommended),252,4,Automatic,AllWheelDrive,4,Crossover,SUV,26,20
+BUICK ESTATE WAGON,BUICK,Estate Wagon,1990,regular unleaded,140,8,Automatic,RearWheelDrive,4,N/A,Wagon,22,15
+BUICK LACROSSE,BUICK,LaCrosse,2015,regular unleaded,182,4,Automatic,FrontWheelDrive,4,"Flex Fuel,Hybrid",Sedan,36,25
+BUICK LESABRE,BUICK,LeSabre,2003,regular unleaded,205,6,Automatic,FrontWheelDrive,4,N/A,Sedan,27,17
+BUICK LUCERNE,BUICK,Lucerne,2009,premium unleaded (recommended),292,8,Automatic,FrontWheelDrive,4,"Factory Tuner,Performance",Sedan,22,15
+BUICK PARK AVENUE,BUICK,Park Avenue,2003,premium unleaded (required),240,6,Automatic,FrontWheelDrive,4,Performance,Sedan,25,16
+BUICK RAINIER,BUICK,Rainier,2005,regular unleaded,275,6,Automatic,AllWheelDrive,4,N/A,SUV,19,14
+BUICK REATTA,BUICK,Reatta,1990,regular unleaded,165,6,Automatic,FrontWheelDrive,2,N/A,Coupe,25,16
+BUICK REGAL,BUICK,Regal,2016,premium unleaded (recommended),259,4,Automatic,FrontWheelDrive,4,Performance,Sedan,30,21
+BUICK RENDEZVOUS,BUICK,Rendezvous,2005,regular unleaded,185,6,Automatic,AllWheelDrive,4,Crossover,SUV,22,16
+BUICK RIVIERA,BUICK,Riviera,1997,regular unleaded,205,6,Automatic,FrontWheelDrive,2,N/A,Coupe,26,17
+BUICK ROADMASTER,BUICK,Roadmaster,1994,regular unleaded,260,8,Automatic,RearWheelDrive,4,N/A,Sedan,23,15
+BUICK SKYLARK,BUICK,Skylark,1996,regular unleaded,150,4,Automatic,FrontWheelDrive,2,N/A,Coupe,29,19
+BUICK TERRAZA,BUICK,Terraza,2005,regular unleaded,200,6,Automatic,AllWheelDrive,4,N/A,Passenger Minivan,21,15
+BUICK VERANO,BUICK,Verano,2015,regular unleaded,180,4,Automatic,FrontWheelDrive,4,N/A,Sedan,32,21
+CADILLAC ALLANTE,CADILLAC,Allante,1991,regular unleaded,200,8,Automatic,FrontWheelDrive,2,"Luxury,Performance",Convertible,20,14
+CADILLAC ATS,CADILLAC,ATS,2015,premium unleaded (recommended),272,4,Automatic,AllWheelDrive,4,"Luxury,Performance",Sedan,28,20
+CADILLAC ATS COUPE,CADILLAC,ATS Coupe,2015,flex-fuel (unleaded/E85),321,6,Automatic,RearWheelDrive,2,"Flex Fuel,Luxury,High-Performance",Coupe,28,18
+CADILLAC ATS-V,CADILLAC,ATS-V,2016,premium unleaded (recommended),464,6,Manual,RearWheelDrive,2,"Factory Tuner,Luxury,High-Performance",Coupe,23,17
+CADILLAC BROUGHAM,CADILLAC,Brougham,1990,regular unleaded,140,8,Automatic,RearWheelDrive,4,Luxury,Sedan,22,15
+CADILLAC CATERA,CADILLAC,Catera,1999,regular unleaded,200,6,Automatic,RearWheelDrive,4,Luxury,Sedan,23,16
+CADILLAC CT6,CADILLAC,CT6,2016,premium unleaded (recommended),265,4,Automatic,RearWheelDrive,4,Luxury,Sedan,31,22
+CADILLAC CTS,CADILLAC,CTS,2015,flex-fuel (unleaded/E85),321,6,Automatic,AllWheelDrive,4,"Flex Fuel,Luxury,Performance",Sedan,26,18
+CADILLAC CTS COUPE,CADILLAC,CTS Coupe,2012,regular unleaded,318,6,Automatic,AllWheelDrive,2,"Luxury,Performance",Coupe,27,18
+CADILLAC CTS WAGON,CADILLAC,CTS Wagon,2012,regular unleaded,270,6,Automatic,RearWheelDrive,4,Luxury,Wagon,27,18
+CADILLAC CTS-V,CADILLAC,CTS-V,2014,premium unleaded (required),556,8,Manual,RearWheelDrive,4,"Factory Tuner,Luxury,High-Performance",Sedan,19,14
+CADILLAC CTS-V COUPE,CADILLAC,CTS-V Coupe,2013,premium unleaded (required),556,8,Manual,RearWheelDrive,2,"Factory Tuner,Luxury,High-Performance",Coupe,19,14
+CADILLAC CTS-V WAGON,CADILLAC,CTS-V Wagon,2012,premium unleaded (required),556,8,Manual,RearWheelDrive,4,"Factory Tuner,Luxury,High-Performance",Wagon,19,14
+CADILLAC DEVILLE,CADILLAC,DeVille,2003,regular unleaded,275,8,Automatic,FrontWheelDrive,4,Luxury,Sedan,25,16
+CADILLAC DTS,CADILLAC,DTS,2009,regular unleaded,275,8,Automatic,FrontWheelDrive,4,Luxury,Sedan,23,15
+CADILLAC ELDORADO,CADILLAC,Eldorado,2000,regular unleaded,275,8,Automatic,FrontWheelDrive,2,Luxury,Coupe,25,15
+CADILLAC ESCALADE,CADILLAC,Escalade,2015,flex-fuel (unleaded/E85),420,8,Automatic,RearWheelDrive,4,"Flex Fuel,Luxury,Performance",SUV,21,15
+CADILLAC ESCALADE ESV,CADILLAC,Escalade ESV,2015,flex-fuel (unleaded/E85),420,8,Automatic,four wheel drive,4,"Flex Fuel,Luxury,Performance",SUV,20,14
+CADILLAC ESCALADE EXT,CADILLAC,Escalade EXT,2011,flex-fuel (premium unleaded recommended/E85),403,8,Automatic,AllWheelDrive,4,"Crossover,Flex Fuel,Luxury,Performance",Crew Cab Pickup,18,13
+CADILLAC ESCALADE HYBRID,CADILLAC,Escalade Hybrid,2011,regular unleaded,332,8,Automatic,four wheel drive,4,"Luxury,Hybrid",SUV,23,20
+CADILLAC FLEETWOOD,CADILLAC,Fleetwood,1994,regular unleaded,260,8,Automatic,RearWheelDrive,4,Luxury,Sedan,23,15
+CADILLAC SEVILLE,CADILLAC,Seville,2002,regular unleaded,275,8,Automatic,FrontWheelDrive,4,Luxury,Sedan,25,16
+CADILLAC SIXTY SPECIAL,CADILLAC,Sixty Special,1993,regular unleaded,200,8,Automatic,FrontWheelDrive,4,Luxury,Sedan,23,15
+CADILLAC SRX,CADILLAC,SRX,2014,regular unleaded,308,6,Automatic,AllWheelDrive,4,"Crossover,Luxury",SUV,23,16
+CADILLAC STS,CADILLAC,STS,2009,premium unleaded (required),320,8,Automatic,RearWheelDrive,4,"Luxury,Performance",Sedan,24,15
+CADILLAC STS-V,CADILLAC,STS-V,2007,premium unleaded (required),469,8,Automatic,RearWheelDrive,4,"Factory Tuner,Luxury,High-Performance",Sedan,19,12
+CADILLAC XLR,CADILLAC,XLR,2007,regular unleaded,320,8,Automatic,RearWheelDrive,2,Luxury,Convertible,24,15
+CADILLAC XLR-V,CADILLAC,XLR-V,2007,premium unleaded (required),443,8,Automatic,RearWheelDrive,2,"Factory Tuner,Luxury,High-Performance",Convertible,20,13
+CADILLAC XT5,CADILLAC,XT5,2017,premium unleaded (required),310,6,Automatic,AllWheelDrive,4,"Crossover,Luxury",SUV,26,18
+CADILLAC XTS,CADILLAC,XTS,2015,regular unleaded,304,6,Automatic,AllWheelDrive,4,"Luxury,Performance",Sedan,26,17
+CHEVROLET ASTRO,CHEVROLET,Astro,2003,regular unleaded,190,6,Automatic,AllWheelDrive,3,N/A,Passenger Minivan,16,12
+CHEVROLET ASTRO CARGO,CHEVROLET,Astro Cargo,2003,regular unleaded,190,6,Automatic,RearWheelDrive,3,N/A,Cargo Minivan,21,15
+CHEVROLET AVALANCHE,CHEVROLET,Avalanche,2010,flex-fuel (unleaded/E85),320,8,Automatic,RearWheelDrive,4,"Crossover,Flex Fuel",Crew Cab Pickup,21,15
+CHEVROLET AVEO,CHEVROLET,Aveo,2009,regular unleaded,107,4,Manual,FrontWheelDrive,4,Hatchback,Hatchback,34,27
+CHEVROLET BERETTA,CHEVROLET,Beretta,1994,regular unleaded,170,4,Manual,FrontWheelDrive,2,Performance,Coupe,27,18
+CHEVROLET BLACK DIAMOND AVALANCHE,CHEVROLET,Black Diamond Avalanche,2013,flex-fuel (unleaded/E85),320,8,Automatic,four wheel drive,4,"Crossover,Flex Fuel",Crew Cab Pickup,21,15
+CHEVROLET BLAZER,CHEVROLET,Blazer,2003,regular unleaded,190,6,Manual,RearWheelDrive,2,N/A,SUV,20,14
+CHEVROLET BOLT EV,CHEVROLET,Bolt EV,2017,electric,200,,Direct_Drive,FrontWheelDrive,4,Hatchback,Hatchback,110,128
+CHEVROLET C/K 1500 SERIES,CHEVROLET,C/K 1500 Series,1997,regular unleaded,200,6,Manual,four wheel drive,2,N/A,Regular Cab Pickup,18,14
+CHEVROLET C/K 2500 SERIES,CHEVROLET,C/K 2500 Series,1998,regular unleaded,230,8,Manual,RearWheelDrive,2,N/A,Regular Cab Pickup,17,13
+CHEVROLET CAMARO,CHEVROLET,Camaro,2015,regular unleaded,323,6,Manual,RearWheelDrive,2,Performance,Coupe,28,17
+CHEVROLET CAPRICE,CHEVROLET,Caprice,1994,regular unleaded,260,8,Automatic,RearWheelDrive,4,N/A,Wagon,23,15
+CHEVROLET CAPTIVA SPORT,CHEVROLET,Captiva Sport,2013,flex-fuel (unleaded/E85),180,4,Automatic,FrontWheelDrive,4,"Crossover,Flex Fuel",SUV,28,20
+CHEVROLET CAVALIER,CHEVROLET,Cavalier,2003,regular unleaded,140,4,Manual,FrontWheelDrive,4,N/A,Sedan,30,22
+CHEVROLET CELEBRITY,CHEVROLET,Celebrity,1990,regular unleaded,135,6,Automatic,FrontWheelDrive,4,N/A,Wagon,27,17
+CHEVROLET CHEVY VAN,CHEVROLET,Chevy Van,1996,regular unleaded,195,6,Automatic,RearWheelDrive,3,N/A,Cargo Van,17,14
+CHEVROLET CITY EXPRESS,CHEVROLET,City Express,2015,regular unleaded,131,4,Automatic,FrontWheelDrive,4,N/A,Cargo Minivan,26,24
+CHEVROLET CLASSIC,CHEVROLET,Classic,2004,regular unleaded,140,4,Automatic,FrontWheelDrive,4,N/A,Sedan,31,22
+CHEVROLET COBALT,CHEVROLET,Cobalt,2008,regular unleaded,148,4,Manual,FrontWheelDrive,2,N/A,Coupe,33,24
+CHEVROLET COLORADO,CHEVROLET,Colorado,2012,regular unleaded,300,8,Automatic,RearWheelDrive,4,Performance,Crew Cab Pickup,20,14
+CHEVROLET CORSICA,CHEVROLET,Corsica,1994,regular unleaded,120,4,Automatic,FrontWheelDrive,4,N/A,Sedan,28,22
+CHEVROLET CORVETTE,CHEVROLET,Corvette,2015,premium unleaded (recommended),460,8,Manual,RearWheelDrive,2,High-Performance,Convertible,29,17
+CHEVROLET CORVETTE STINGRAY,CHEVROLET,Corvette Stingray,2014,premium unleaded (recommended),455,8,Manual,RearWheelDrive,2,High-Performance,Coupe,29,17
+CHEVROLET CRUZE,CHEVROLET,Cruze,2015,regular unleaded,138,4,Manual,FrontWheelDrive,4,N/A,Sedan,36,25
+CHEVROLET CRUZE LIMITED,CHEVROLET,Cruze Limited,2016,regular unleaded,138,4,Manual,FrontWheelDrive,4,N/A,Sedan,42,28
+CHEVROLET EQUINOX,CHEVROLET,Equinox,2015,regular unleaded,182,4,Automatic,AllWheelDrive,4,"Crossover,Flex Fuel",SUV,29,20
+CHEVROLET EXPRESS,CHEVROLET,Express,2014,flex-fuel (unleaded/E85),310,8,Automatic,AllWheelDrive,3,Flex Fuel,Passenger Van,17,13
+CHEVROLET EXPRESS CARGO,CHEVROLET,Express Cargo,2014,flex-fuel (unleaded/E85),310,8,Automatic,AllWheelDrive,3,Flex Fuel,Cargo Van,17,13
+CHEVROLET HHR,CHEVROLET,HHR,2009,flex-fuel (unleaded/E85),155,4,Automatic,FrontWheelDrive,4,Flex Fuel,Wagon,30,22
+CHEVROLET IMPALA,CHEVROLET,Impala,2015,regular unleaded,195,4,Automatic,FrontWheelDrive,4,N/A,Sedan,31,21
+CHEVROLET IMPALA LIMITED,CHEVROLET,Impala Limited,2014,flex-fuel (unleaded/E85),300,6,Automatic,FrontWheelDrive,4,Flex Fuel,Sedan,30,18
+CHEVROLET LUMINA,CHEVROLET,Lumina,1999,regular unleaded,160,6,Automatic,FrontWheelDrive,4,N/A,Sedan,26,17
+CHEVROLET LUMINA MINIVAN,CHEVROLET,Lumina Minivan,1994,regular unleaded,120,6,Automatic,FrontWheelDrive,3,N/A,Passenger Minivan,21,17
+CHEVROLET MALIBU,CHEVROLET,Malibu,2015,regular unleaded,196,4,Automatic,FrontWheelDrive,4,N/A,Sedan,36,25
+CHEVROLET MALIBU CLASSIC,CHEVROLET,Malibu Classic,2008,regular unleaded,219,6,Automatic,FrontWheelDrive,4,N/A,Sedan,29,18
+CHEVROLET MALIBU HYBRID,CHEVROLET,Malibu Hybrid,2008,regular unleaded,164,4,Automatic,FrontWheelDrive,4,Hybrid,Sedan,32,24
+CHEVROLET MALIBU LIMITED,CHEVROLET,Malibu Limited,2016,regular unleaded,197,4,Automatic,FrontWheelDrive,4,N/A,Sedan,34,24
+CHEVROLET MALIBU MAXX,CHEVROLET,Malibu Maxx,2005,regular unleaded,200,6,Automatic,FrontWheelDrive,4,Hatchback,Hatchback,28,20
+CHEVROLET METRO,CHEVROLET,Metro,1999,regular unleaded,55,3,Manual,FrontWheelDrive,2,Hatchback,Hatchback,42,34
+CHEVROLET MONTE CARLO,CHEVROLET,Monte Carlo,2005,regular unleaded,180,6,Automatic,FrontWheelDrive,2,N/A,Coupe,29,19
+CHEVROLET PRIZM,CHEVROLET,Prizm,2000,regular unleaded,125,4,Manual,FrontWheelDrive,4,N/A,Sedan,34,27
+CHEVROLET S-10,CHEVROLET,S-10,2002,regular unleaded,190,6,Automatic,RearWheelDrive,3,Performance,Extended Cab Pickup,20,15
+CHEVROLET S-10 BLAZER,CHEVROLET,S-10 Blazer,1992,regular unleaded,160,6,Manual,four wheel drive,2,N/A,SUV,20,15
+CHEVROLET SILVERADO 1500,CHEVROLET,Silverado 1500,2015,regular unleaded,355,8,Automatic,four wheel drive,4,N/A,Crew Cab Pickup,22,16
+CHEVROLET SILVERADO 1500 CLASSIC,CHEVROLET,Silverado 1500 Classic,2007,regular unleaded,285,8,Automatic,four wheel drive,2,Flex Fuel,Regular Cab Pickup,18,14
+CHEVROLET SILVERADO 1500 HYBRID,CHEVROLET,Silverado 1500 Hybrid,2011,regular unleaded,332,8,Automatic,four wheel drive,4,Hybrid,Crew Cab Pickup,23,20
+CHEVROLET SONIC,CHEVROLET,Sonic,2015,regular unleaded,138,4,Automatic,FrontWheelDrive,4,N/A,Sedan,35,25
+CHEVROLET SPARK,CHEVROLET,Spark,2015,regular unleaded,84,4,Manual,FrontWheelDrive,4,Hatchback,Hatchback,39,31
+CHEVROLET SPARK EV,CHEVROLET,Spark EV,2014,electric,140,0,Direct_Drive,FrontWheelDrive,4,Hatchback,Hatchback,109,128
+CHEVROLET SPORTVAN,CHEVROLET,Sportvan,1994,regular unleaded,200,8,Automatic,RearWheelDrive,3,N/A,Passenger Van,16,11
+CHEVROLET SS,CHEVROLET,SS,2014,premium unleaded (recommended),415,8,Automatic,RearWheelDrive,4,High-Performance,Sedan,21,14
+CHEVROLET SSR,CHEVROLET,SSR,2004,regular unleaded,300,8,Automatic,RearWheelDrive,2,Performance,Regular Cab Pickup,18,14
+CHEVROLET SUBURBAN,CHEVROLET,Suburban,2015,flex-fuel (unleaded/E85),355,8,Automatic,RearWheelDrive,4,Flex Fuel,SUV,23,16
+CHEVROLET TAHOE,CHEVROLET,Tahoe,2015,flex-fuel (unleaded/E85),355,8,Automatic,four wheel drive,4,Flex Fuel,SUV,22,16
+CHEVROLET TAHOE HYBRID,CHEVROLET,Tahoe Hybrid,2011,regular unleaded,332,8,Automatic,RearWheelDrive,4,Hybrid,SUV,23,20
+CHEVROLET TAHOE LIMITED/Z71,CHEVROLET,Tahoe Limited/Z71,2000,regular unleaded,255,8,Automatic,four wheel drive,4,N/A,SUV,15,11
+CHEVROLET TRACKER,CHEVROLET,Tracker,2002,regular unleaded,127,4,Manual,four wheel drive,2,N/A,Convertible SUV,23,20
+CHEVROLET TRAILBLAZER,CHEVROLET,TrailBlazer,2007,regular unleaded,291,6,Automatic,RearWheelDrive,4,N/A,SUV,20,14
+CHEVROLET TRAILBLAZER EXT,CHEVROLET,TrailBlazer EXT,2004,regular unleaded,275,6,Automatic,four wheel drive,4,N/A,SUV,19,14
+CHEVROLET TRAVERSE,CHEVROLET,Traverse,2015,regular unleaded,288,6,Automatic,AllWheelDrive,4,Crossover,SUV,23,16
+CHEVROLET TRAX,CHEVROLET,Trax,2015,regular unleaded,138,4,Automatic,FrontWheelDrive,4,Crossover,SUV,34,26
+CHEVROLET UPLANDER,CHEVROLET,Uplander,2006,regular unleaded,201,6,Automatic,FrontWheelDrive,4,N/A,Passenger Minivan,23,16
+CHEVROLET VENTURE,CHEVROLET,Venture,2003,regular unleaded,185,6,Automatic,AllWheelDrive,4,N/A,Passenger Minivan,22,16
+CHRYSLER 200,CHRYSLER,200,2015,flex-fuel (unleaded/E85),184,4,Automatic,FrontWheelDrive,4,Flex Fuel,Sedan,36,23
+CHRYSLER 300,CHRYSLER,300,2015,regular unleaded,300,6,Automatic,AllWheelDrive,4,N/A,Sedan,27,18
+CHRYSLER 300M,CHRYSLER,300M,2002,premium unleaded (required),250,6,Automatic,FrontWheelDrive,4,Performance,Sedan,24,16
+CHRYSLER ASPEN,CHRYSLER,Aspen,2007,regular unleaded,235,8,Automatic,RearWheelDrive,4,Flex Fuel,SUV,17,13
+CHRYSLER CIRRUS,CHRYSLER,Cirrus,1998,regular unleaded,168,6,Automatic,FrontWheelDrive,4,N/A,Sedan,25,17
+CHRYSLER CONCORDE,CHRYSLER,Concorde,2002,regular unleaded,234,6,Automatic,four wheel drive,4,N/A,Sedan,24,16
+CHRYSLER CROSSFIRE,CHRYSLER,Crossfire,2006,premium unleaded (required),215,6,Manual,RearWheelDrive,2,Performance,Coupe,23,15
+CHRYSLER GRAND VOYAGER,CHRYSLER,Grand Voyager,2000,regular unleaded,158,6,Automatic,FrontWheelDrive,4,N/A,Passenger Minivan,23,16
+CHRYSLER IMPERIAL,CHRYSLER,Imperial,1991,regular unleaded,150,6,Automatic,FrontWheelDrive,4,N/A,Sedan,23,15
+CHRYSLER LE BARON,CHRYSLER,Le Baron,1993,regular unleaded,141,6,Manual,FrontWheelDrive,2,N/A,Coupe,26,17
+CHRYSLER LHS,CHRYSLER,LHS,1999,regular unleaded,253,6,Automatic,FrontWheelDrive,4,Performance,Sedan,24,16
+CHRYSLER NEW YORKER,CHRYSLER,New Yorker,1994,regular unleaded,214,6,Automatic,FrontWheelDrive,4,N/A,Sedan,24,16
+CHRYSLER PACIFICA,CHRYSLER,Pacifica,2007,regular unleaded,200,6,Automatic,FrontWheelDrive,4,Crossover,Wagon,23,16
+CHRYSLER PROWLER,CHRYSLER,Prowler,2001,premium unleaded (required),253,6,Automatic,RearWheelDrive,2,High-Performance,Convertible,21,15
+CHRYSLER PT CRUISER,CHRYSLER,PT Cruiser,2008,regular unleaded,150,4,Automatic,FrontWheelDrive,4,N/A,Wagon,24,19
+CHRYSLER SEBRING,CHRYSLER,Sebring,2008,regular unleaded,235,6,Automatic,FrontWheelDrive,2,N/A,Convertible,26,16
+CHRYSLER TC,CHRYSLER,TC,1990,regular unleaded,141,6,Automatic,FrontWheelDrive,2,Luxury,Convertible,22,15
+CHRYSLER TOWN AND COUNTRY,CHRYSLER,Town and Country,2014,flex-fuel (unleaded/E85),283,6,Automatic,FrontWheelDrive,4,Flex Fuel,Passenger Minivan,25,17
+CHRYSLER VOYAGER,CHRYSLER,Voyager,2001,flex-fuel (unleaded/E85),180,6,Automatic,FrontWheelDrive,4,N/A,Passenger Minivan,22,16
+DODGE AVENGER,DODGE,Avenger,2012,flex-fuel (unleaded/E85),283,6,Automatic,FrontWheelDrive,4,"Flex Fuel,Performance",Sedan,29,19
+DODGE CALIBER,DODGE,Caliber,2010,regular unleaded,158,4,Manual,FrontWheelDrive,4,N/A,Wagon,31,23
+DODGE CARAVAN,DODGE,Caravan,2005,regular unleaded,150,4,Automatic,FrontWheelDrive,4,Flex Fuel,Passenger Minivan,24,17
+DODGE CHALLENGER,DODGE,Challenger,2015,regular unleaded,375,8,Manual,RearWheelDrive,2,Performance,Coupe,23,15
+DODGE CHARGER,DODGE,Charger,2015,premium unleaded (recommended),485,8,Automatic,RearWheelDrive,4,"Factory Tuner,High-Performance",Sedan,25,15
+DODGE COLT,DODGE,Colt,1992,regular unleaded,92,4,Manual,FrontWheelDrive,2,Hatchback,Hatchback,33,27
+DODGE DAKOTA,DODGE,Dakota,2008,regular unleaded,210,6,Automatic,RearWheelDrive,4,N/A,Extended Cab Pickup,20,15
+DODGE DART,DODGE,Dart,2014,regular unleaded,160,4,Manual,FrontWheelDrive,4,N/A,Sedan,36,25
+DODGE DAYTONA,DODGE,Daytona,1991,regular unleaded,152,4,Manual,FrontWheelDrive,2,"Hatchback,Factory Tuner,Performance",Hatchback,24,18
+DODGE DURANGO,DODGE,Durango,2015,regular unleaded,290,6,Automatic,RearWheelDrive,4,"Crossover,Performance",SUV,25,18
+DODGE DYNASTY,DODGE,Dynasty,1991,regular unleaded,100,4,Automatic,FrontWheelDrive,4,N/A,Sedan,24,18
+DODGE GRAND CARAVAN,DODGE,Grand Caravan,2015,flex-fuel (unleaded/E85),283,6,Automatic,FrontWheelDrive,4,Flex Fuel,Passenger Minivan,25,17
+DODGE INTREPID,DODGE,Intrepid,2002,regular unleaded,244,6,Automatic,FrontWheelDrive,4,Performance,Sedan,24,16
+DODGE JOURNEY,DODGE,Journey,2015,regular unleaded,283,6,Automatic,AllWheelDrive,4,Crossover,SUV,24,16
+DODGE MAGNUM,DODGE,Magnum,2006,regular unleaded,340,8,Automatic,AllWheelDrive,4,N/A,Wagon,22,15
+DODGE MONACO,DODGE,Monaco,1990,regular unleaded,150,6,Automatic,FrontWheelDrive,4,N/A,Sedan,24,15
+DODGE NEON,DODGE,Neon,2003,premium unleaded (required),215,4,Manual,FrontWheelDrive,4,"Factory Tuner,Performance",Sedan,27,19
+DODGE NITRO,DODGE,Nitro,2009,regular unleaded,210,6,Automatic,four wheel drive,4,Crossover,SUV,21,15
+DODGE OMNI,DODGE,Omni,1990,regular unleaded,93,4,Manual,FrontWheelDrive,4,Hatchback,Hatchback,31,22
+DODGE RAM 150,DODGE,RAM 150,1991,regular unleaded,125,6,Unknown,RearWheelDrive,2,N/A,Regular Cab Pickup,17,12
+DODGE RAM 250,DODGE,RAM 250,1991,regular unleaded,170,8,Manual,four wheel drive,2,N/A,Regular Cab Pickup,13,10
+DODGE RAM 50 PICKUP,DODGE,Ram 50 Pickup,1991,regular unleaded,116,4,Manual,RearWheelDrive,2,N/A,Extended Cab Pickup,22,17
+DODGE RAM CARGO,DODGE,Ram Cargo,2001,regular unleaded,225,8,Automatic,RearWheelDrive,3,N/A,Cargo Van,17,12
+DODGE RAM PICKUP 1500,DODGE,Ram Pickup 1500,2008,regular unleaded,215,6,Manual,RearWheelDrive,2,Flex Fuel,Regular Cab Pickup,19,16
+DODGE RAM VAN,DODGE,Ram Van,1998,regular unleaded,230,8,Automatic,RearWheelDrive,3,N/A,Cargo Van,17,12
+DODGE RAM WAGON,DODGE,Ram Wagon,2000,regular unleaded,175,6,Automatic,RearWheelDrive,3,N/A,Passenger Van,15,13
+DODGE RAMCHARGER,DODGE,Ramcharger,1991,regular unleaded,170,8,Manual,four wheel drive,2,N/A,SUV,13,10
+DODGE SHADOW,DODGE,Shadow,1992,regular unleaded,93,4,Manual,FrontWheelDrive,2,Hatchback,Hatchback,29,23
+DODGE SPIRIT,DODGE,Spirit,1993,regular unleaded,101,4,Manual,FrontWheelDrive,4,N/A,Sedan,29,22
+DODGE SRT VIPER,DODGE,SRT Viper,2013,premium unleaded (required),640,10,Manual,RearWheelDrive,2,"Exotic,High-Performance",Coupe,19,12
+DODGE STEALTH,DODGE,Stealth,1994,regular unleaded,320,6,Manual,AllWheelDrive,2,"Factory Tuner,Performance",Coupe,22,16
+DODGE STRATUS,DODGE,Stratus,2004,regular unleaded,200,6,Automatic,FrontWheelDrive,4,N/A,Sedan,26,19
+DODGE VIPER,DODGE,Viper,2015,premium unleaded (required),645,10,Manual,RearWheelDrive,2,"Exotic,High-Performance",Coupe,21,12
+FERRARI 360,FERRARI,360,2002,premium unleaded (required),400,8,Manual,RearWheelDrive,2,"Exotic,High-Performance",Convertible,15,10
+FERRARI 456M,FERRARI,456M,2001,premium unleaded (required),442,12,Automatic,RearWheelDrive,2,"Exotic,High-Performance",Coupe,14,9
+FERRARI 458 ITALIA,FERRARI,458 Italia,2013,premium unleaded (required),562,8,Automated_Manual,RearWheelDrive,2,"Exotic,High-Performance",Convertible,17,13
+FERRARI 550,FERRARI,550,2001,premium unleaded (required),485,12,Manual,RearWheelDrive,2,"Exotic,High-Performance",Convertible,12,8
+FERRARI 575M,FERRARI,575M,2002,premium unleaded (required),515,12,Manual,RearWheelDrive,2,"Exotic,High-Performance",Coupe,15,9
+FERRARI 599,FERRARI,599,2009,premium unleaded (required),611,12,Automated_Manual,RearWheelDrive,2,"Exotic,High-Performance",Coupe,15,11
+FERRARI 612 SCAGLIETTI,FERRARI,612 Scaglietti,2009,premium unleaded (required),532,12,Automated_Manual,RearWheelDrive,2,"Exotic,High-Performance",Coupe,16,9
+FERRARI CALIFORNIA,FERRARI,California,2012,premium unleaded (required),453,8,Automated_Manual,RearWheelDrive,2,"Exotic,High-Performance",Convertible,19,13
+FERRARI CALIFORNIA T,FERRARI,California T,2015,premium unleaded (required),553,8,Automated_Manual,RearWheelDrive,2,"Exotic,High-Performance",Convertible,23,16
+FERRARI ENZO,FERRARI,Enzo,2003,premium unleaded (required),660,12,Automated_Manual,RearWheelDrive,2,"Exotic,High-Performance",Coupe,12,7
+FERRARI F12 BERLINETTA,FERRARI,F12 Berlinetta,2013,premium unleaded (required),731,12,Automated_Manual,RearWheelDrive,2,"Exotic,High-Performance",Coupe,16,11
+FERRARI F430,FERRARI,F430,2007,premium unleaded (required),483,8,Manual,RearWheelDrive,2,"Exotic,High-Performance",Coupe,16,11
+FERRARI FF,FERRARI,FF,2013,premium unleaded (required),651,12,Automated_Manual,AllWheelDrive,,"Exotic,High-Performance",Coupe,16,11
+FERRARI SUPERAMERICA,FERRARI,Superamerica,2005,premium unleaded (required),532,12,Manual,RearWheelDrive,2,"Exotic,High-Performance",Convertible,15,9
+FIAT 124 SPIDER,FIAT,124 Spider,2017,premium unleaded (recommended),160,4,Manual,RearWheelDrive,2,Performance,Convertible,35,26
+FIAT 500,FIAT,500,2015,premium unleaded (recommended),160,4,Manual,FrontWheelDrive,2,"Factory Tuner,Performance",Convertible,34,28
+FIAT 500E,FIAT,500e,2015,electric,,0,Direct_Drive,FrontWheelDrive,2,Hatchback,Hatchback,108,122
+FIAT 500L,FIAT,500L,2015,premium unleaded (recommended),160,4,Manual,FrontWheelDrive,4,N/A,Wagon,33,25
+FIAT 500X,FIAT,500X,2016,regular unleaded,180,4,Automatic,AllWheelDrive,4,Crossover,SUV,30,21
+FORD AEROSTAR,FORD,Aerostar,1995,regular unleaded,135,6,Automatic,RearWheelDrive,3,N/A,Cargo Minivan,22,16
+FORD ASPIRE,FORD,Aspire,1995,regular unleaded,63,4,Manual,FrontWheelDrive,2,Hatchback,Hatchback,38,31
+FORD BRONCO,FORD,Bronco,1994,regular unleaded,185,8,Manual,four wheel drive,2,N/A,SUV,16,12
+FORD BRONCO II,FORD,Bronco II,1990,regular unleaded,140,6,Manual,RearWheelDrive,2,N/A,SUV,20,16
+FORD C-MAX HYBRID,FORD,C-Max Hybrid,2015,regular unleaded,188,4,Automatic,FrontWheelDrive,4,Hybrid,Wagon,37,42
+FORD CONTOUR,FORD,Contour,1998,regular unleaded,125,4,Manual,FrontWheelDrive,4,N/A,Sedan,32,21
+FORD CONTOUR SVT,FORD,Contour SVT,1998,regular unleaded,195,6,Manual,FrontWheelDrive,4,"Factory Tuner,Performance",Sedan,26,17
+FORD CROWN VICTORIA,FORD,Crown Victoria,2009,flex-fuel (unleaded/E85),224,8,Automatic,RearWheelDrive,4,Flex Fuel,Sedan,24,16
+FORD E-150,FORD,E-150,1996,regular unleaded,199,6,Automatic,RearWheelDrive,3,N/A,Passenger Van,15,11
+FORD E-250,FORD,E-250,1996,regular unleaded,199,6,Automatic,RearWheelDrive,3,N/A,Cargo Van,13,11
+FORD EDGE,FORD,Edge,2015,premium unleaded (recommended),245,4,Automatic,AllWheelDrive,4,Crossover,SUV,28,20
+FORD ESCAPE,FORD,Escape,2015,premium unleaded (recommended),178,4,Automatic,FrontWheelDrive,4,Crossover,SUV,32,23
+FORD ESCAPE HYBRID,FORD,Escape Hybrid,2009,regular unleaded,177,4,Automatic,FrontWheelDrive,4,"Crossover,Hybrid",SUV,31,34
+FORD ESCORT,FORD,Escort,2001,regular unleaded,130,4,Manual,FrontWheelDrive,2,N/A,Coupe,31,23
+FORD E-SERIES VAN,FORD,E-Series Van,2012,flex-fuel (unleaded/E85),255,8,Automatic,RearWheelDrive,3,Flex Fuel,Cargo Van,16,12
+FORD E-SERIES WAGON,FORD,E-Series Wagon,2012,flex-fuel (unleaded/E85),225,8,Automatic,RearWheelDrive,3,Flex Fuel,Passenger Van,16,13
+FORD EXPEDITION,FORD,Expedition,2016,regular unleaded,365,6,Automatic,four wheel drive,4,N/A,SUV,20,15
+FORD EXPLORER,FORD,Explorer,2015,flex-fuel (unleaded/E85),290,6,Automatic,FrontWheelDrive,4,"Crossover,Flex Fuel,Performance",SUV,24,17
+FORD EXPLORER SPORT,FORD,Explorer Sport,2001,regular unleaded,203,6,Manual,four wheel drive,2,N/A,SUV,18,14
+FORD EXPLORER SPORT TRAC,FORD,Explorer Sport Trac,2008,regular unleaded,292,8,Automatic,AllWheelDrive,4,N/A,Crew Cab Pickup,19,13
+FORD F-150,FORD,F-150,2015,regular unleaded,325,6,Automatic,four wheel drive,4,Flex Fuel,Crew Cab Pickup,23,18
+FORD F-150 HERITAGE,FORD,F-150 Heritage,2004,regular unleaded,202,6,Manual,RearWheelDrive,4,N/A,Extended Cab Pickup,19,15
+FORD F-150 SVT LIGHTNING,FORD,F-150 SVT Lightning,1995,regular unleaded,240,8,Automatic,RearWheelDrive,2,N/A,Regular Cab Pickup,15,11
+FORD F-250,FORD,F-250,1997,regular unleaded,220,8,Manual,RearWheelDrive,2,N/A,Regular Cab Pickup,17,12
+FORD FESTIVA,FORD,Festiva,1991,regular unleaded,63,4,Manual,FrontWheelDrive,2,Hatchback,Hatchback,38,30
+FORD FIESTA,FORD,Fiesta,2015,regular unleaded,120,4,Manual,FrontWheelDrive,4,N/A,Sedan,36,28
+FORD FIVE HUNDRED,FORD,Five Hundred,2005,regular unleaded,203,6,Automatic,FrontWheelDrive,4,N/A,Sedan,26,19
+FORD FLEX,FORD,Flex,2015,regular unleaded,287,6,Automatic,FrontWheelDrive,4,Crossover,Wagon,25,18
+FORD FOCUS,FORD,Focus,2015,flex-fuel (unleaded/E85),160,4,Manual,FrontWheelDrive,4,Flex Fuel,Sedan,36,26
+FORD FOCUS RS,FORD,Focus RS,2017,premium unleaded (recommended),350,4,Manual,AllWheelDrive,4,"Hatchback,Factory Tuner,High-Performance",Hatchback,25,19
+FORD FOCUS ST,FORD,Focus ST,2015,premium unleaded (recommended),252,4,Manual,FrontWheelDrive,4,"Hatchback,Factory Tuner,Performance",Hatchback,32,23
+FORD FREESTAR,FORD,Freestar,2005,regular unleaded,,6,Automatic,FrontWheelDrive,4,N/A,Passenger Minivan,22,16
+FORD FREESTYLE,FORD,Freestyle,2005,regular unleaded,203,6,Automatic,FrontWheelDrive,4,Crossover,Wagon,25,18
+FORD FUSION,FORD,Fusion,2015,regular unleaded,231,4,Automatic,AllWheelDrive,4,N/A,Sedan,31,22
+FORD FUSION HYBRID,FORD,Fusion Hybrid,2015,regular unleaded,188,4,Automatic,FrontWheelDrive,4,Hybrid,Sedan,41,44
+FORD GT,FORD,GT,2005,premium unleaded (required),550,8,Manual,RearWheelDrive,2,"Exotic,High-Performance",Coupe,19,12
+FORD LTD CROWN VICTORIA,FORD,LTD Crown Victoria,1990,regular unleaded,150,8,Automatic,RearWheelDrive,4,N/A,Sedan,22,15
+FORD MUSTANG,FORD,Mustang,2015,premium unleaded (recommended),435,8,Manual,RearWheelDrive,2,High-Performance,Convertible,25,15
+FORD MUSTANG SVT COBRA,FORD,Mustang SVT Cobra,1997,regular unleaded,305,8,Manual,RearWheelDrive,2,"Factory Tuner,Performance",Convertible,24,16
+FORD PROBE,FORD,Probe,1995,regular unleaded,118,4,Manual,FrontWheelDrive,2,Hatchback,Hatchback,30,23
+FORD RANGER,FORD,Ranger,2009,regular unleaded,143,4,Manual,RearWheelDrive,2,N/A,Regular Cab Pickup,26,21
+FORD SHELBY GT350,FORD,Shelby GT350,2015,premium unleaded (recommended),526,8,Manual,RearWheelDrive,2,"Factory Tuner,High-Performance",Coupe,21,14
+FORD SHELBY GT500,FORD,Shelby GT500,2012,premium unleaded (required),550,8,Manual,RearWheelDrive,2,"Factory Tuner,High-Performance",Coupe,23,15
+FORD TAURUS,FORD,Taurus,2015,flex-fuel (unleaded/E85),288,6,Automatic,FrontWheelDrive,4,"Flex Fuel,Performance",Sedan,29,19
+FORD TAURUS X,FORD,Taurus X,2008,regular unleaded,260,6,Automatic,AllWheelDrive,4,Crossover,Wagon,22,15
+FORD TEMPO,FORD,Tempo,1992,regular unleaded,96,4,Manual,FrontWheelDrive,4,N/A,Sedan,30,21
+FORD THUNDERBIRD,FORD,Thunderbird,2003,premium unleaded (required),280,8,Automatic,RearWheelDrive,2,Performance,Convertible,22,16
+FORD TRANSIT CONNECT,FORD,Transit Connect,2015,regular unleaded,169,4,Automatic,FrontWheelDrive,4,N/A,Passenger Minivan,28,20
+FORD TRANSIT WAGON,FORD,Transit Wagon,2015,flex-fuel (unleaded/E85),275,6,Automatic,RearWheelDrive,3,Flex Fuel,Passenger Van,19,14
+FORD WINDSTAR,FORD,Windstar,2001,regular unleaded,200,6,Automatic,FrontWheelDrive,4,N/A,Passenger Minivan,22,16
+FORD WINDSTAR CARGO,FORD,Windstar Cargo,2001,regular unleaded,200,6,Automatic,FrontWheelDrive,3,N/A,Cargo Minivan,22,16
+GENESIS G80,GENESIS,G80,2017,regular unleaded,311,6,Automatic,RearWheelDrive,4,"Luxury,Performance",Sedan,28,18
+GMC ACADIA,GMC,Acadia,2015,regular unleaded,281,6,Automatic,FrontWheelDrive,4,Crossover,SUV,24,17
+GMC ACADIA LIMITED,GMC,Acadia Limited,2017,regular unleaded,281,6,Automatic,FrontWheelDrive,4,Crossover,SUV,22,15
+GMC CANYON,GMC,Canyon,2012,regular unleaded,185,4,Automatic,RearWheelDrive,4,N/A,Crew Cab Pickup,25,18
+GMC ENVOY,GMC,Envoy,2007,regular unleaded,291,6,Automatic,four wheel drive,4,N/A,SUV,20,14
+GMC ENVOY XL,GMC,Envoy XL,2004,regular unleaded,275,6,Automatic,four wheel drive,4,N/A,SUV,18,13
+GMC ENVOY XUV,GMC,Envoy XUV,2005,regular unleaded,275,6,Automatic,four wheel drive,4,N/A,SUV,17,12
+GMC JIMMY,GMC,Jimmy,1999,regular unleaded,190,6,Manual,four wheel drive,2,N/A,SUV,16,13
+GMC RALLY WAGON,GMC,Rally Wagon,1994,regular unleaded,195,8,Automatic,RearWheelDrive,3,N/A,Passenger Van,16,11
+GMC S-15,GMC,S-15,1990,regular unleaded,105,4,Manual,RearWheelDrive,2,N/A,Regular Cab Pickup,25,21
+GMC S-15 JIMMY,GMC,S-15 Jimmy,1990,regular unleaded,160,6,Manual,four wheel drive,2,N/A,SUV,18,15
+GMC SAFARI,GMC,Safari,2003,regular unleaded,190,6,Automatic,RearWheelDrive,3,N/A,Passenger Minivan,19,14
+GMC SAFARI CARGO,GMC,Safari Cargo,2003,regular unleaded,190,6,Automatic,AllWheelDrive,3,N/A,Cargo Minivan,18,14
+GMC SAVANA,GMC,Savana,2014,flex-fuel (unleaded/E85),310,8,Automatic,RearWheelDrive,3,Flex Fuel,Passenger Van,17,13
+GMC SAVANA CARGO,GMC,Savana Cargo,2014,flex-fuel (unleaded/E85),285,8,Automatic,RearWheelDrive,3,Flex Fuel,Cargo Van,17,11
+GMC SIERRA 1500,GMC,Sierra 1500,2015,regular unleaded,355,8,Automatic,RearWheelDrive,4,N/A,Crew Cab Pickup,23,16
+GMC SIERRA 1500 CLASSIC,GMC,Sierra 1500 Classic,2007,flex-fuel (unleaded/E85),295,8,Automatic,RearWheelDrive,4,Flex Fuel,Crew Cab Pickup,19,14
+GMC SIERRA 1500 HYBRID,GMC,Sierra 1500 Hybrid,2011,regular unleaded,332,8,Automatic,RearWheelDrive,4,Hybrid,Crew Cab Pickup,23,20
+GMC SIERRA 1500HD,GMC,Sierra 1500HD,2006,regular unleaded,300,8,Automatic,four wheel drive,4,N/A,Crew Cab Pickup,16,13
+GMC SIERRA C3,GMC,Sierra C3,2001,regular unleaded,325,8,Automatic,AllWheelDrive,4,N/A,Extended Cab Pickup,13,10
+GMC SIERRA CLASSIC 1500,GMC,Sierra Classic 1500,1999,regular unleaded,200,8,Automatic,RearWheelDrive,3,N/A,Extended Cab Pickup,17,13
+GMC SONOMA,GMC,Sonoma,2002,regular unleaded,190,6,Automatic,RearWheelDrive,2,Flex Fuel,Regular Cab Pickup,20,15
+GMC SUBURBAN,GMC,Suburban,1997,regular unleaded,255,8,Automatic,RearWheelDrive,4,N/A,SUV,17,12
+GMC SYCLONE,GMC,Syclone,1991,regular unleaded,280,6,Automatic,AllWheelDrive,2,"Factory Tuner,Performance",Regular Cab Pickup,16,13
+GMC TERRAIN,GMC,Terrain,2015,regular unleaded,182,4,Automatic,FrontWheelDrive,4,Crossover,SUV,32,22
+GMC TYPHOON,GMC,Typhoon,1992,regular unleaded,285,6,Automatic,AllWheelDrive,2,"Factory Tuner,Performance",SUV,17,14
+GMC VANDURA,GMC,Vandura,1994,regular unleaded,200,6,Automatic,RearWheelDrive,3,N/A,Cargo Van,20,15
+GMC YUKON,GMC,Yukon,2015,flex-fuel (unleaded/E85),355,8,Automatic,four wheel drive,4,Flex Fuel,SUV,22,16
+GMC YUKON DENALI,GMC,Yukon Denali,2000,regular unleaded,255,8,Automatic,four wheel drive,4,Luxury,SUV,15,11
+GMC YUKON HYBRID,GMC,Yukon Hybrid,2011,regular unleaded,332,8,Automatic,four wheel drive,4,"Luxury,Hybrid",SUV,23,20
+GMC YUKON XL,GMC,Yukon XL,2015,flex-fuel (unleaded/E85),355,8,Automatic,four wheel drive,4,Flex Fuel,SUV,22,15
+HONDA ACCORD,HONDA,Accord,2015,regular unleaded,278,6,Manual,FrontWheelDrive,2,Performance,Coupe,28,18
+HONDA ACCORD CROSSTOUR,HONDA,Accord Crosstour,2010,regular unleaded,271,6,Automatic,AllWheelDrive,4,"Crossover,Hatchback",Hatchback,25,17
+HONDA ACCORD HYBRID,HONDA,Accord Hybrid,2014,regular unleaded,195,4,Automatic,FrontWheelDrive,4,Hybrid,Sedan,45,50
+HONDA ACCORD PLUG-IN HYBRID,HONDA,Accord Plug-In Hybrid,2014,regular unleaded,196,4,Automatic,FrontWheelDrive,4,Hybrid,Sedan,46,47
+HONDA CIVIC,HONDA,Civic,2015,regular unleaded,143,4,Automatic,FrontWheelDrive,4,N/A,Sedan,39,30
+HONDA CIVIC CRX,HONDA,Civic CRX,1990,regular unleaded,62,4,Manual,FrontWheelDrive,2,Hatchback,Hatchback,44,36
+HONDA CIVIC DEL SOL,HONDA,Civic del Sol,1995,regular unleaded,102,4,Manual,FrontWheelDrive,2,N/A,Coupe,37,30
+HONDA CROSSTOUR,HONDA,Crosstour,2013,regular unleaded,278,6,Automatic,FrontWheelDrive,4,"Crossover,Hatchback",Hatchback,30,20
+HONDA CR-V,HONDA,CR-V,2014,regular unleaded,185,4,Automatic,AllWheelDrive,4,Crossover,SUV,30,22
+HONDA CR-Z,HONDA,CR-Z,2014,regular unleaded,130,4,Automatic,FrontWheelDrive,2,"Hatchback,Hybrid",Hatchback,39,36
+HONDA ELEMENT,HONDA,Element,2009,regular unleaded,166,4,Manual,AllWheelDrive,4,Crossover,SUV,23,18
+HONDA FIT,HONDA,Fit,2015,regular unleaded,130,4,Manual,FrontWheelDrive,4,Hatchback,Hatchback,37,29
+HONDA FIT EV,HONDA,Fit EV,2013,electric,,0,Direct_Drive,FrontWheelDrive,4,Hatchback,Hatchback,105,132
+HONDA HR-V,HONDA,HR-V,2016,regular unleaded,141,4,Automatic,FrontWheelDrive,4,Crossover,SUV,35,28
+HONDA INSIGHT,HONDA,Insight,2012,regular unleaded,98,4,Automatic,FrontWheelDrive,4,"Hatchback,Hybrid",Hatchback,44,41
+HONDA ODYSSEY,HONDA,Odyssey,2015,regular unleaded,248,6,Automatic,FrontWheelDrive,4,N/A,Passenger Minivan,28,19
+HONDA PASSPORT,HONDA,Passport,2000,regular unleaded,205,6,Manual,RearWheelDrive,4,N/A,SUV,18,15
+HONDA PILOT,HONDA,Pilot,2015,regular unleaded,250,6,Automatic,four wheel drive,4,Crossover,SUV,24,17
+HONDA PRELUDE,HONDA,Prelude,1999,regular unleaded,200,4,Manual,FrontWheelDrive,2,Performance,Coupe,24,20
+HONDA RIDGELINE,HONDA,Ridgeline,2013,regular unleaded,250,6,Automatic,four wheel drive,4,N/A,Crew Cab Pickup,21,15
+HONDA S2000,HONDA,S2000,2007,premium unleaded (required),237,4,Manual,RearWheelDrive,2,Performance,Convertible,24,18
+HUMMER H3,HUMMER,H3,2008,regular unleaded,242,5,Manual,four wheel drive,4,Luxury,SUV,18,13
+HUMMER H3T,HUMMER,H3T,2009,regular unleaded,239,5,Manual,four wheel drive,4,"Crossover,Luxury",Crew Cab Pickup,18,14
+HYUNDAI ACCENT,HYUNDAI,Accent,2014,regular unleaded,138,4,Automatic,FrontWheelDrive,4,Hatchback,Hatchback,37,27
+HYUNDAI AZERA,HYUNDAI,Azera,2015,regular unleaded,293,6,Automatic,FrontWheelDrive,4,Performance,Sedan,28,19
+HYUNDAI ELANTRA,HYUNDAI,Elantra,2015,regular unleaded,173,4,Automatic,FrontWheelDrive,4,N/A,Sedan,35,24
+HYUNDAI ELANTRA COUPE,HYUNDAI,Elantra Coupe,2013,regular unleaded,145,4,Automatic,FrontWheelDrive,2,N/A,Coupe,37,27
+HYUNDAI ELANTRA GT,HYUNDAI,Elantra GT,2015,regular unleaded,173,4,Automatic,FrontWheelDrive,4,"Hatchback,Performance",Hatchback,33,24
+HYUNDAI ELANTRA TOURING,HYUNDAI,Elantra Touring,2010,regular unleaded,138,4,Automatic,FrontWheelDrive,4,Hatchback,Hatchback,30,23
+HYUNDAI ENTOURAGE,HYUNDAI,Entourage,2007,regular unleaded,242,6,Automatic,FrontWheelDrive,4,N/A,Passenger Minivan,23,16
+HYUNDAI EQUUS,HYUNDAI,Equus,2014,premium unleaded (recommended),429,8,Automatic,RearWheelDrive,4,"Luxury,High-Performance",Sedan,23,15
+HYUNDAI EXCEL,HYUNDAI,Excel,1992,regular unleaded,81,4,Manual,FrontWheelDrive,2,Hatchback,Hatchback,33,25
+HYUNDAI GENESIS,HYUNDAI,Genesis,2014,regular unleaded,333,6,Automatic,RearWheelDrive,4,Luxury,Sedan,27,18
+HYUNDAI GENESIS COUPE,HYUNDAI,Genesis Coupe,2014,premium unleaded (recommended),348,6,Manual,RearWheelDrive,2,High-Performance,Coupe,24,16
+HYUNDAI SANTA FE,HYUNDAI,Santa Fe,2015,regular unleaded,290,6,Automatic,FrontWheelDrive,4,Crossover,SUV,25,18
+HYUNDAI SANTA FE SPORT,HYUNDAI,Santa Fe Sport,2015,regular unleaded,264,4,Automatic,AllWheelDrive,4,Crossover,SUV,24,18
+HYUNDAI SCOUPE,HYUNDAI,Scoupe,1993,regular unleaded,92,4,Manual,FrontWheelDrive,2,N/A,Coupe,32,23
+HYUNDAI SONATA,HYUNDAI,Sonata,2015,regular unleaded,185,4,Automatic,FrontWheelDrive,4,N/A,Sedan,35,24
+HYUNDAI SONATA HYBRID,HYUNDAI,Sonata Hybrid,2015,regular unleaded,199,4,Automatic,FrontWheelDrive,4,Hybrid,Sedan,40,36
+HYUNDAI TIBURON,HYUNDAI,Tiburon,2006,regular unleaded,138,4,Automatic,FrontWheelDrive,2,Hatchback,Hatchback,27,19
+HYUNDAI TUCSON,HYUNDAI,Tucson,2015,regular unleaded,182,4,Automatic,FrontWheelDrive,4,Crossover,SUV,28,21
+HYUNDAI VELOSTER,HYUNDAI,Veloster,2014,regular unleaded,201,4,Automatic,FrontWheelDrive,3,"Hatchback,Performance",Hatchback,31,24
+HYUNDAI VERACRUZ,HYUNDAI,Veracruz,2010,regular unleaded,260,6,Automatic,AllWheelDrive,4,Crossover,SUV,22,16
+HYUNDAI XG300,HYUNDAI,XG300,2001,regular unleaded,192,6,Automatic,FrontWheelDrive,4,N/A,Sedan,25,17
+HYUNDAI XG350,HYUNDAI,XG350,2003,regular unleaded,194,6,Automatic,FrontWheelDrive,4,N/A,Sedan,24,15
+INFINITI EX,INFINITI,EX,2011,premium unleaded (recommended),297,6,Automatic,RearWheelDrive,4,"Crossover,Luxury",SUV,24,17
+INFINITI EX35,INFINITI,EX35,2008,premium unleaded (recommended),297,6,Automatic,RearWheelDrive,4,"Crossover,Luxury",SUV,24,17
+INFINITI FX,INFINITI,FX,2011,premium unleaded (required),303,6,Automatic,AllWheelDrive,4,"Crossover,Luxury",SUV,21,16
+INFINITI FX35,INFINITI,FX35,2008,premium unleaded (required),275,6,Automatic,AllWheelDrive,4,"Crossover,Luxury",SUV,20,15
+INFINITI FX45,INFINITI,FX45,2006,premium unleaded (required),320,8,Automatic,AllWheelDrive,4,"Crossover,Luxury",SUV,17,13
+INFINITI FX50,INFINITI,FX50,2009,premium unleaded (required),390,8,Automatic,AllWheelDrive,4,"Crossover,Luxury,High-Performance",SUV,20,14
+INFINITI G CONVERTIBLE,INFINITI,G Convertible,2011,premium unleaded (required),325,6,Manual,RearWheelDrive,2,"Luxury,Performance",Convertible,24,16
+INFINITI G COUPE,INFINITI,G Coupe,2011,premium unleaded (recommended),330,6,Automatic,RearWheelDrive,2,"Luxury,Performance",Coupe,27,19
+INFINITI G SEDAN,INFINITI,G Sedan,2011,premium unleaded (recommended),328,6,Automatic,AllWheelDrive,4,Luxury,Sedan,25,18
+INFINITI G20,INFINITI,G20,2000,regular unleaded,145,4,Manual,FrontWheelDrive,4,Luxury,Sedan,29,21
+INFINITI G35,INFINITI,G35,2006,regular unleaded,280,6,Automatic,AllWheelDrive,4,Luxury,Sedan,22,16
+INFINITI G37,INFINITI,G37,2008,premium unleaded (required),330,6,Automatic,RearWheelDrive,2,"Luxury,Performance",Coupe,24,18
+INFINITI G37 CONVERTIBLE,INFINITI,G37 Convertible,2010,premium unleaded (required),325,6,Manual,RearWheelDrive,2,"Luxury,Performance",Convertible,24,16
+INFINITI G37 COUPE,INFINITI,G37 Coupe,2010,premium unleaded (recommended),330,6,Automatic,RearWheelDrive,2,"Luxury,Performance",Coupe,27,19
+INFINITI G37 SEDAN,INFINITI,G37 Sedan,2010,premium unleaded (recommended),328,6,Automatic,RearWheelDrive,4,"Luxury,High-Performance",Sedan,27,19
+INFINITI I30,INFINITI,I30,1999,regular unleaded,190,6,Automatic,FrontWheelDrive,4,Luxury,Sedan,25,18
+INFINITI I35,INFINITI,I35,2002,premium unleaded (required),255,6,Automatic,FrontWheelDrive,4,"Luxury,Performance",Sedan,24,17
+INFINITI J30,INFINITI,J30,1995,regular unleaded,210,6,Automatic,RearWheelDrive,4,Luxury,Sedan,22,16
+INFINITI JX,INFINITI,JX,2013,premium unleaded (recommended),265,6,Automatic,FrontWheelDrive,4,"Crossover,Luxury",SUV,24,18
+INFINITI M,INFINITI,M,2012,premium unleaded (required),330,6,Automatic,AllWheelDrive,4,"Luxury,Performance",Sedan,24,17
+INFINITI M30,INFINITI,M30,1990,regular unleaded,162,6,Automatic,RearWheelDrive,2,Luxury,Coupe,23,17
+INFINITI M35,INFINITI,M35,2008,premium unleaded (required),275,6,Automatic,RearWheelDrive,4,"Luxury,Performance",Sedan,23,16
+INFINITI M37,INFINITI,M37,2011,premium unleaded (recommended),330,6,Automatic,AllWheelDrive,4,Luxury,Sedan,24,17
+INFINITI M45,INFINITI,M45,2008,premium unleaded (required),325,8,Automatic,RearWheelDrive,4,"Luxury,Performance",Sedan,21,16
+INFINITI M56,INFINITI,M56,2011,premium unleaded (required),420,8,Automatic,AllWheelDrive,4,Luxury,Sedan,23,16
+INFINITI Q40,INFINITI,Q40,2015,premium unleaded (required),328,6,Automatic,RearWheelDrive,4,"Luxury,Performance",Sedan,27,19
+INFINITI Q45,INFINITI,Q45,2004,regular unleaded,340,8,Automatic,RearWheelDrive,4,"Luxury,Performance",Sedan,22,16
+INFINITI Q50,INFINITI,Q50,2015,premium unleaded (recommended),328,6,Automatic,AllWheelDrive,4,"Luxury,Performance",Sedan,27,19
+INFINITI Q60 CONVERTIBLE,INFINITI,Q60 Convertible,2014,premium unleaded (recommended),325,6,Manual,RearWheelDrive,2,"Luxury,Performance",Convertible,24,16
+INFINITI Q60 COUPE,INFINITI,Q60 Coupe,2014,premium unleaded (required),348,6,Manual,RearWheelDrive,2,"Factory Tuner,Luxury,High-Performance",Coupe,25,17
+INFINITI Q70,INFINITI,Q70,2014,premium unleaded (required),330,6,Automatic,AllWheelDrive,4,"Luxury,Performance",Sedan,24,17
+INFINITI QX,INFINITI,QX,2012,premium unleaded (recommended),400,8,Automatic,RearWheelDrive,4,Luxury,SUV,20,14
+INFINITI QX4,INFINITI,QX4,2001,premium unleaded (required),240,6,Automatic,RearWheelDrive,4,Luxury,SUV,18,14
+INFINITI QX50,INFINITI,QX50,2015,premium unleaded (recommended),325,6,Automatic,AllWheelDrive,4,"Crossover,Luxury",SUV,24,17
+INFINITI QX56,INFINITI,QX56,2009,premium unleaded (recommended),320,8,Automatic,four wheel drive,4,Luxury,SUV,17,12
+INFINITI QX60,INFINITI,QX60,2015,premium unleaded (recommended),230,4,Automatic,FrontWheelDrive,4,"Crossover,Luxury,Hybrid",SUV,28,26
+INFINITI QX70,INFINITI,QX70,2015,premium unleaded (required),325,6,Automatic,RearWheelDrive,4,"Crossover,Luxury,Performance",SUV,24,17
+INFINITI QX80,INFINITI,QX80,2014,premium unleaded (recommended),400,8,Automatic,RearWheelDrive,4,Luxury,SUV,20,14
+KIA AMANTI,KIA,Amanti,2007,regular unleaded,264,6,Automatic,FrontWheelDrive,4,N/A,Sedan,24,17
+KIA BORREGO,KIA,Borrego,2009,regular unleaded,337,8,Automatic,RearWheelDrive,4,N/A,SUV,22,15
+KIA CADENZA,KIA,Cadenza,2015,regular unleaded,293,6,Automatic,FrontWheelDrive,4,Performance,Sedan,28,19
+KIA FORTE,KIA,Forte,2015,regular unleaded,173,4,Automatic,FrontWheelDrive,2,N/A,Coupe,34,25
+KIA K900,KIA,K900,2015,premium unleaded (recommended),420,8,Automatic,RearWheelDrive,4,"Luxury,High-Performance",Sedan,23,15
+KIA OPTIMA,KIA,Optima,2014,regular unleaded,199,4,Automatic,FrontWheelDrive,4,Hybrid,Sedan,40,36
+KIA OPTIMA HYBRID,KIA,Optima Hybrid,2015,regular unleaded,199,4,Automatic,FrontWheelDrive,4,Hybrid,Sedan,39,35
+KIA RIO,KIA,Rio,2015,regular unleaded,138,4,Automatic,FrontWheelDrive,4,N/A,Sedan,37,27
+KIA RONDO,KIA,Rondo,2007,regular unleaded,162,4,Automatic,FrontWheelDrive,4,N/A,Wagon,26,19
+KIA SEDONA,KIA,Sedona,2015,regular unleaded,276,6,Automatic,FrontWheelDrive,4,N/A,Passenger Minivan,25,18
+KIA SEPHIA,KIA,Sephia,1999,regular unleaded,125,4,Manual,FrontWheelDrive,4,N/A,Sedan,28,21
+KIA SORENTO,KIA,Sorento,2015,regular unleaded,290,6,Automatic,AllWheelDrive,4,Crossover,SUV,24,18
+KIA SOUL,KIA,Soul,2014,regular unleaded,130,4,Automatic,FrontWheelDrive,4,N/A,Wagon,30,24
+KIA SOUL EV,KIA,Soul EV,2015,electric,,0,Direct_Drive,FrontWheelDrive,4,N/A,Wagon,92,120
+KIA SPECTRA,KIA,Spectra,2007,regular unleaded,138,4,Manual,FrontWheelDrive,4,N/A,Sedan,30,23
+KIA SPORTAGE,KIA,Sportage,2015,regular unleaded,182,4,Automatic,FrontWheelDrive,4,Crossover,SUV,28,21
+LAMBORGHINI AVENTADOR,LAMBORGHINI,Aventador,2014,premium unleaded (required),700,12,Automated_Manual,AllWheelDrive,2,"Exotic,High-Performance",Convertible,16,10
+LAMBORGHINI DIABLO,LAMBORGHINI,Diablo,2001,premium unleaded (required),550,12,Manual,AllWheelDrive,2,"Exotic,High-Performance",Coupe,12,9
+LAMBORGHINI GALLARDO,LAMBORGHINI,Gallardo,2012,premium unleaded (required),570,10,Manual,AllWheelDrive,2,"Exotic,Factory Tuner,High-Performance",Convertible,20,12
+LAMBORGHINI HURACAN,LAMBORGHINI,Huracan,2015,premium unleaded (required),610,10,Automated_Manual,AllWheelDrive,2,"Exotic,High-Performance",Coupe,20,14
+LAMBORGHINI MURCIELAGO,LAMBORGHINI,Murcielago,2008,premium unleaded (required),632,12,Manual,AllWheelDrive,2,"Exotic,High-Performance",Coupe,13,8
+LAMBORGHINI REVENTON,LAMBORGHINI,Reventon,2008,premium unleaded (required),650,12,Automated_Manual,AllWheelDrive,2,"Exotic,High-Performance",Coupe,14,9
+LAND ROVER DEFENDER,LAND ROVER,Defender,1994,regular unleaded,182,8,Manual,four wheel drive,2,Luxury,SUV,15,12
+LAND ROVER DISCOVERY,LAND ROVER,Discovery,2003,premium unleaded (required),217,8,Automatic,four wheel drive,4,Luxury,SUV,14,11
+LAND ROVER DISCOVERY SERIES II,LAND ROVER,Discovery Series II,2000,regular unleaded,188,8,Automatic,AllWheelDrive,4,Luxury,SUV,16,12
+LAND ROVER DISCOVERY SPORT,LAND ROVER,Discovery Sport,2015,premium unleaded (recommended),240,4,Automatic,AllWheelDrive,4,"Crossover,Luxury",SUV,26,20
+LAND ROVER FREELANDER,LAND ROVER,Freelander,2003,regular unleaded,174,6,Automatic,AllWheelDrive,4,"Crossover,Luxury",SUV,19,15
+LAND ROVER LR2,LAND ROVER,LR2,2013,premium unleaded (recommended),240,4,Automatic,AllWheelDrive,4,"Crossover,Luxury",SUV,24,17
+LAND ROVER LR3,LAND ROVER,LR3,2008,premium unleaded (required),300,8,Automatic,four wheel drive,4,Luxury,SUV,17,12
+LAND ROVER LR4,LAND ROVER,LR4,2014,premium unleaded (required),340,6,Automatic,four wheel drive,4,Luxury,SUV,19,14
+LAND ROVER RANGE ROVER,LAND ROVER,Range Rover,2014,flex-fuel (premium unleaded required/E85),510,8,Automatic,four wheel drive,4,"Flex Fuel,Luxury,High-Performance",SUV,19,13
+LAND ROVER RANGE ROVER EVOQUE,LAND ROVER,Range Rover Evoque,2015,premium unleaded (recommended),240,4,Automatic,AllWheelDrive,4,"Crossover,Luxury",SUV,30,21
+LAND ROVER RANGE ROVER SPORT,LAND ROVER,Range Rover Sport,2014,flex-fuel (premium unleaded required/E85),510,8,Automatic,four wheel drive,4,"Flex Fuel,Luxury,High-Performance",SUV,19,14
+LEXUS CT 200H,LEXUS,CT 200h,2015,regular unleaded,134,4,Automatic,FrontWheelDrive,4,"Hatchback,Luxury,Hybrid",Hatchback,40,43
+LEXUS ES 250,LEXUS,ES 250,1990,regular unleaded,156,6,Manual,FrontWheelDrive,4,Luxury,Sedan,24,17
+LEXUS ES 300,LEXUS,ES 300,2001,premium unleaded (required),210,6,Automatic,FrontWheelDrive,4,Luxury,Sedan,24,17
+LEXUS ES 300H,LEXUS,ES 300h,2015,regular unleaded,200,4,Automatic,FrontWheelDrive,4,"Luxury,Hybrid",Sedan,39,40
+LEXUS ES 330,LEXUS,ES 330,2004,regular unleaded,225,6,Automatic,FrontWheelDrive,4,Luxury,Sedan,27,18
+LEXUS ES 350,LEXUS,ES 350,2015,regular unleaded,268,6,Automatic,FrontWheelDrive,4,"Luxury,Performance",Sedan,31,21
+LEXUS GS 200T,LEXUS,GS 200t,2016,premium unleaded (required),241,4,Automatic,RearWheelDrive,4,Luxury,Sedan,30,21
+LEXUS GS 300,LEXUS,GS 300,2004,premium unleaded (required),220,6,Automatic,RearWheelDrive,4,"Luxury,Performance",Sedan,23,16
+LEXUS GS 350,LEXUS,GS 350,2015,premium unleaded (required),306,6,Automatic,RearWheelDrive,4,"Luxury,Performance",Sedan,29,19
+LEXUS GS 400,LEXUS,GS 400,1998,regular unleaded,300,8,Automatic,RearWheelDrive,4,"Luxury,Performance",Sedan,21,15
+LEXUS GS 430,LEXUS,GS 430,2005,premium unleaded (required),300,8,Automatic,RearWheelDrive,4,"Luxury,Performance",Sedan,22,16
+LEXUS GS 450H,LEXUS,GS 450h,2014,premium unleaded (required),338,6,Automatic,RearWheelDrive,4,"Luxury,Performance,Hybrid",Sedan,34,29
+LEXUS GS 460,LEXUS,GS 460,2009,premium unleaded (required),342,8,Automatic,RearWheelDrive,4,"Luxury,High-Performance",Sedan,24,17
+LEXUS GS F,LEXUS,GS F,2016,premium unleaded (required),467,8,Automatic,RearWheelDrive,4,"Factory Tuner,Luxury,High-Performance",Sedan,24,16
+LEXUS GX 460,LEXUS,GX 460,2015,premium unleaded (required),301,8,Automatic,four wheel drive,4,Luxury,SUV,20,15
+LEXUS GX 470,LEXUS,GX 470,2007,regular unleaded,263,8,Automatic,four wheel drive,4,Luxury,SUV,18,14
+LEXUS HS 250H,LEXUS,HS 250h,2010,regular unleaded,187,4,Automatic,FrontWheelDrive,4,"Luxury,Hybrid",Sedan,34,35
+LEXUS IS 200T,LEXUS,IS 200t,2016,premium unleaded (required),241,4,Automatic,RearWheelDrive,4,Luxury,Sedan,33,22
+LEXUS IS 250,LEXUS,IS 250,2013,premium unleaded (required),204,6,Automatic,RearWheelDrive,4,Luxury,Sedan,30,21
+LEXUS IS 250 C,LEXUS,IS 250 C,2013,premium unleaded (required),204,6,Automatic,RearWheelDrive,2,Luxury,Convertible,30,21
+LEXUS IS 300,LEXUS,IS 300,2005,premium unleaded (required),215,6,Automatic,RearWheelDrive,4,"Luxury,Performance",Wagon,23,16
+LEXUS IS 350,LEXUS,IS 350,2014,premium unleaded (required),306,6,Automatic,RearWheelDrive,4,"Luxury,High-Performance",Sedan,28,19
+LEXUS IS 350 C,LEXUS,IS 350 C,2013,premium unleaded (required),306,6,Automatic,RearWheelDrive,2,"Luxury,Performance",Convertible,27,19
+LEXUS IS F,LEXUS,IS F,2012,premium unleaded (required),416,8,Automatic,RearWheelDrive,4,"Factory Tuner,Luxury,High-Performance",Sedan,23,16
+LEXUS LFA,LEXUS,LFA,2012,premium unleaded (required),552,10,Automated_Manual,RearWheelDrive,2,"Exotic,Luxury,High-Performance",Coupe,16,11
+LEXUS LS 400,LEXUS,LS 400,1998,regular unleaded,290,8,Automatic,RearWheelDrive,4,Luxury,Sedan,23,17
+LEXUS LS 430,LEXUS,LS 430,2004,premium unleaded (required),290,8,Automatic,RearWheelDrive,4,"Luxury,Performance",Sedan,23,16
+LEXUS LS 460,LEXUS,LS 460,2015,premium unleaded (required),360,8,Automatic,AllWheelDrive,4,"Luxury,Performance",Sedan,23,16
+LEXUS LS 600H L,LEXUS,LS 600h L,2014,premium unleaded (required),438,8,Automatic,AllWheelDrive,4,"Luxury,High-Performance,Hybrid",Sedan,23,19
+LEXUS LX 450,LEXUS,LX 450,1996,regular unleaded,212,6,Automatic,four wheel drive,4,Luxury,SUV,14,12
+LEXUS LX 470,LEXUS,LX 470,2005,regular unleaded,235,8,Automatic,four wheel drive,4,Luxury,SUV,16,12
+LEXUS LX 570,LEXUS,LX 570,2015,premium unleaded (recommended),383,8,Automatic,four wheel drive,4,Luxury,SUV,17,12
+LEXUS NX 200T,LEXUS,NX 200t,2015,premium unleaded (required),235,4,Automatic,AllWheelDrive,4,"Crossover,Luxury",SUV,28,21
+LEXUS NX 300H,LEXUS,NX 300h,2015,regular unleaded,194,4,Automatic,FrontWheelDrive,4,"Crossover,Luxury,Hybrid",SUV,31,35
+LEXUS RC 200T,LEXUS,RC 200t,2016,premium unleaded (required),241,4,Automatic,RearWheelDrive,2,Luxury,Coupe,32,22
+LEXUS RC 300,LEXUS,RC 300,2016,premium unleaded (required),255,6,Automatic,AllWheelDrive,2,Luxury,Coupe,26,19
+LEXUS RC 350,LEXUS,RC 350,2015,premium unleaded (required),306,6,Automatic,RearWheelDrive,2,"Luxury,Performance",Coupe,28,19
+LEXUS RC F,LEXUS,RC F,2015,premium unleaded (required),467,8,Automatic,RearWheelDrive,2,"Factory Tuner,Luxury,High-Performance",Coupe,25,16
+LEXUS RX 300,LEXUS,RX 300,2001,premium unleaded (required),220,6,Automatic,FrontWheelDrive,4,"Crossover,Luxury",SUV,21,17
+LEXUS RX 330,LEXUS,RX 330,2004,regular unleaded,230,6,Automatic,FrontWheelDrive,4,"Crossover,Luxury,Performance",SUV,24,17
+LEXUS RX 350,LEXUS,RX 350,2015,regular unleaded,270,6,Automatic,FrontWheelDrive,4,"Crossover,Luxury",SUV,25,18
+LEXUS RX 400H,LEXUS,RX 400h,2006,regular unleaded,268,6,Automatic,AllWheelDrive,4,"Crossover,Luxury,Hybrid",SUV,25,27
+LEXUS RX 450H,LEXUS,RX 450h,2015,premium unleaded (required),295,6,Automatic,FrontWheelDrive,4,"Crossover,Luxury,Hybrid",SUV,28,32
+LEXUS SC 300,LEXUS,SC 300,1998,regular unleaded,225,6,Automatic,RearWheelDrive,2,"Luxury,Performance",Coupe,22,17
+LEXUS SC 400,LEXUS,SC 400,1998,regular unleaded,290,8,Automatic,RearWheelDrive,2,"Luxury,Performance",Coupe,23,17
+LEXUS SC 430,LEXUS,SC 430,2008,premium unleaded (required),288,8,Automatic,RearWheelDrive,2,"Luxury,Performance",Convertible,23,16
+LINCOLN AVIATOR,LINCOLN,Aviator,2003,premium unleaded (required),302,8,Automatic,AllWheelDrive,4,Luxury,SUV,17,12
+LINCOLN BLACKWOOD,LINCOLN,Blackwood,2002,premium unleaded (required),300,8,Automatic,RearWheelDrive,4,Luxury,Crew Cab Pickup,15,11
+LINCOLN CONTINENTAL,LINCOLN,Continental,2001,regular unleaded,275,8,Automatic,FrontWheelDrive,4,Luxury,Sedan,23,15
+LINCOLN LS,LINCOLN,LS,2004,premium unleaded (required),232,6,Automatic,RearWheelDrive,4,"Luxury,Performance",Sedan,24,17
+LINCOLN MARK LT,LINCOLN,Mark LT,2006,regular unleaded,300,8,Automatic,RearWheelDrive,4,Luxury,Crew Cab Pickup,18,13
+LINCOLN MARK VII,LINCOLN,Mark VII,1990,regular unleaded,225,8,Automatic,RearWheelDrive,2,Luxury,Coupe,22,15
+LINCOLN MARK VIII,LINCOLN,Mark VIII,1996,regular unleaded,280,8,Automatic,RearWheelDrive,2,Luxury,Coupe,24,16
+LINCOLN MKC,LINCOLN,MKC,2015,regular unleaded,240,4,Automatic,FrontWheelDrive,4,"Crossover,Luxury",SUV,29,20
+LINCOLN MKS,LINCOLN,MKS,2014,regular unleaded,304,6,Automatic,FrontWheelDrive,4,"Luxury,Performance",Sedan,28,19
+LINCOLN MKT,LINCOLN,MKT,2015,premium unleaded (recommended),365,6,Automatic,AllWheelDrive,4,"Crossover,Luxury,Performance",Wagon,23,16
+LINCOLN MKX,LINCOLN,MKX,2015,regular unleaded,305,6,Automatic,AllWheelDrive,4,"Crossover,Luxury",SUV,23,17
+LINCOLN MKZ,LINCOLN,MKZ,2015,regular unleaded,231,4,Automatic,FrontWheelDrive,4,Luxury,Sedan,33,22
+LINCOLN MKZ HYBRID,LINCOLN,MKZ Hybrid,2011,regular unleaded,191,4,Automatic,FrontWheelDrive,4,"Luxury,Hybrid",Sedan,36,41
+LINCOLN NAVIGATOR,LINCOLN,Navigator,2015,regular unleaded,365,6,Automatic,four wheel drive,4,Luxury,SUV,20,15
+LINCOLN TOWN CAR,LINCOLN,Town Car,2009,flex-fuel (unleaded/E85),239,8,Automatic,RearWheelDrive,4,"Flex Fuel,Luxury",Sedan,24,16
+LINCOLN ZEPHYR,LINCOLN,Zephyr,2006,regular unleaded,221,6,Automatic,FrontWheelDrive,4,Luxury,Sedan,26,17
+LOTUS ELISE,LOTUS,Elise,2009,premium unleaded (required),189,4,Manual,RearWheelDrive,2,"Exotic,High-Performance",Convertible,27,21
+LOTUS ESPRIT,LOTUS,Esprit,2002,premium unleaded (required),350,8,Manual,RearWheelDrive,2,"Exotic,High-Performance",Coupe,21,14
+LOTUS EVORA,LOTUS,Evora,2011,premium unleaded (required),276,6,Manual,RearWheelDrive,2,"Exotic,High-Performance",Coupe,27,18
+LOTUS EVORA 400,LOTUS,Evora 400,2017,premium unleaded (required),400,6,Manual,RearWheelDrive,2,"Exotic,High-Performance",Coupe,39,21
+LOTUS EXIGE,LOTUS,Exige,2009,premium unleaded (recommended),257,4,Manual,RearWheelDrive,2,"Exotic,High-Performance",Coupe,26,20
+MASERATI COUPE,MASERATI,Coupe,2004,premium unleaded (required),390,8,Manual,RearWheelDrive,2,"Exotic,Luxury,High-Performance",Coupe,15,10
+MASERATI GHIBLI,MASERATI,Ghibli,2015,premium unleaded (required),404,6,Automatic,AllWheelDrive,4,"Exotic,Luxury,High-Performance",Sedan,25,15
+MASERATI GRANSPORT,MASERATI,GranSport,2005,premium unleaded (required),395,8,Automated_Manual,RearWheelDrive,2,"Exotic,Factory Tuner,Luxury,High-Performance",Coupe,16,11
+MASERATI GRANTURISMO,MASERATI,GranTurismo,2014,premium unleaded (required),454,8,Automatic,RearWheelDrive,2,"Exotic,Factory Tuner,Luxury,High-Performance",Coupe,21,13
+MASERATI GRANTURISMO CONVERTIBLE,MASERATI,GranTurismo Convertible,2014,premium unleaded (required),454,8,Automatic,RearWheelDrive,2,"Exotic,Luxury,High-Performance",Convertible,20,13
+MASERATI LEVANTE,MASERATI,Levante,2017,premium unleaded (required),424,6,Automatic,AllWheelDrive,4,"Crossover,Exotic,Luxury,High-Performance",SUV,19,14
+MASERATI QUATTROPORTE,MASERATI,Quattroporte,2015,premium unleaded (required),404,6,Automatic,AllWheelDrive,4,"Exotic,Luxury,High-Performance",Sedan,24,15
+MASERATI SPYDER,MASERATI,Spyder,2003,premium unleaded (required),390,8,Manual,RearWheelDrive,2,"Exotic,Luxury,High-Performance",Convertible,15,10
+MAYBACH 57,MAYBACH,57,2010,premium unleaded (required),543,12,Automatic,RearWheelDrive,4,"Exotic,Luxury",Sedan,16,10
+MAYBACH 62,MAYBACH,62,2010,premium unleaded (required),604,12,Automatic,RearWheelDrive,4,"Exotic,Luxury,High-Performance",Sedan,16,10
+MAYBACH LANDAULET,MAYBACH,Landaulet,2011,premium unleaded (required),620,12,Automatic,RearWheelDrive,4,"Exotic,Luxury,High-Performance",Convertible,16,10
+MAZDA 2,MAZDA,2,2012,regular unleaded,100,4,Manual,FrontWheelDrive,4,Hatchback,Hatchback,35,29
+MAZDA 3,MAZDA,3,2015,regular unleaded,184,4,Manual,FrontWheelDrive,4,Performance,Sedan,37,25
+MAZDA 323,MAZDA,323,1992,regular unleaded,82,4,Manual,FrontWheelDrive,2,Hatchback,Hatchback,33,25
+MAZDA 5,MAZDA,5,2013,regular unleaded,157,4,Automatic,FrontWheelDrive,4,N/A,Passenger Minivan,28,22
+MAZDA 6,MAZDA,6,2015,regular unleaded,184,4,Automatic,FrontWheelDrive,4,N/A,Sedan,38,26
+MAZDA 626,MAZDA,626,2000,regular unleaded,170,6,Manual,FrontWheelDrive,4,N/A,Sedan,25,19
+MAZDA 929,MAZDA,929,1993,regular unleaded,195,6,Automatic,RearWheelDrive,4,N/A,Sedan,22,17
+MAZDA B-SERIES,MAZDA,B-Series,2001,regular unleaded,150,6,Manual,four wheel drive,2,N/A,Extended Cab Pickup,19,15
+MAZDA B-SERIES PICKUP,MAZDA,B-Series Pickup,1998,regular unleaded,119,4,Manual,RearWheelDrive,2,N/A,Regular Cab Pickup,24,19
+MAZDA B-SERIES TRUCK,MAZDA,B-Series Truck,2007,regular unleaded,207,6,Automatic,four wheel drive,4,N/A,Extended Cab Pickup,17,14
+MAZDA CX-3,MAZDA,CX-3,2016,regular unleaded,146,4,Automatic,FrontWheelDrive,4,Crossover,SUV,35,29
+MAZDA CX-5,MAZDA,CX-5,2014,regular unleaded,155,4,Automatic,FrontWheelDrive,4,Crossover,SUV,32,26
+MAZDA CX-7,MAZDA,CX-7,2010,premium unleaded (recommended),244,4,Automatic,FrontWheelDrive,4,Crossover,SUV,25,18
+MAZDA CX-9,MAZDA,CX-9,2014,regular unleaded,273,6,Automatic,AllWheelDrive,4,Crossover,SUV,22,16
+MAZDA MAZDASPEED 3,MAZDA,Mazdaspeed 3,2011,premium unleaded (required),263,4,Manual,FrontWheelDrive,4,"Hatchback,Factory Tuner,Performance",Hatchback,25,18
+MAZDA MAZDASPEED 6,MAZDA,Mazdaspeed 6,2006,premium unleaded (required),274,4,Manual,AllWheelDrive,4,"Factory Tuner,Performance",Sedan,23,17
+MAZDA MAZDASPEED MX-5 MIATA,MAZDA,Mazdaspeed MX-5 Miata,2004,premium unleaded (required),178,4,Manual,RearWheelDrive,2,"Factory Tuner,Performance",Convertible,24,18
+MAZDA MAZDASPEED PROTEGE,MAZDA,Mazdaspeed Protege,2003,premium unleaded (required),170,4,Manual,FrontWheelDrive,4,"Factory Tuner,Performance",Sedan,27,21
+MAZDA MILLENIA,MAZDA,Millenia,2000,regular unleaded,210,6,Automatic,FrontWheelDrive,4,Performance,Sedan,25,17
+MAZDA MPV,MAZDA,MPV,2004,regular unleaded,200,6,Automatic,FrontWheelDrive,4,N/A,Passenger Minivan,23,16
+MAZDA MX-3,MAZDA,MX-3,1993,regular unleaded,130,6,Manual,FrontWheelDrive,2,Hatchback,Hatchback,26,20
+MAZDA MX-5 MIATA,MAZDA,MX-5 Miata,2014,premium unleaded (recommended),158,4,Automatic,RearWheelDrive,2,Performance,Convertible,28,21
+MAZDA MX-6,MAZDA,MX-6,1995,regular unleaded,164,6,Manual,FrontWheelDrive,2,Performance,Coupe,24,18
+MAZDA NAVAJO,MAZDA,Navajo,1992,regular unleaded,155,6,Manual,four wheel drive,2,N/A,SUV,20,15
+MAZDA PROTEGE,MAZDA,Protege,2001,regular unleaded,130,4,Manual,FrontWheelDrive,4,N/A,Sedan,28,22
+MAZDA PROTEGE5,MAZDA,Protege5,2002,regular unleaded,130,4,Manual,FrontWheelDrive,4,N/A,Wagon,28,22
+MAZDA RX-7,MAZDA,RX-7,1993,regular unleaded,255,,Manual,RearWheelDrive,2,"Factory Tuner,Performance",Coupe,23,15
+MAZDA RX-8,MAZDA,RX-8,2009,premium unleaded (required),232,,Manual,RearWheelDrive,4,Performance,Coupe,22,16
+MAZDA TRIBUTE,MAZDA,Tribute,2009,regular unleaded,171,4,Automatic,AllWheelDrive,4,Crossover,SUV,25,19
+MAZDA TRIBUTE HYBRID,MAZDA,Tribute Hybrid,2008,regular unleaded,133,4,Automatic,FrontWheelDrive,4,"Crossover,Hybrid",SUV,30,34
+MAZDA TRUCK,MAZDA,Truck,2002,regular unleaded,135,4,Manual,RearWheelDrive,2,N/A,Regular Cab Pickup,25,21
+MCLAREN 570S,MCLAREN,570S,2016,premium unleaded (required),562,8,Automated_Manual,RearWheelDrive,2,"Exotic,High-Performance",Coupe,23,16
+MCLAREN 650S COUPE,MCLAREN,650S Coupe,2015,premium unleaded (required),641,8,Automated_Manual,RearWheelDrive,2,"Exotic,High-Performance",Coupe,22,16
+MCLAREN 650S SPIDER,MCLAREN,650S Spider,2015,premium unleaded (required),641,8,Automated_Manual,RearWheelDrive,2,"Exotic,High-Performance",Convertible,22,16
+MCLAREN MP4-12C,MCLAREN,MP4-12C,2012,premium unleaded (required),592,8,Automated_Manual,RearWheelDrive,2,"Exotic,High-Performance",Coupe,22,15
+MERCEDES-BENZ 190-CLASS,MERCEDES-BENZ,190-Class,1991,regular unleaded,130,4,Manual,RearWheelDrive,4,Luxury,Sedan,26,18
+MERCEDES-BENZ 300-CLASS,MERCEDES-BENZ,300-Class,1991,regular unleaded,177,6,Automatic,RearWheelDrive,4,Luxury,Sedan,19,15
+MERCEDES-BENZ 350-CLASS,MERCEDES-BENZ,350-Class,1990,diesel,134,6,Automatic,RearWheelDrive,4,"Diesel,Luxury",Sedan,23,19
+MERCEDES-BENZ 400-CLASS,MERCEDES-BENZ,400-Class,1992,regular unleaded,268,8,Automatic,RearWheelDrive,4,"Luxury,Performance",Sedan,20,15
+MERCEDES-BENZ 420-CLASS,MERCEDES-BENZ,420-Class,1990,regular unleaded,201,8,Automatic,RearWheelDrive,4,Luxury,Sedan,17,14
+MERCEDES-BENZ 500-CLASS,MERCEDES-BENZ,500-Class,1991,regular unleaded,322,8,Automatic,RearWheelDrive,2,"Luxury,Performance",Convertible,17,13
+MERCEDES-BENZ 560-CLASS,MERCEDES-BENZ,560-Class,1990,regular unleaded,238,8,Automatic,RearWheelDrive,2,Luxury,Coupe,16,12
+MERCEDES-BENZ 600-CLASS,MERCEDES-BENZ,600-Class,1992,regular unleaded,402,12,Automatic,RearWheelDrive,4,Luxury,Sedan,14,10
+MERCEDES-BENZ AMG GT,MERCEDES-BENZ,AMG GT,2016,premium unleaded (required),503,8,Automated_Manual,RearWheelDrive,2,"Exotic,Factory Tuner,Luxury,High-Performance",Coupe,22,16
+MERCEDES-BENZ B-CLASS ELECTRIC DRIVE,MERCEDES-BENZ,B-Class Electric Drive,2015,electric,177,0,Direct_Drive,FrontWheelDrive,4,"Hatchback,Luxury",Hatchback,82,85
+MERCEDES-BENZ C36 AMG,MERCEDES-BENZ,C36 AMG,1995,regular unleaded,268,6,Automatic,RearWheelDrive,4,"Factory Tuner,Luxury,Performance",Sedan,20,16
+MERCEDES-BENZ C43 AMG,MERCEDES-BENZ,C43 AMG,1998,regular unleaded,302,8,Automatic,RearWheelDrive,4,"Factory Tuner,Luxury,Performance",Sedan,21,16
+MERCEDES-BENZ C-CLASS,MERCEDES-BENZ,C-Class,2015,premium unleaded (required),241,4,Automatic,AllWheelDrive,4,Luxury,Sedan,31,24
+MERCEDES-BENZ CLA-CLASS,MERCEDES-BENZ,CLA-Class,2015,premium unleaded (required),208,4,Automated_Manual,FrontWheelDrive,4,Luxury,Sedan,38,26
+MERCEDES-BENZ CL-CLASS,MERCEDES-BENZ,CL-Class,2012,premium unleaded (required),621,12,Automatic,RearWheelDrive,2,"Factory Tuner,Luxury,High-Performance",Coupe,18,12
+MERCEDES-BENZ CLK-CLASS,MERCEDES-BENZ,CLK-Class,2007,premium unleaded (required),268,6,Automatic,RearWheelDrive,2,"Luxury,Performance",Convertible,25,17
+MERCEDES-BENZ CLS-CLASS,MERCEDES-BENZ,CLS-Class,2015,premium unleaded (required),402,8,Automatic,RearWheelDrive,4,"Luxury,High-Performance",Sedan,26,17
+MERCEDES-BENZ E55 AMG,MERCEDES-BENZ,E55 AMG,1999,regular unleaded,349,8,Automatic,RearWheelDrive,4,"Factory Tuner,Luxury,Performance",Sedan,21,15
+MERCEDES-BENZ E-CLASS,MERCEDES-BENZ,E-Class,2015,premium unleaded (required),329,6,Automatic,AllWheelDrive,2,"Luxury,Performance",Coupe,28,20
+MERCEDES-BENZ G-CLASS,MERCEDES-BENZ,G-Class,2015,premium unleaded (required),382,8,Automatic,four wheel drive,4,Luxury,SUV,15,12
+MERCEDES-BENZ GLA-CLASS,MERCEDES-BENZ,GLA-Class,2015,premium unleaded (required),208,4,Automated_Manual,FrontWheelDrive,4,"Crossover,Luxury",SUV,35,25
+MERCEDES-BENZ GLC-CLASS,MERCEDES-BENZ,GLC-Class,2016,premium unleaded (required),241,4,Automatic,RearWheelDrive,4,"Crossover,Luxury",SUV,28,22
+MERCEDES-BENZ GL-CLASS,MERCEDES-BENZ,GL-Class,2014,diesel,240,6,Automatic,AllWheelDrive,4,"Crossover,Luxury,Diesel",SUV,26,19
+MERCEDES-BENZ GLE-CLASS,MERCEDES-BENZ,GLE-Class,2016,premium unleaded (required),329,6,Automatic,AllWheelDrive,4,"Crossover,Luxury,Performance",SUV,22,18
+MERCEDES-BENZ GLE-CLASS COUPE,MERCEDES-BENZ,GLE-Class Coupe,2016,premium unleaded (required),362,6,Automatic,AllWheelDrive,4,"Crossover,Luxury,Performance",SUV,23,17
+MERCEDES-BENZ GLK-CLASS,MERCEDES-BENZ,GLK-Class,2013,premium unleaded (required),302,6,Automatic,RearWheelDrive,4,"Crossover,Luxury,Performance",SUV,25,19
+MERCEDES-BENZ GLS-CLASS,MERCEDES-BENZ,GLS-Class,2017,premium unleaded (required),577,8,Automatic,AllWheelDrive,4,"Crossover,Factory Tuner,Luxury,High-Performance",SUV,17,13
+MERCEDES-BENZ MAYBACH,MERCEDES-BENZ,Maybach,2016,premium unleaded (required),523,12,Automatic,RearWheelDrive,4,"Exotic,Luxury,High-Performance",Sedan,20,13
+MERCEDES-BENZ M-CLASS,MERCEDES-BENZ,M-Class,2013,diesel,240,6,Automatic,AllWheelDrive,4,"Crossover,Luxury,Diesel",SUV,28,20
+MERCEDES-BENZ METRIS,MERCEDES-BENZ,Metris,2016,premium unleaded (recommended),208,4,Automatic,RearWheelDrive,4,Luxury,Passenger Minivan,23,20
+MERCEDES-BENZ ML55 AMG,MERCEDES-BENZ,ML55 AMG,2000,regular unleaded,342,8,Automatic,AllWheelDrive,4,"Factory Tuner,Luxury,Performance",SUV,16,12
+MERCEDES-BENZ R-CLASS,MERCEDES-BENZ,R-Class,2010,premium unleaded (required),268,6,Automatic,AllWheelDrive,4,"Crossover,Luxury",Wagon,19,14
+MERCEDES-BENZ S-CLASS,MERCEDES-BENZ,S-Class,2015,premium unleaded (required),449,8,Automatic,RearWheelDrive,4,"Luxury,High-Performance",Sedan,26,17
+MERCEDES-BENZ SLC-CLASS,MERCEDES-BENZ,SLC-Class,2017,premium unleaded (required),362,6,Automatic,RearWheelDrive,2,"Factory Tuner,Luxury,High-Performance",Convertible,29,20
+MERCEDES-BENZ SL-CLASS,MERCEDES-BENZ,SL-Class,2015,premium unleaded (required),329,6,Automatic,RearWheelDrive,2,"Luxury,High-Performance",Convertible,27,20
+MERCEDES-BENZ SLK-CLASS,MERCEDES-BENZ,SLK-Class,2014,premium unleaded (required),302,6,Automatic,RearWheelDrive,2,"Luxury,High-Performance",Convertible,29,21
+MERCEDES-BENZ SLR MCLAREN,MERCEDES-BENZ,SLR McLaren,2007,premium unleaded (required),641,8,Automatic,RearWheelDrive,2,"Exotic,Factory Tuner,Luxury,High-Performance",Coupe,16,11
+MERCEDES-BENZ SLS AMG,MERCEDES-BENZ,SLS AMG,2011,premium unleaded (required),563,8,Automated_Manual,RearWheelDrive,2,"Exotic,Factory Tuner,Luxury,High-Performance",Coupe,20,14
+MERCEDES-BENZ SLS AMG GT,MERCEDES-BENZ,SLS AMG GT,2013,premium unleaded (required),583,8,Automated_Manual,RearWheelDrive,2,"Exotic,Factory Tuner,Luxury,High-Performance",Coupe,19,13
+MERCEDES-BENZ SLS AMG GT FINAL EDITION,MERCEDES-BENZ,SLS AMG GT Final Edition,2015,premium unleaded (required),583,8,Automated_Manual,RearWheelDrive,2,"Exotic,Factory Tuner,Luxury,High-Performance",Coupe,19,13
+MITSUBISHI 3000GT,MITSUBISHI,3000GT,1997,regular unleaded,218,6,Manual,FrontWheelDrive,2,"Hatchback,Performance",Hatchback,23,17
+MITSUBISHI DIAMANTE,MITSUBISHI,Diamante,2002,premium unleaded (required),205,6,Automatic,FrontWheelDrive,4,N/A,Sedan,23,16
+MITSUBISHI ECLIPSE,MITSUBISHI,Eclipse,2010,regular unleaded,162,4,Automatic,FrontWheelDrive,2,Hatchback,Hatchback,27,20
+MITSUBISHI ECLIPSE SPYDER,MITSUBISHI,Eclipse Spyder,2010,regular unleaded,162,4,Automatic,FrontWheelDrive,2,N/A,Convertible,26,19
+MITSUBISHI ENDEAVOR,MITSUBISHI,Endeavor,2008,premium unleaded (required),225,6,Automatic,AllWheelDrive,4,Crossover,SUV,19,15
+MITSUBISHI EXPO,MITSUBISHI,Expo,1993,regular unleaded,136,4,Manual,FrontWheelDrive,2,Hatchback,Hatchback,26,19
+MITSUBISHI GALANT,MITSUBISHI,Galant,2010,regular unleaded,160,4,Automatic,FrontWheelDrive,4,N/A,Sedan,30,21
+MITSUBISHI I-MIEV,MITSUBISHI,i-MiEV,2014,electric,,,Direct_Drive,RearWheelDrive,4,Hatchback,Hatchback,99,126
+MITSUBISHI LANCER,MITSUBISHI,Lancer,2015,regular unleaded,148,4,Manual,FrontWheelDrive,4,N/A,Sedan,34,25
+MITSUBISHI LANCER EVOLUTION,MITSUBISHI,Lancer Evolution,2013,premium unleaded (required),291,4,Automated_Manual,AllWheelDrive,4,"Factory Tuner,Performance",Sedan,22,17
+MITSUBISHI LANCER SPORTBACK,MITSUBISHI,Lancer Sportback,2012,regular unleaded,168,4,Automatic,FrontWheelDrive,4,Hatchback,Hatchback,29,22
+MITSUBISHI MIGHTY MAX PICKUP,MITSUBISHI,Mighty Max Pickup,1994,regular unleaded,116,4,Manual,RearWheelDrive,2,N/A,Regular Cab Pickup,23,18
+MITSUBISHI MIRAGE,MITSUBISHI,Mirage,2014,regular unleaded,74,3,Manual,FrontWheelDrive,4,Hatchback,Hatchback,42,34
+MITSUBISHI MIRAGE G4,MITSUBISHI,Mirage G4,2017,regular unleaded,78,3,Manual,FrontWheelDrive,4,N/A,Sedan,40,33
+MITSUBISHI MONTERO,MITSUBISHI,Montero,2004,regular unleaded,215,6,Automatic,four wheel drive,4,N/A,SUV,18,13
+MITSUBISHI MONTERO SPORT,MITSUBISHI,Montero Sport,2002,regular unleaded,197,6,Automatic,RearWheelDrive,4,N/A,SUV,20,15
+MITSUBISHI OUTLANDER,MITSUBISHI,Outlander,2015,regular unleaded,166,4,Automatic,AllWheelDrive,4,Crossover,SUV,29,24
+MITSUBISHI OUTLANDER SPORT,MITSUBISHI,Outlander Sport,2015,regular unleaded,148,4,Automatic,four wheel drive,4,Crossover,SUV,30,24
+MITSUBISHI PRECIS,MITSUBISHI,Precis,1992,regular unleaded,81,4,Manual,FrontWheelDrive,2,Hatchback,Hatchback,30,25
+MITSUBISHI RAIDER,MITSUBISHI,Raider,2007,regular unleaded,210,6,Automatic,RearWheelDrive,4,N/A,Crew Cab Pickup,20,15
+MITSUBISHI SIGMA,MITSUBISHI,Sigma,1990,regular unleaded,142,6,Automatic,FrontWheelDrive,4,N/A,Sedan,20,16
+MITSUBISHI VANWAGON,MITSUBISHI,Vanwagon,1990,regular unleaded,107,4,Automatic,RearWheelDrive,3,N/A,Passenger Minivan,19,16
+NISSAN 200SX,NISSAN,200SX,1996,regular unleaded,115,4,Manual,FrontWheelDrive,2,N/A,Coupe,36,26
+NISSAN 240SX,NISSAN,240SX,1996,regular unleaded,155,4,Manual,RearWheelDrive,2,Performance,Coupe,26,19
+NISSAN 300ZX,NISSAN,300ZX,1994,regular unleaded,222,6,Manual,RearWheelDrive,2,Performance,Convertible,22,16
+NISSAN 350Z,NISSAN,350Z,2007,regular unleaded,306,6,Automatic,RearWheelDrive,2,High-Performance,Convertible,23,17
+NISSAN 370Z,NISSAN,370Z,2015,premium unleaded (required),350,6,Automatic,RearWheelDrive,2,"Factory Tuner,High-Performance",Coupe,26,19
+NISSAN ALTIMA,NISSAN,Altima,2015,regular unleaded,182,4,Automatic,FrontWheelDrive,4,N/A,Sedan,38,27
+NISSAN ALTIMA HYBRID,NISSAN,Altima Hybrid,2009,regular unleaded,198,4,Automatic,FrontWheelDrive,4,Hybrid,Sedan,33,35
+NISSAN ARMADA,NISSAN,Armada,2014,regular unleaded,317,8,Automatic,RearWheelDrive,4,Flex Fuel,SUV,19,13
+NISSAN AXXESS,NISSAN,Axxess,1990,regular unleaded,138,4,Manual,FrontWheelDrive,3,N/A,Passenger Minivan,24,19
+NISSAN CUBE,NISSAN,Cube,2012,regular unleaded,122,4,Manual,FrontWheelDrive,4,N/A,Wagon,30,25
+NISSAN FRONTIER,NISSAN,Frontier,2015,regular unleaded,261,6,Automatic,RearWheelDrive,4,N/A,Crew Cab Pickup,21,15
+NISSAN GT-R,NISSAN,GT-R,2015,premium unleaded (recommended),545,6,Automated_Manual,AllWheelDrive,2,High-Performance,Coupe,23,16
+NISSAN JUKE,NISSAN,Juke,2015,premium unleaded (recommended),188,4,Automatic,FrontWheelDrive,4,"Crossover,Hatchback",Hatchback,32,28
+NISSAN LEAF,NISSAN,Leaf,2014,electric,,0,Direct_Drive,FrontWheelDrive,4,Hatchback,Hatchback,101,126
+NISSAN MAXIMA,NISSAN,Maxima,2014,premium unleaded (recommended),290,6,Automatic,FrontWheelDrive,4,Performance,Sedan,26,19
+NISSAN MURANO,NISSAN,Murano,2015,regular unleaded,260,6,Automatic,FrontWheelDrive,4,Crossover,SUV,28,21
+NISSAN MURANO CROSSCABRIOLET,NISSAN,Murano CrossCabriolet,2012,premium unleaded (recommended),265,6,Automatic,AllWheelDrive,2,Crossover,Convertible SUV,22,17
+NISSAN NV200,NISSAN,NV200,2015,regular unleaded,131,4,Automatic,FrontWheelDrive,4,N/A,Cargo Minivan,26,24
+NISSAN NX,NISSAN,NX,1991,regular unleaded,140,4,Manual,FrontWheelDrive,2,"Hatchback,Performance",Hatchback,28,21
+NISSAN PATHFINDER,NISSAN,Pathfinder,2015,regular unleaded,260,6,Automatic,FrontWheelDrive,4,Crossover,SUV,27,20
+NISSAN PULSAR,NISSAN,Pulsar,1990,regular unleaded,90,4,Manual,FrontWheelDrive,2,N/A,Coupe,31,23
+NISSAN QUEST,NISSAN,Quest,2014,regular unleaded,260,6,Automatic,FrontWheelDrive,4,N/A,Passenger Minivan,25,19
+NISSAN ROGUE,NISSAN,Rogue,2015,regular unleaded,170,4,Automatic,AllWheelDrive,4,Crossover,SUV,32,25
+NISSAN ROGUE SELECT,NISSAN,Rogue Select,2014,regular unleaded,170,4,Automatic,FrontWheelDrive,4,Crossover,SUV,28,23
+NISSAN SENTRA,NISSAN,Sentra,2015,regular unleaded,130,4,Automatic,FrontWheelDrive,4,N/A,Sedan,39,30
+NISSAN STANZA,NISSAN,Stanza,1990,regular unleaded,138,4,Manual,FrontWheelDrive,4,N/A,Sedan,26,19
+NISSAN TITAN,NISSAN,Titan,2014,regular unleaded,317,8,Automatic,four wheel drive,4,Flex Fuel,Crew Cab Pickup,17,12
+NISSAN TRUCK,NISSAN,Truck,1995,regular unleaded,134,4,Manual,RearWheelDrive,2,N/A,Extended Cab Pickup,24,19
+NISSAN VAN,NISSAN,Van,1990,regular unleaded,106,4,Automatic,RearWheelDrive,3,N/A,Passenger Minivan,19,15
+NISSAN VERSA,NISSAN,Versa,2015,regular unleaded,109,4,Automatic,FrontWheelDrive,4,N/A,Sedan,40,31
+NISSAN VERSA NOTE,NISSAN,Versa Note,2015,regular unleaded,109,4,Automatic,FrontWheelDrive,4,Hatchback,Hatchback,40,31
+NISSAN XTERRA,NISSAN,Xterra,2013,regular unleaded,261,6,Automatic,four wheel drive,4,N/A,SUV,20,15
+OLDSMOBILE ACHIEVA,OLDSMOBILE,Achieva,1996,regular unleaded,150,4,Manual,FrontWheelDrive,4,N/A,Sedan,30,20
+OLDSMOBILE ALERO,OLDSMOBILE,Alero,2002,regular unleaded,170,6,Automatic,FrontWheelDrive,2,N/A,Coupe,27,18
+OLDSMOBILE AURORA,OLDSMOBILE,Aurora,2001,premium unleaded (required),250,8,Automatic,FrontWheelDrive,4,Performance,Sedan,23,15
+OLDSMOBILE BRAVADA,OLDSMOBILE,Bravada,2002,regular unleaded,270,6,Automatic,AllWheelDrive,4,N/A,SUV,19,14
+OLDSMOBILE CIERA,OLDSMOBILE,Ciera,1995,regular unleaded,160,6,Automatic,FrontWheelDrive,4,N/A,Wagon,26,17
+OLDSMOBILE CUSTOM CRUISER,OLDSMOBILE,Custom Cruiser,1990,regular unleaded,140,8,Automatic,RearWheelDrive,4,N/A,Wagon,22,15
+OLDSMOBILE CUTLASS,OLDSMOBILE,Cutlass,1997,regular unleaded,155,6,Automatic,FrontWheelDrive,4,N/A,Sedan,26,18
+OLDSMOBILE CUTLASS CALAIS,OLDSMOBILE,Cutlass Calais,1990,regular unleaded,110,4,Manual,FrontWheelDrive,4,N/A,Sedan,30,19
+OLDSMOBILE CUTLASS CIERA,OLDSMOBILE,Cutlass Ciera,1992,regular unleaded,160,6,Automatic,FrontWheelDrive,4,N/A,Sedan,24,17
+OLDSMOBILE CUTLASS SUPREME,OLDSMOBILE,Cutlass Supreme,1995,regular unleaded,160,6,Automatic,FrontWheelDrive,2,N/A,Coupe,26,17
+OLDSMOBILE EIGHTY-EIGHT,OLDSMOBILE,Eighty-Eight,1997,regular unleaded,205,6,Automatic,FrontWheelDrive,4,N/A,Sedan,26,17
+OLDSMOBILE EIGHTY-EIGHT ROYALE,OLDSMOBILE,Eighty-Eight Royale,1993,regular unleaded,170,6,Automatic,FrontWheelDrive,4,N/A,Sedan,26,17
+OLDSMOBILE INTRIGUE,OLDSMOBILE,Intrigue,2000,regular unleaded,215,6,Automatic,FrontWheelDrive,4,N/A,Sedan,26,17
+OLDSMOBILE LSS,OLDSMOBILE,LSS,1997,regular unleaded,240,6,Automatic,FrontWheelDrive,4,N/A,Sedan,24,16
+OLDSMOBILE NINETY-EIGHT,OLDSMOBILE,Ninety-Eight,1994,regular unleaded,170,6,Automatic,FrontWheelDrive,4,N/A,Sedan,25,17
+OLDSMOBILE REGENCY,OLDSMOBILE,Regency,1997,regular unleaded,205,6,Automatic,FrontWheelDrive,4,N/A,Sedan,26,17
+OLDSMOBILE SILHOUETTE,OLDSMOBILE,Silhouette,2002,regular unleaded,185,6,Automatic,AllWheelDrive,4,N/A,Passenger Minivan,22,16
+OLDSMOBILE TORONADO,OLDSMOBILE,Toronado,1990,regular unleaded,165,6,Automatic,FrontWheelDrive,2,N/A,Coupe,24,16
+PLYMOUTH ACCLAIM,PLYMOUTH,Acclaim,1993,regular unleaded,100,4,Manual,FrontWheelDrive,4,N/A,Sedan,29,22
+PLYMOUTH BREEZE,PLYMOUTH,Breeze,1998,regular unleaded,132,4,Manual,FrontWheelDrive,4,N/A,Sedan,33,23
+PLYMOUTH COLT,PLYMOUTH,Colt,1992,regular unleaded,113,4,Manual,FrontWheelDrive,4,N/A,Wagon,26,21
+PLYMOUTH GRAND VOYAGER,PLYMOUTH,Grand Voyager,1998,regular unleaded,150,6,Automatic,FrontWheelDrive,4,N/A,Passenger Minivan,24,17
+PLYMOUTH HORIZON,PLYMOUTH,Horizon,1990,regular unleaded,93,4,Manual,FrontWheelDrive,4,Hatchback,Hatchback,31,22
+PLYMOUTH LASER,PLYMOUTH,Laser,1992,regular unleaded,92,4,Manual,FrontWheelDrive,2,Hatchback,Hatchback,29,21
+PLYMOUTH NEON,PLYMOUTH,Neon,1999,regular unleaded,132,4,Manual,FrontWheelDrive,2,N/A,Coupe,36,24
+PLYMOUTH PROWLER,PLYMOUTH,Prowler,1999,regular unleaded,253,6,Automatic,RearWheelDrive,2,Performance,Convertible,21,15
+PLYMOUTH SUNDANCE,PLYMOUTH,Sundance,1992,regular unleaded,100,4,Manual,FrontWheelDrive,4,Hatchback,Hatchback,29,20
+PLYMOUTH VOYAGER,PLYMOUTH,Voyager,1998,regular unleaded,150,4,Automatic,FrontWheelDrive,3,N/A,Passenger Minivan,24,18
+PONTIAC 6000,PONTIAC,6000,1990,regular unleaded,140,6,Automatic,FrontWheelDrive,4,N/A,Sedan,27,17
+PONTIAC AZTEK,PONTIAC,Aztek,2003,regular unleaded,185,6,Automatic,AllWheelDrive,4,Crossover,SUV,22,16
+PONTIAC BONNEVILLE,PONTIAC,Bonneville,2003,regular unleaded,205,6,Automatic,FrontWheelDrive,4,N/A,Sedan,27,17
+PONTIAC FIREBIRD,PONTIAC,Firebird,2000,regular unleaded,200,6,Manual,RearWheelDrive,2,"Hatchback,Performance",Hatchback,28,17
+PONTIAC G3,PONTIAC,G3,2009,regular unleaded,106,4,Manual,FrontWheelDrive,4,Hatchback,Hatchback,34,27
+PONTIAC G5,PONTIAC,G5,2007,regular unleaded,148,4,Manual,FrontWheelDrive,2,N/A,Coupe,31,22
+PONTIAC G6,PONTIAC,G6,2008,regular unleaded,217,6,Automatic,FrontWheelDrive,2,N/A,Convertible,26,17
+PONTIAC G8,PONTIAC,G8,2008,regular unleaded,361,8,Automatic,RearWheelDrive,4,High-Performance,Sedan,24,15
+PONTIAC GRAND AM,PONTIAC,Grand Am,2003,regular unleaded,175,6,Automatic,FrontWheelDrive,2,N/A,Coupe,27,18
+PONTIAC GRAND PRIX,PONTIAC,Grand Prix,2006,regular unleaded,260,6,Automatic,FrontWheelDrive,4,N/A,Sedan,26,17
+PONTIAC GTO,PONTIAC,GTO,2004,premium unleaded (required),350,8,Automatic,RearWheelDrive,2,High-Performance,Coupe,20,15
+PONTIAC LE MANS,PONTIAC,Le Mans,1991,regular unleaded,74,4,Manual,FrontWheelDrive,2,N/A,Coupe,34,25
+PONTIAC MONTANA,PONTIAC,Montana,2003,regular unleaded,185,6,Automatic,FrontWheelDrive,4,N/A,Passenger Minivan,24,17
+PONTIAC MONTANA SV6,PONTIAC,Montana SV6,2006,regular unleaded,201,6,Automatic,FrontWheelDrive,4,N/A,Passenger Minivan,23,16
+PONTIAC SOLSTICE,PONTIAC,Solstice,2007,regular unleaded,177,4,Manual,RearWheelDrive,2,Performance,Convertible,26,17
+PONTIAC SUNBIRD,PONTIAC,Sunbird,1992,regular unleaded,111,4,Manual,FrontWheelDrive,2,N/A,Coupe,32,22
+PONTIAC SUNFIRE,PONTIAC,Sunfire,2003,regular unleaded,140,4,Manual,FrontWheelDrive,2,N/A,Coupe,30,22
+PONTIAC TORRENT,PONTIAC,Torrent,2007,regular unleaded,185,6,Automatic,AllWheelDrive,4,Crossover,SUV,23,17
+PONTIAC TRANS SPORT,PONTIAC,Trans Sport,1996,regular unleaded,180,6,Automatic,FrontWheelDrive,3,N/A,Passenger Minivan,24,17
+PONTIAC VIBE,PONTIAC,Vibe,2008,regular unleaded,126,4,Manual,FrontWheelDrive,4,N/A,Wagon,33,26
+PORSCHE 718 CAYMAN,PORSCHE,718 Cayman,2017,premium unleaded (required),300,4,Manual,RearWheelDrive,2,"Luxury,High-Performance",Coupe,28,21
+PORSCHE 911,PORSCHE,911,2015,premium unleaded (required),350,6,Manual,RearWheelDrive,2,"Luxury,High-Performance",Convertible,27,19
+PORSCHE 928,PORSCHE,928,1993,regular unleaded,345,8,Manual,RearWheelDrive,2,"Hatchback,Luxury,Performance",Hatchback,17,11
+PORSCHE 944,PORSCHE,944,1990,regular unleaded,208,4,Manual,RearWheelDrive,2,"Hatchback,Luxury,Performance",Hatchback,24,15
+PORSCHE 968,PORSCHE,968,1993,regular unleaded,236,4,Manual,RearWheelDrive,2,"Luxury,Performance",Convertible,24,15
+PORSCHE BOXSTER,PORSCHE,Boxster,2014,premium unleaded (required),315,6,Manual,RearWheelDrive,2,"Luxury,High-Performance",Convertible,28,20
+PORSCHE CARRERA GT,PORSCHE,Carrera GT,2004,premium unleaded (required),605,10,Manual,RearWheelDrive,2,"Exotic,Luxury,High-Performance",Convertible,15,9
+PORSCHE CAYENNE,PORSCHE,Cayenne,2015,premium unleaded (required),420,6,Automatic,AllWheelDrive,4,"Crossover,Luxury,Performance",SUV,24,17
+PORSCHE CAYMAN,PORSCHE,Cayman,2014,premium unleaded (required),275,6,Manual,RearWheelDrive,2,"Luxury,High-Performance",Coupe,30,20
+PORSCHE CAYMAN S,PORSCHE,Cayman S,2006,premium unleaded (required),295,6,Manual,RearWheelDrive,2,"Luxury,High-Performance",Coupe,26,18
+PORSCHE MACAN,PORSCHE,Macan,2015,premium unleaded (required),400,6,Automated_Manual,AllWheelDrive,4,"Crossover,Luxury,Performance",SUV,23,17
+PORSCHE PANAMERA,PORSCHE,Panamera,2015,premium unleaded (required),570,8,Automated_Manual,AllWheelDrive,4,"Luxury,High-Performance",Sedan,24,15
+ROLLS-ROYCE CORNICHE,ROLLS-ROYCE,Corniche,2001,premium unleaded (required),325,8,Automatic,RearWheelDrive,2,"Exotic,Luxury",Convertible,15,10
+ROLLS-ROYCE DAWN,ROLLS-ROYCE,Dawn,2016,premium unleaded (required),563,12,Automatic,RearWheelDrive,2,"Exotic,Luxury,High-Performance",Convertible,19,12
+ROLLS-ROYCE GHOST,ROLLS-ROYCE,Ghost,2012,premium unleaded (required),563,12,Automatic,RearWheelDrive,4,"Exotic,Luxury,Performance",Sedan,20,13
+ROLLS-ROYCE GHOST SERIES II,ROLLS-ROYCE,Ghost Series II,2015,premium unleaded (required),563,12,Automatic,RearWheelDrive,4,"Exotic,Luxury,Performance",Sedan,21,13
+ROLLS-ROYCE PARK WARD,ROLLS-ROYCE,Park Ward,2001,premium unleaded (required),322,12,Automatic,RearWheelDrive,4,"Exotic,Luxury",Sedan,15,11
+ROLLS-ROYCE PHANTOM,ROLLS-ROYCE,Phantom,2014,premium unleaded (required),453,12,Automatic,RearWheelDrive,4,"Exotic,Luxury,Performance",Sedan,19,11
+ROLLS-ROYCE PHANTOM COUPE,ROLLS-ROYCE,Phantom Coupe,2014,premium unleaded (required),453,12,Automatic,RearWheelDrive,2,"Exotic,Luxury,Performance",Coupe,19,11
+ROLLS-ROYCE PHANTOM DROPHEAD COUPE,ROLLS-ROYCE,Phantom Drophead Coupe,2014,premium unleaded (required),453,12,Automatic,RearWheelDrive,2,"Exotic,Luxury,Performance",Convertible,19,11
+ROLLS-ROYCE SILVER SERAPH,ROLLS-ROYCE,Silver Seraph,2001,premium unleaded (required),322,12,Automatic,RearWheelDrive,4,"Exotic,Luxury",Sedan,15,11
+ROLLS-ROYCE WRAITH,ROLLS-ROYCE,Wraith,2014,premium unleaded (required),624,12,Automatic,RearWheelDrive,2,"Exotic,Luxury,High-Performance",Coupe,21,13
+SAAB 43899,SAAB,09.Mar,2009,premium unleaded (recommended),210,4,Automatic,AllWheelDrive,4,Luxury,Wagon,27,17
+SAAB 43960,SAAB,09.May,2009,premium unleaded (recommended),260,4,Automatic,FrontWheelDrive,4,"Luxury,Performance",Sedan,27,17
+SAAB 900,SAAB,900,1996,regular unleaded,185,4,Manual,FrontWheelDrive,2,"Hatchback,Luxury,Performance",Hatchback,26,18
+SAAB 9000,SAAB,9000,1996,regular unleaded,225,4,Manual,FrontWheelDrive,4,"Hatchback,Factory Tuner,Luxury,Performance",Hatchback,25,18
+SAAB 9-2X,SAAB,9-2X,2005,premium unleaded (required),227,4,Manual,AllWheelDrive,4,"Luxury,Performance",Wagon,24,17
+SAAB 9-3 GRIFFIN,SAAB,9-3 Griffin,2012,flex-fuel (premium unleaded recommended/E85),220,4,Manual,FrontWheelDrive,4,"Flex Fuel,Luxury",Sedan,33,20
+SAAB 9-4X,SAAB,9-4X,2011,premium unleaded (required),265,6,Automatic,FrontWheelDrive,4,"Crossover,Luxury",SUV,25,18
+SAAB 9-7X,SAAB,9-7X,2007,regular unleaded,290,6,Automatic,AllWheelDrive,4,Luxury,SUV,20,14
+SCION FR-S,SCION,FR-S,2014,premium unleaded (required),200,4,Manual,RearWheelDrive,2,Performance,Coupe,30,22
+SCION IA,SCION,iA,2016,regular unleaded,106,4,Automatic,FrontWheelDrive,4,N/A,Sedan,42,33
+SCION IM,SCION,iM,2016,regular unleaded,137,4,Manual,FrontWheelDrive,4,Hatchback,Hatchback,36,27
+SCION IQ,SCION,iQ,2013,regular unleaded,94,4,Automatic,FrontWheelDrive,2,Hatchback,Hatchback,37,36
+SCION TC,SCION,tC,2014,regular unleaded,179,4,Manual,FrontWheelDrive,2,Hatchback,Hatchback,31,23
+SCION XA,SCION,xA,2004,regular unleaded,108,4,Manual,FrontWheelDrive,4,Hatchback,Hatchback,34,27
+SCION XB,SCION,xB,2013,regular unleaded,158,4,Manual,FrontWheelDrive,4,N/A,Wagon,28,22
+SCION XD,SCION,xD,2012,regular unleaded,128,4,Manual,FrontWheelDrive,4,Hatchback,Hatchback,33,27
+SPYKER C8,SPYKER,C8,2009,premium unleaded (required),400,8,Manual,RearWheelDrive,2,"Exotic,High-Performance",Coupe,18,13
+SUBARU B9 TRIBECA,SUBARU,B9 Tribeca,2006,premium unleaded (required),250,6,Automatic,AllWheelDrive,4,Crossover,SUV,21,16
+SUBARU BAJA,SUBARU,Baja,2004,regular unleaded,165,4,Automatic,AllWheelDrive,4,Crossover,Crew Cab Pickup,25,19
+SUBARU BRZ,SUBARU,BRZ,2015,premium unleaded (required),200,4,Manual,RearWheelDrive,2,Performance,Coupe,30,22
+SUBARU CROSSTREK,SUBARU,Crosstrek,2016,regular unleaded,160,4,Automatic,AllWheelDrive,4,"Crossover,Hybrid",SUV,34,30
+SUBARU FORESTER,SUBARU,Forester,2015,premium unleaded (required),250,4,Automatic,AllWheelDrive,4,Crossover,SUV,28,23
+SUBARU IMPREZA,SUBARU,Impreza,2015,regular unleaded,148,4,Automatic,AllWheelDrive,4,Hatchback,Hatchback,37,28
+SUBARU IMPREZA WRX,SUBARU,Impreza WRX,2013,premium unleaded (required),265,4,Manual,AllWheelDrive,4,"Hatchback,Performance",Hatchback,25,19
+SUBARU JUSTY,SUBARU,Justy,1992,regular unleaded,73,3,Manual,four wheel drive,2,Hatchback,Hatchback,29,24
+SUBARU LEGACY,SUBARU,Legacy,2015,regular unleaded,175,4,Automatic,AllWheelDrive,4,N/A,Sedan,36,26
+SUBARU LOYALE,SUBARU,Loyale,1992,regular unleaded,90,4,Manual,FrontWheelDrive,4,N/A,Wagon,28,22
+SUBARU OUTBACK,SUBARU,Outback,2015,regular unleaded,175,4,Automatic,AllWheelDrive,4,Crossover,SUV,33,25
+SUBARU SVX,SUBARU,SVX,1995,regular unleaded,230,6,Automatic,AllWheelDrive,2,Performance,Coupe,23,15
+SUBARU TRIBECA,SUBARU,Tribeca,2012,regular unleaded,256,6,Automatic,AllWheelDrive,4,Crossover,SUV,21,16
+SUBARU WRX,SUBARU,WRX,2015,premium unleaded (required),305,4,Manual,AllWheelDrive,4,"Factory Tuner,High-Performance",Sedan,23,17
+SUBARU XT,SUBARU,XT,1991,regular unleaded,97,4,Manual,FrontWheelDrive,2,N/A,Coupe,29,22
+SUBARU XV CROSSTREK,SUBARU,XV Crosstrek,2013,regular unleaded,148,4,Manual,AllWheelDrive,4,Crossover,SUV,30,23
+SUZUKI AERIO,SUZUKI,Aerio,2005,regular unleaded,155,4,Automatic,AllWheelDrive,4,N/A,Sedan,26,21
+SUZUKI EQUATOR,SUZUKI,Equator,2010,regular unleaded,152,4,Automatic,RearWheelDrive,4,N/A,Extended Cab Pickup,22,17
+SUZUKI ESTEEM,SUZUKI,Esteem,2000,regular unleaded,122,4,Manual,FrontWheelDrive,4,N/A,Sedan,32,24
+SUZUKI FORENZA,SUZUKI,Forenza,2006,regular unleaded,126,4,Automatic,FrontWheelDrive,4,N/A,Wagon,27,19
+SUZUKI GRAND VITARA,SUZUKI,Grand Vitara,2011,regular unleaded,166,4,Automatic,RearWheelDrive,4,Crossover,SUV,25,19
+SUZUKI KIZASHI,SUZUKI,Kizashi,2011,regular unleaded,180,4,Automatic,FrontWheelDrive,4,N/A,Sedan,31,23
+SUZUKI RENO,SUZUKI,Reno,2006,regular unleaded,126,4,Manual,FrontWheelDrive,4,Hatchback,Hatchback,28,20
+SUZUKI SAMURAI,SUZUKI,Samurai,1993,regular unleaded,66,4,Manual,four wheel drive,2,N/A,Convertible SUV,26,24
+SUZUKI SIDEKICK,SUZUKI,Sidekick,1996,regular unleaded,120,4,Manual,four wheel drive,4,N/A,SUV,23,20
+SUZUKI SWIFT,SUZUKI,Swift,1999,regular unleaded,79,4,Manual,FrontWheelDrive,2,Hatchback,Hatchback,39,33
+SUZUKI SX4,SUZUKI,SX4,2011,regular unleaded,150,4,Manual,FrontWheelDrive,4,"Crossover,Hatchback",Hatchback,30,22
+SUZUKI VERONA,SUZUKI,Verona,2004,,155,6,Automatic,FrontWheelDrive,4,N/A,Sedan,25,17
+SUZUKI VITARA,SUZUKI,Vitara,2002,regular unleaded,127,4,Automatic,RearWheelDrive,2,N/A,Convertible SUV,23,20
+SUZUKI X-90,SUZUKI,X-90,1996,regular unleaded,95,4,Manual,four wheel drive,2,N/A,SUV,26,22
+SUZUKI XL7,SUZUKI,XL7,2007,regular unleaded,252,6,Automatic,FrontWheelDrive,4,Crossover,SUV,22,16
+SUZUKI XL-7,SUZUKI,XL-7,2004,regular unleaded,185,6,Automatic,RearWheelDrive,4,N/A,SUV,21,16
+TESLA MODEL S,TESLA,Model S,2014,electric,,0,Direct_Drive,RearWheelDrive,4,"Exotic,High-Performance",Sedan,90,88
+TOYOTA 4RUNNER,TOYOTA,4Runner,2014,regular unleaded,270,6,Automatic,RearWheelDrive,4,N/A,SUV,23,17
+TOYOTA 86,TOYOTA,86,2017,premium unleaded (recommended),205,4,Manual,RearWheelDrive,2,Performance,Coupe,28,21
+TOYOTA AVALON,TOYOTA,Avalon,2015,regular unleaded,268,6,Automatic,FrontWheelDrive,4,Performance,Sedan,31,21
+TOYOTA AVALON HYBRID,TOYOTA,Avalon Hybrid,2015,regular unleaded,200,4,Automatic,FrontWheelDrive,4,Hybrid,Sedan,39,40
+TOYOTA CAMRY,TOYOTA,Camry,2015,regular unleaded,178,4,Automatic,FrontWheelDrive,4,N/A,Sedan,35,25
+TOYOTA CAMRY HYBRID,TOYOTA,Camry Hybrid,2015,regular unleaded,200,4,Automatic,FrontWheelDrive,4,Hybrid,Sedan,38,40
+TOYOTA CAMRY SOLARA,TOYOTA,Camry Solara,2006,regular unleaded,157,4,Automatic,FrontWheelDrive,2,N/A,Coupe,30,20
+TOYOTA CELICA,TOYOTA,Celica,2003,regular unleaded,140,4,Automatic,FrontWheelDrive,2,Hatchback,Hatchback,33,25
+TOYOTA COROLLA,TOYOTA,Corolla,2015,regular unleaded,140,4,Automatic,FrontWheelDrive,4,N/A,Sedan,42,30
+TOYOTA COROLLA IM,TOYOTA,Corolla iM,2017,regular unleaded,137,4,Manual,FrontWheelDrive,4,Hatchback,Hatchback,35,27
+TOYOTA CRESSIDA,TOYOTA,Cressida,1990,regular unleaded,190,6,Automatic,RearWheelDrive,4,N/A,Sedan,22,17
+TOYOTA ECHO,TOYOTA,ECHO,2003,regular unleaded,108,4,Manual,FrontWheelDrive,4,N/A,Sedan,38,30
+TOYOTA FJ CRUISER,TOYOTA,FJ Cruiser,2012,regular unleaded,260,6,Automatic,four wheel drive,4,N/A,SUV,20,17
+TOYOTA HIGHLANDER,TOYOTA,Highlander,2015,regular unleaded,270,6,Automatic,AllWheelDrive,4,Crossover,SUV,24,18
+TOYOTA HIGHLANDER HYBRID,TOYOTA,Highlander Hybrid,2014,regular unleaded,280,6,Automatic,AllWheelDrive,4,"Crossover,Hybrid",SUV,28,27
+TOYOTA LAND CRUISER,TOYOTA,Land Cruiser,2015,regular unleaded,381,8,Automatic,four wheel drive,4,Luxury,SUV,18,13
+TOYOTA MATRIX,TOYOTA,Matrix,2011,regular unleaded,132,4,Automatic,FrontWheelDrive,4,Hatchback,Hatchback,32,25
+TOYOTA MR2,TOYOTA,MR2,1993,regular unleaded,135,4,Manual,RearWheelDrive,2,Performance,Coupe,26,19
+TOYOTA MR2 SPYDER,TOYOTA,MR2 Spyder,2003,premium unleaded (required),138,4,Automated_Manual,RearWheelDrive,2,Performance,Convertible,30,22
+TOYOTA PASEO,TOYOTA,Paseo,1995,regular unleaded,100,4,Manual,FrontWheelDrive,2,N/A,Coupe,33,25
+TOYOTA PICKUP,TOYOTA,Pickup,1993,regular unleaded,150,6,Manual,RearWheelDrive,2,N/A,Extended Cab Pickup,20,15
+TOYOTA PREVIA,TOYOTA,Previa,1995,regular unleaded,138,4,Automatic,RearWheelDrive,3,N/A,Passenger Minivan,20,15
+TOYOTA PRIUS,TOYOTA,Prius,2015,regular unleaded,134,4,Automatic,FrontWheelDrive,4,"Hatchback,Hybrid",Hatchback,48,51
+TOYOTA PRIUS C,TOYOTA,Prius c,2014,regular unleaded,99,4,Automatic,FrontWheelDrive,4,"Hatchback,Hybrid",Hatchback,46,53
+TOYOTA PRIUS PRIME,TOYOTA,Prius Prime,2017,regular unleaded,121,4,Automatic,FrontWheelDrive,4,"Hatchback,Hybrid",Hatchback,53,55
+TOYOTA PRIUS V,TOYOTA,Prius v,2015,regular unleaded,134,4,Automatic,FrontWheelDrive,4,Hybrid,Wagon,40,44
+TOYOTA RAV4,TOYOTA,RAV4,2015,regular unleaded,176,4,Automatic,FrontWheelDrive,4,Crossover,SUV,31,24
+TOYOTA RAV4 EV,TOYOTA,RAV4 EV,2012,electric,154,,Direct_Drive,FrontWheelDrive,4,Crossover,SUV,74,78
+TOYOTA RAV4 HYBRID,TOYOTA,RAV4 Hybrid,2016,regular unleaded,194,4,Automatic,AllWheelDrive,4,"Crossover,Hybrid",SUV,31,34
+TOYOTA SEQUOIA,TOYOTA,Sequoia,2015,regular unleaded,381,8,Automatic,four wheel drive,4,N/A,SUV,17,13
+TOYOTA SIENNA,TOYOTA,Sienna,2015,regular unleaded,266,6,Automatic,AllWheelDrive,4,N/A,Passenger Minivan,23,16
+TOYOTA SUPRA,TOYOTA,Supra,1996,regular unleaded,320,6,Automatic,RearWheelDrive,2,Performance,Coupe,22,16
+TOYOTA T100,TOYOTA,T100,1996,regular unleaded,190,6,Manual,RearWheelDrive,2,N/A,Extended Cab Pickup,20,15
+TOYOTA TACOMA,TOYOTA,Tacoma,2015,regular unleaded,236,6,Manual,four wheel drive,4,N/A,Crew Cab Pickup,19,15
+TOYOTA TERCEL,TOYOTA,Tercel,1996,regular unleaded,93,4,Manual,FrontWheelDrive,2,N/A,Coupe,35,27
+TOYOTA TUNDRA,TOYOTA,Tundra,2015,regular unleaded,310,8,Automatic,four wheel drive,4,N/A,Extended Cab Pickup,18,14
+TOYOTA VENZA,TOYOTA,Venza,2013,regular unleaded,181,4,Automatic,FrontWheelDrive,4,Crossover,Wagon,26,20
+TOYOTA YARIS,TOYOTA,Yaris,2015,regular unleaded,106,4,Manual,FrontWheelDrive,4,Hatchback,Hatchback,37,30
+TOYOTA YARIS IA,TOYOTA,Yaris iA,2017,regular unleaded,106,4,Manual,FrontWheelDrive,4,N/A,Sedan,39,30
+VOLKSWAGEN BEETLE,VOLKSWAGEN,Beetle,2015,diesel,150,4,Automated_Manual,FrontWheelDrive,2,"Hatchback,Diesel",Hatchback,41,31
+VOLKSWAGEN BEETLE CONVERTIBLE,VOLKSWAGEN,Beetle Convertible,2014,regular unleaded,170,4,Automatic,FrontWheelDrive,2,N/A,Convertible,32,24
+VOLKSWAGEN CABRIO,VOLKSWAGEN,Cabrio,2000,regular unleaded,115,4,Manual,FrontWheelDrive,2,N/A,Convertible,28,21
+VOLKSWAGEN CABRIOLET,VOLKSWAGEN,Cabriolet,1991,regular unleaded,94,4,Manual,FrontWheelDrive,2,N/A,Convertible,29,22
+VOLKSWAGEN CC,VOLKSWAGEN,CC,2015,premium unleaded (recommended),200,4,Manual,FrontWheelDrive,4,Performance,Sedan,32,21
+VOLKSWAGEN CORRADO,VOLKSWAGEN,Corrado,1992,regular unleaded,158,4,Manual,FrontWheelDrive,2,"Hatchback,Performance",Hatchback,26,18
+VOLKSWAGEN E-GOLF,VOLKSWAGEN,e-Golf,2015,electric,115,,Direct_Drive,FrontWheelDrive,4,Hatchback,Hatchback,105,126
+VOLKSWAGEN EOS,VOLKSWAGEN,Eos,2014,premium unleaded (recommended),200,4,Automated_Manual,FrontWheelDrive,2,N/A,Convertible,30,22
+VOLKSWAGEN EUROVAN,VOLKSWAGEN,EuroVan,2001,premium unleaded (required),201,6,Automatic,FrontWheelDrive,3,N/A,Passenger Minivan,18,15
+VOLKSWAGEN FOX,VOLKSWAGEN,Fox,1991,regular unleaded,81,4,Manual,FrontWheelDrive,4,N/A,Sedan,30,22
+VOLKSWAGEN GLI,VOLKSWAGEN,GLI,2008,premium unleaded (required),200,4,Automated_Manual,FrontWheelDrive,4,Performance,Sedan,29,22
+VOLKSWAGEN GOLF,VOLKSWAGEN,Golf,2015,diesel,150,4,Automated_Manual,FrontWheelDrive,4,"Hatchback,Diesel",Hatchback,43,31
+VOLKSWAGEN GOLF ALLTRACK,VOLKSWAGEN,Golf Alltrack,2017,regular unleaded,170,4,Automated_Manual,AllWheelDrive,4,Crossover,Wagon,30,22
+VOLKSWAGEN GOLF GTI,VOLKSWAGEN,Golf GTI,2015,premium unleaded (recommended),220,4,Manual,FrontWheelDrive,2,"Hatchback,Performance",Hatchback,34,25
+VOLKSWAGEN GOLF R,VOLKSWAGEN,Golf R,2015,premium unleaded (recommended),292,4,Automated_Manual,AllWheelDrive,4,"Hatchback,Factory Tuner,High-Performance",Hatchback,30,23
+VOLKSWAGEN GOLF SPORTWAGEN,VOLKSWAGEN,Golf SportWagen,2015,diesel,150,4,Automated_Manual,FrontWheelDrive,4,Diesel,Wagon,42,31
+VOLKSWAGEN GTI,VOLKSWAGEN,GTI,2012,premium unleaded (recommended),200,4,Manual,FrontWheelDrive,2,"Hatchback,Performance",Hatchback,31,21
+VOLKSWAGEN JETTA,VOLKSWAGEN,Jetta,2015,regular unleaded,170,4,Automatic,FrontWheelDrive,4,N/A,Sedan,37,25
+VOLKSWAGEN JETTA GLI,VOLKSWAGEN,Jetta GLI,2013,premium unleaded (recommended),210,4,Automated_Manual,FrontWheelDrive,4,Performance,Sedan,32,24
+VOLKSWAGEN JETTA HYBRID,VOLKSWAGEN,Jetta Hybrid,2013,premium unleaded (required),170,4,Automated_Manual,FrontWheelDrive,4,Hybrid,Sedan,48,42
+VOLKSWAGEN JETTA SPORTWAGEN,VOLKSWAGEN,Jetta SportWagen,2012,regular unleaded,170,5,Automatic,FrontWheelDrive,4,N/A,Wagon,31,24
+VOLKSWAGEN NEW BEETLE,VOLKSWAGEN,New Beetle,2008,regular unleaded,150,5,Automatic,FrontWheelDrive,2,Hatchback,Hatchback,29,20
+VOLKSWAGEN PASSAT,VOLKSWAGEN,Passat,2015,regular unleaded,170,4,Automatic,FrontWheelDrive,4,N/A,Sedan,36,24
+VOLKSWAGEN PHAETON,VOLKSWAGEN,Phaeton,2004,premium unleaded (recommended),335,8,Automatic,AllWheelDrive,4,"Luxury,Performance",Sedan,21,14
+VOLKSWAGEN R32,VOLKSWAGEN,R32,2004,premium unleaded (recommended),240,6,Manual,AllWheelDrive,2,"Hatchback,Performance",Hatchback,24,17
+VOLKSWAGEN RABBIT,VOLKSWAGEN,Rabbit,2007,regular unleaded,150,5,Manual,FrontWheelDrive,4,Hatchback,Hatchback,28,19
+VOLKSWAGEN ROUTAN,VOLKSWAGEN,Routan,2010,regular unleaded,197,6,Automatic,FrontWheelDrive,4,N/A,Passenger Minivan,23,16
+VOLKSWAGEN TIGUAN,VOLKSWAGEN,Tiguan,2015,premium unleaded (recommended),200,4,Automatic,AllWheelDrive,4,Crossover,SUV,26,20
+VOLKSWAGEN TOUAREG,VOLKSWAGEN,Touareg,2015,diesel,240,6,Automatic,AllWheelDrive,4,"Crossover,Diesel",SUV,29,20
+VOLKSWAGEN TOUAREG 2,VOLKSWAGEN,Touareg 2,2008,premium unleaded (required),350,8,Automatic,AllWheelDrive,4,"Crossover,Performance",SUV,17,12
+VOLKSWAGEN VANAGON,VOLKSWAGEN,Vanagon,1990,regular unleaded,90,4,Manual,four wheel drive,3,N/A,Passenger Minivan,15,14
+VOLVO 240,VOLVO,240,1991,regular unleaded,114,4,Manual,RearWheelDrive,4,Luxury,Wagon,26,19
+VOLVO 740,VOLVO,740,1990,regular unleaded,114,4,Manual,RearWheelDrive,4,Luxury,Sedan,26,19
+VOLVO 760,VOLVO,760,1990,regular unleaded,144,6,Automatic,RearWheelDrive,4,Luxury,Sedan,19,15
+VOLVO 780,VOLVO,780,1990,regular unleaded,188,4,Automatic,RearWheelDrive,2,Luxury,Coupe,20,16
+VOLVO 850,VOLVO,850,1995,regular unleaded,222,5,Automatic,FrontWheelDrive,4,"Luxury,Performance",Wagon,24,17
+VOLVO 940,VOLVO,940,1993,regular unleaded,114,4,Automatic,RearWheelDrive,4,Luxury,Sedan,25,17
+VOLVO 960,VOLVO,960,1995,regular unleaded,181,6,Automatic,RearWheelDrive,4,Luxury,Wagon,23,15
+VOLVO C30,VOLVO,C30,2011,premium unleaded (recommended),227,5,Manual,FrontWheelDrive,2,"Hatchback,Luxury",Hatchback,29,21
+VOLVO C70,VOLVO,C70,2011,premium unleaded (recommended),227,5,Automatic,FrontWheelDrive,2,Luxury,Convertible,28,19
+VOLVO COUPE,VOLVO,Coupe,1991,regular unleaded,188,4,Automatic,RearWheelDrive,2,Luxury,Coupe,20,17
+VOLVO S40,VOLVO,S40,2009,premium unleaded (recommended),227,5,Automatic,AllWheelDrive,4,Luxury,Sedan,26,18
+VOLVO S60,VOLVO,S60,2015,regular unleaded,250,5,Automatic,AllWheelDrive,4,"Luxury,Performance",Sedan,29,20
+VOLVO S60 CROSS COUNTRY,VOLVO,S60 Cross Country,2017,regular unleaded,240,4,Automatic,AllWheelDrive,4,Luxury,Sedan,30,22
+VOLVO S70,VOLVO,S70,1998,regular unleaded,168,5,Manual,FrontWheelDrive,4,Luxury,Sedan,27,17
+VOLVO S80,VOLVO,S80,2014,regular unleaded,240,6,Automatic,FrontWheelDrive,4,Luxury,Sedan,29,20
+VOLVO S90,VOLVO,S90,1998,regular unleaded,181,6,Automatic,RearWheelDrive,4,Luxury,Sedan,23,16
+VOLVO V40,VOLVO,V40,2002,premium unleaded (required),160,4,Automatic,FrontWheelDrive,4,Luxury,Wagon,27,19
+VOLVO V50,VOLVO,V50,2009,premium unleaded (recommended),168,5,Automatic,FrontWheelDrive,4,Luxury,Wagon,31,20
+VOLVO V60,VOLVO,V60,2015,regular unleaded,325,6,Automatic,AllWheelDrive,4,"Luxury,High-Performance",Wagon,28,19
+VOLVO V60 CROSS COUNTRY,VOLVO,V60 Cross Country,2015,regular unleaded,250,5,Automatic,AllWheelDrive,4,"Crossover,Luxury",Wagon,28,20
+VOLVO V70,VOLVO,V70,2008,premium unleaded (recommended),235,6,Automatic,FrontWheelDrive,4,Luxury,Wagon,24,16
+VOLVO V90,VOLVO,V90,1998,regular unleaded,181,6,Automatic,RearWheelDrive,4,Luxury,Wagon,23,16
+VOLVO XC,VOLVO,XC,2002,premium unleaded (required),197,5,Automatic,AllWheelDrive,4,"Crossover,Luxury",Wagon,23,17
+VOLVO XC60,VOLVO,XC60,2015,regular unleaded,325,6,Automatic,AllWheelDrive,4,"Crossover,Luxury,Performance",SUV,24,17
+VOLVO XC70,VOLVO,XC70,2014,regular unleaded,240,6,Automatic,FrontWheelDrive,4,"Crossover,Luxury",Wagon,26,18
+VOLVO XC90,VOLVO,XC90,2014,regular unleaded,240,6,Automatic,FrontWheelDrive,4,"Crossover,Luxury",SUV,25,16

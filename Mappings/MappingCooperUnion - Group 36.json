@@ -1,0 +1,764 @@
+{
+  "baseIRI": "http://example/base/",
+  "namespaces": {
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "skos": "http://www.w3.org/2004/02/skos/core#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "auto": "http://example.com/group36/",
+    "dbo": "http://dbpedia.org/ontology/",
+    "vso": "http://www.heppnetz.de/ontologies/vso/ns#",
+    "owl": "http://www.w3.org/2002/07/owl#"
+  },
+  "subjectMappings": [
+    {
+      "propertyMappings": [
+        {
+          "property": {
+            "transformation": {
+              "expression": "dbo",
+              "language": "prefix"
+            },
+            "valueSource": {
+              "source": "constant",
+              "constant": "manufacturer"
+            }
+          },
+          "values": [
+            {
+              "transformation": {
+                "expression": "auto",
+                "language": "prefix"
+              },
+              "valueSource": {
+                "columnName": "Make",
+                "source": "column"
+              },
+              "valueType": {
+                "propertyMappings": [],
+                "type": "iri",
+                "typeMappings": []
+              }
+            }
+          ]
+        },
+        {
+          "property": {
+            "transformation": {
+              "expression": "auto",
+              "language": "prefix"
+            },
+            "valueSource": {
+              "source": "constant",
+              "constant": "hasModel"
+            }
+          },
+          "values": [
+            {
+              "valueSource": {
+                "columnName": "Model",
+                "source": "column"
+              },
+              "valueType": {
+                "type": "datatype_literal",
+                "datatype": {
+                  "transformation": {
+                    "expression": "xsd",
+                    "language": "prefix"
+                  },
+                  "valueSource": {
+                    "source": "constant",
+                    "constant": "string"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "property": {
+            "transformation": {
+              "expression": "auto",
+              "language": "prefix"
+            },
+            "valueSource": {
+              "source": "constant",
+              "constant": "hasFuelType"
+            }
+          },
+          "values": [
+            {
+              "valueSource": {
+                "columnName": "Engine Fuel Type",
+                "source": "column"
+              },
+              "valueType": {
+                "type": "datatype_literal",
+                "datatype": {
+                  "transformation": {
+                    "expression": "xsd",
+                    "language": "prefix"
+                  },
+                  "valueSource": {
+                    "source": "constant",
+                    "constant": "string"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "property": {
+            "transformation": {
+              "expression": "auto",
+              "language": "prefix"
+            },
+            "valueSource": {
+              "source": "constant",
+              "constant": "hasProductionYear"
+            }
+          },
+          "values": [
+            {
+              "valueSource": {
+                "columnName": "Year",
+                "source": "column"
+              },
+              "valueType": {
+                "type": "datatype_literal",
+                "datatype": {
+                  "transformation": {
+                    "expression": "xsd",
+                    "language": "prefix"
+                  },
+                  "valueSource": {
+                    "source": "constant",
+                    "constant": "int"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "property": {
+            "transformation": {
+              "expression": "vso",
+              "language": "prefix"
+            },
+            "valueSource": {
+              "source": "constant",
+              "constant": "enginePower"
+            }
+          },
+          "values": [
+            {
+              "valueSource": {
+                "columnName": "Engine HP",
+                "source": "column"
+              },
+              "valueType": {
+                "type": "datatype_literal",
+                "datatype": {
+                  "transformation": {
+                    "expression": "xsd",
+                    "language": "prefix"
+                  },
+                  "valueSource": {
+                    "source": "constant",
+                    "constant": "int"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "property": {
+            "transformation": {
+              "expression": "auto",
+              "language": "prefix"
+            },
+            "valueSource": {
+              "source": "constant",
+              "constant": "hasCylinders"
+            }
+          },
+          "values": [
+            {
+              "valueSource": {
+                "columnName": "Engine Cylinders",
+                "source": "column"
+              },
+              "valueType": {
+                "type": "datatype_literal",
+                "datatype": {
+                  "transformation": {
+                    "expression": "xsd",
+                    "language": "prefix"
+                  },
+                  "valueSource": {
+                    "source": "constant",
+                    "constant": "int"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "property": {
+            "transformation": {
+              "expression": "vso",
+              "language": "prefix"
+            },
+            "valueSource": {
+              "source": "constant",
+              "constant": "transmission"
+            }
+          },
+          "values": [
+            {
+              "transformation": {
+                "expression": "auto",
+                "language": "prefix"
+              },
+              "valueSource": {
+                "columnName": "Transmission Type",
+                "source": "column"
+              },
+              "valueType": {
+                "propertyMappings": [],
+                "type": "iri",
+                "typeMappings": []
+              }
+            }
+          ]
+        },
+        {
+          "property": {
+            "transformation": {
+              "expression": "vso",
+              "language": "prefix"
+            },
+            "valueSource": {
+              "source": "constant",
+              "constant": "driveWheelConfiguration"
+            }
+          },
+          "values": [
+            {
+              "transformation": {
+                "expression": "auto",
+                "language": "prefix"
+              },
+              "valueSource": {
+                "columnName": "Driven_Wheels",
+                "source": "column"
+              },
+              "valueType": {
+                "propertyMappings": [],
+                "type": "iri",
+                "typeMappings": []
+              }
+            }
+          ]
+        },
+        {
+          "property": {
+            "transformation": {
+              "expression": "vso",
+              "language": "prefix"
+            },
+            "valueSource": {
+              "source": "constant",
+              "constant": "doors"
+            }
+          },
+          "values": [
+            {
+              "valueSource": {
+                "columnName": "Number of Doors",
+                "source": "column"
+              },
+              "valueType": {
+                "type": "datatype_literal",
+                "datatype": {
+                  "transformation": {
+                    "expression": "xsd",
+                    "language": "prefix"
+                  },
+                  "valueSource": {
+                    "source": "constant",
+                    "constant": "int"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "property": {
+            "transformation": {
+              "expression": "vso",
+              "language": "prefix"
+            },
+            "valueSource": {
+              "source": "constant",
+              "constant": "bodyStyle"
+            }
+          },
+          "values": [
+            {
+              "transformation": {
+                "expression": "auto",
+                "language": "prefix"
+              },
+              "valueSource": {
+                "columnName": "Car Body Style",
+                "source": "column"
+              },
+              "valueType": {
+                "propertyMappings": [],
+                "type": "iri",
+                "typeMappings": []
+              }
+            }
+          ]
+        }
+      ],
+      "subject": {
+        "transformation": {
+          "expression": "auto",
+          "language": "prefix"
+        },
+        "valueSource": {
+          "columnName": "Name",
+          "source": "column"
+        }
+      },
+      "typeMappings": [
+        {
+          "transformation": {
+            "expression": "dbo",
+            "language": "prefix"
+          },
+          "valueSource": {
+            "source": "constant",
+            "constant": "Automobile"
+          }
+        }
+      ]
+    },
+    {
+      "propertyMappings": [],
+      "subject": {
+        "transformation": {
+          "expression": "auto",
+          "language": "prefix"
+        },
+        "valueSource": {
+          "columnName": "Make",
+          "source": "column"
+        }
+      },
+      "typeMappings": [
+        {
+          "transformation": {
+            "expression": "dbo",
+            "language": "prefix"
+          },
+          "valueSource": {
+            "source": "constant",
+            "constant": "Company"
+          }
+        }
+      ]
+    },
+    {
+      "propertyMappings": [
+        {
+          "property": {
+            "transformation": {
+              "expression": "rdfs",
+              "language": "prefix"
+            },
+            "valueSource": {
+              "source": "constant",
+              "constant": "subClassOf"
+            }
+          },
+          "values": [
+            {
+              "transformation": {
+                "expression": "auto",
+                "language": "prefix"
+              },
+              "valueSource": {
+                "source": "constant",
+                "constant": "TransmissionType"
+              },
+              "valueType": {
+                "propertyMappings": [],
+                "type": "iri",
+                "typeMappings": []
+              }
+            }
+          ]
+        }
+      ],
+      "subject": {
+        "transformation": {
+          "expression": "auto",
+          "language": "prefix"
+        },
+        "valueSource": {
+          "columnName": "Transmission Type",
+          "source": "column"
+        }
+      },
+      "typeMappings": []
+    },
+    {
+      "propertyMappings": [
+        {
+          "property": {
+            "transformation": {
+              "expression": "rdfs",
+              "language": "prefix"
+            },
+            "valueSource": {
+              "source": "constant",
+              "constant": "subClassOf"
+            }
+          },
+          "values": [
+            {
+              "transformation": {
+                "expression": "auto",
+                "language": "prefix"
+              },
+              "valueSource": {
+                "source": "constant",
+                "constant": "DrivenWheelsConfigurationValue"
+              },
+              "valueType": {
+                "propertyMappings": [],
+                "type": "iri",
+                "typeMappings": []
+              }
+            }
+          ]
+        }
+      ],
+      "subject": {
+        "transformation": {
+          "expression": "auto",
+          "language": "prefix"
+        },
+        "valueSource": {
+          "columnName": "Driven_Wheels",
+          "source": "column"
+        }
+      },
+      "typeMappings": []
+    },
+    {
+      "propertyMappings": [
+        {
+          "property": {
+            "transformation": {
+              "expression": "rdfs",
+              "language": "prefix"
+            },
+            "valueSource": {
+              "source": "constant",
+              "constant": "subClassOf"
+            }
+          },
+          "values": [
+            {
+              "transformation": {
+                "expression": "auto",
+                "language": "prefix"
+              },
+              "valueSource": {
+                "source": "constant",
+                "constant": "CarBodyStyle"
+              },
+              "valueType": {
+                "propertyMappings": [],
+                "type": "iri",
+                "typeMappings": []
+              }
+            }
+          ]
+        }
+      ],
+      "subject": {
+        "transformation": {
+          "expression": "auto",
+          "language": "prefix"
+        },
+        "valueSource": {
+          "columnName": "Car Body Style",
+          "source": "column"
+        }
+      },
+      "typeMappings": []
+    },
+    {
+      "propertyMappings": [],
+      "subject": {
+        "transformation": {
+          "expression": "auto",
+          "language": "prefix"
+        },
+        "valueSource": {
+          "source": "constant",
+          "constant": "hasModel"
+        }
+      },
+      "typeMappings": [
+        {
+          "transformation": {
+            "expression": "owl",
+            "language": "prefix"
+          },
+          "valueSource": {
+            "source": "constant",
+            "constant": "DatatypeProperty"
+          }
+        }
+      ]
+    },
+    {
+      "propertyMappings": [],
+      "subject": {
+        "transformation": {
+          "expression": "auto",
+          "language": "prefix"
+        },
+        "valueSource": {
+          "source": "constant",
+          "constant": "hasFuelType"
+        }
+      },
+      "typeMappings": [
+        {
+          "transformation": {
+            "expression": "owl",
+            "language": "prefix"
+          },
+          "valueSource": {
+            "source": "constant",
+            "constant": "DatatypeProperty"
+          }
+        }
+      ]
+    },
+    {
+      "propertyMappings": [],
+      "subject": {
+        "transformation": {
+          "expression": "auto",
+          "language": "prefix"
+        },
+        "valueSource": {
+          "source": "constant",
+          "constant": "hasProductionYear"
+        }
+      },
+      "typeMappings": [
+        {
+          "transformation": {
+            "expression": "owl",
+            "language": "prefix"
+          },
+          "valueSource": {
+            "source": "constant",
+            "constant": "DatatypeProperty"
+          }
+        }
+      ]
+    },
+    {
+      "propertyMappings": [],
+      "subject": {
+        "transformation": {
+          "expression": "dbo",
+          "language": "prefix"
+        },
+        "valueSource": {
+          "source": "constant",
+          "constant": "manufacturer"
+        }
+      },
+      "typeMappings": [
+        {
+          "transformation": {
+            "expression": "owl",
+            "language": "prefix"
+          },
+          "valueSource": {
+            "source": "constant",
+            "constant": "ObjectProperty"
+          }
+        }
+      ]
+    },
+    {
+      "propertyMappings": [],
+      "subject": {
+        "transformation": {
+          "expression": "vso",
+          "language": "prefix"
+        },
+        "valueSource": {
+          "source": "constant",
+          "constant": "enginePower"
+        }
+      },
+      "typeMappings": [
+        {
+          "transformation": {
+            "expression": "owl",
+            "language": "prefix"
+          },
+          "valueSource": {
+            "source": "constant",
+            "constant": "DatatypeProperty"
+          }
+        }
+      ]
+    },
+    {
+      "propertyMappings": [],
+      "subject": {
+        "transformation": {
+          "expression": "auto",
+          "language": "prefix"
+        },
+        "valueSource": {
+          "source": "constant",
+          "constant": "hasCylinders"
+        }
+      },
+      "typeMappings": [
+        {
+          "transformation": {
+            "expression": "owl",
+            "language": "prefix"
+          },
+          "valueSource": {
+            "source": "constant",
+            "constant": "DatatypeProperty"
+          }
+        }
+      ]
+    },
+    {
+      "propertyMappings": [],
+      "subject": {
+        "transformation": {
+          "expression": "vso",
+          "language": "prefix"
+        },
+        "valueSource": {
+          "source": "constant",
+          "constant": "transmission"
+        }
+      },
+      "typeMappings": [
+        {
+          "transformation": {
+            "expression": "owl",
+            "language": "prefix"
+          },
+          "valueSource": {
+            "source": "constant",
+            "constant": "ObjectProperty"
+          }
+        }
+      ]
+    },
+    {
+      "propertyMappings": [],
+      "subject": {
+        "transformation": {
+          "expression": "vso",
+          "language": "prefix"
+        },
+        "valueSource": {
+          "source": "constant",
+          "constant": "driveWheelConfiguration"
+        }
+      },
+      "typeMappings": [
+        {
+          "transformation": {
+            "expression": "owl",
+            "language": "prefix"
+          },
+          "valueSource": {
+            "source": "constant",
+            "constant": "ObjectProperty"
+          }
+        }
+      ]
+    },
+    {
+      "propertyMappings": [],
+      "subject": {
+        "transformation": {
+          "expression": "vso",
+          "language": "prefix"
+        },
+        "valueSource": {
+          "source": "constant",
+          "constant": "doors"
+        }
+      },
+      "typeMappings": [
+        {
+          "transformation": {
+            "expression": "owl",
+            "language": "prefix"
+          },
+          "valueSource": {
+            "source": "constant",
+            "constant": "DatatypeProperty"
+          }
+        }
+      ]
+    },
+    {
+      "propertyMappings": [],
+      "subject": {
+        "transformation": {
+          "expression": "vso",
+          "language": "prefix"
+        },
+        "valueSource": {
+          "source": "constant",
+          "constant": "bodyStyle"
+        }
+      },
+      "typeMappings": [
+        {
+          "transformation": {
+            "expression": "owl",
+            "language": "prefix"
+          },
+          "valueSource": {
+            "source": "constant",
+            "constant": "ObjectProperty"
+          }
+        }
+      ]
+    }
+  ]
+}
