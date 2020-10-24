@@ -101,4 +101,3 @@ let filters = {
     $("#amount").val("$" + $("#slider-range2").slider("values", 0) +
       " - $" + $("#slider-range2").slider("values", 1));
   });
-  //

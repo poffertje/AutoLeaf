@@ -1,7 +1,7 @@
 angular.module('KRRclass', [ 'chart.js']).controller('MainCtrl', ['$scope','$http', mainCtrl]);
 
 function mainCtrl($scope, $http){
-  $scope.mySparqlEndpoint = "http://192.168.1.109:7200/repositories/Group_36";
+  $scope.mySparqlEndpoint = "http://192.168.1.251:7200/repositories/Group_36";
 
   $scope.startMakeQuery = function(){
     $scope.displayMakeMessage = "Car Manufactureres";
@@ -23,10 +23,14 @@ function mainCtrl($scope, $http){
       // now iterate on the results
       angular.forEach(data.results.bindings, function(val) {
         count += 1;
-        var ManufacturerName = val.name.value;
-        $scope.myDynamicManufacturers.push(val.Car.value);
-        var name = document.createElement("dropdown-item");
+        var ManufacturerName = val.Car.value;
+        $scope.CarManufacturers.push(val.Car.value);
       });
+      const div = document.querySelector('.dropdown-menu');
+      const regions = $scope.CarManufacturers;
+      regions.forEach(region => {
+        div.innerHTML += `<a class="dropdown-item" href="#">${region}</a>`;
+      })
     })
     .error(function(error ){
       console.log('Error running the input query!'+error);
