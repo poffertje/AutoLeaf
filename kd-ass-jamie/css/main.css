@@ -1,0 +1,177 @@
+.dashboard {
+  display: flex;
+  width: 100%;
+  max-width: 1194px;
+  margin: 0 auto;
+  box-shadow: 0 0 9px -3px rgba(0,0,0,0.75);
+  background-color: #ffffff;
+}
+
+.filter_column {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 25%;
+  height: 100vh;
+  padding: 30px 15px 30px 30px;
+  background-color: #FFFFFF;
+}
+
+.results_column {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 75%;
+  padding: 30px;
+}
+
+.dropdown-toggle {
+  background-color: #ffffff;
+  margin: 2px 0 10px 0;
+  border-radius: 5px;
+  box-shadow: none;
+  padding: 8px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.filter {
+  margin-bottom: 15px;
+}
+
+.filter--label {
+  margin-bottom: 2px;
+  font-weight: bold;
+}
+
+.multi_selection--button {
+  background-color: #ffffff;
+  color: #424242;
+  width: 48.5%;
+  border: 1.8px #A1CBAB solid;
+  border-radius: 18px ;
+  padding: 8px;
+  font-size: 15px;
+}
+
+.button--selected {
+  background-color: #EBF6EA;
+  color: #19642B;
+  border:2px #A1CBAB solid;
+  font-weight: 500;
+}
+
+/* Results side */
+
+.results_header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 50px;
+  background-color: #C9E1F6;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.header_text--first {
+ font-size: 28px;
+  margin-bottom: -8px;
+  color: #424242;
+}
+
+.header_text--second {
+  font-size: 28px;
+  font-weight: bold;
+  color: #424242;
+}
+
+.results_header--img {
+  width: 40%;
+  margin: -50px;
+  border-radius: 5px;
+}
+
+
+/* CAR CARD STYLING */
+
+.car-card {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 5px;
+  box-shadow: 0 2px 50px 0 rgba(0,0,0,0.10);
+  margin: 10px 0;
+  padding: 15px;
+}
+
+.car-image {
+  max-width: 40%;
+  height: auto;
+}
+
+.car-info {
+  width: 60%;
+}
+
+.car-tags {
+  display: flex;
+  padding-bottom: 10px;
+}
+
+.tag {
+  padding: 7px 9px;
+  border-radius: 10px;
+  margin-right: 7px;
+  font-size:14px;
+}
+
+tag:last-child {
+  margin: 0;
+}
+
+.transmission-tag {
+  background-color: #D0E5EC;
+ }
+
+.fuel-tag {
+ background-color: #ECD0D0;
+}
+
+.style-tag {
+  background-color: #FFE5B6;
+}
+
+.doors-tag {
+  background-color: #D0ECD0;
+}
+
+.whatever-tag {
+  background-color: #E2D0EC;
+}
+
+.eco-leaf-image {
+  max-height: 45px;
+  height: auto;  
+}
+
+.eco-progress {
+  margin: 0;
+  padding: 0;
+}
+
+.eco-progress {
+  height: 8px !important;
+  margin-right: 15px !important;
+  border-radius: 5px;
+}
+
+.eco-progress .progress-bar {
+  background-color: #19642B;
+}
+
+.multi_selection--button:hover {
+  background-color:#EBF6EA;
+  color:#19642B !important;
+  font-weight: 500;
+}
