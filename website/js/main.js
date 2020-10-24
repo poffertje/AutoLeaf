@@ -1,6 +1,13 @@
-let filters = {
+angular.module('carSearch', []).controller('CarController', ['$scope', '$http', carController]);
+
+function carController($scope, $http) {
+  $scope.GraphDBSparqlEndpoint = "http://192.168.1.251:7200/repositories/Group_36";
+
+  $scope.filters = {
     brand: "",
+    country: [],
     year: [1996, 2020],
+    category:[],
     transmission: [],
     noOfDoors: [],
     vehicleStyle: [],
@@ -8,19 +15,19 @@ let filters = {
     cylinders: [1, 20]
   };
 
-  function httpGet(theUrl) {
+  $scope.httpGet = function (theUrl) {
     const xmlHttp = new XMLHttpRequest();
     xmlHttp.open("GET", theUrl, false); // false for synchronous request
     xmlHttp.send(null);
     return JSON.parse(xmlHttp.responseText);
-  }
+  };
 
   window.onload = () => {
-    $('.dropdown-menu a').click(function () {
+    $('.brand-dropdown a').click(function () {
       const selectedClass = "dropdown-item--selected";
       $(".dropdown-item").removeClass(selectedClass);
-      filters = {
-        ...filters,
+      $scope.filters = {
+        ...$scope.filters,
         brand: this.innerHTML
       };
       $('#dropdownMenuButton').text(this.innerHTML);
@@ -30,21 +37,27 @@ let filters = {
         $(this).addClass(selectedClass);
       }
     });
-    // const query = httpGet("https://api.unsplash.com/search/photos?client_id=1R7OEW7YscUFiapoATUJqdO8x-O4naIgxOM9mlxxsy8&page=3&query=ferrari");
-    // const images = query.results.map(result => result.urls.full);
-    // const container = document.getElementById('imageContainer');
-    // images.map(image => {
-    //   let img = document.createElement('img');
-    //   img.src = image;
-    //   img.style = "max-width: 200px;";
-    //   container.appendChild(img);
-    // });
+
+      $('.country-dropdown a').click(function () {
+        const selectedClass = ".dropdown-item--selected";
+        $(".dropdown-item").removeClass(selectedClass);
+        $scope.filters = {
+          ...$scope.filters,
+          country: this.innerHTML
+        };
+        $('#countryDropdownMenuButton').text(this.innerHTML);
+        if($(this).hasClass(selectedClass)) {
+          $(this).removeClass(selectedClass);
+        } else {
+          $(this).addClass(selectedClass);
+        }
+    });
   };
 
-  function handleFilterToggle(filter, value) {
-    const updatedFilter = filters[filter].includes(value) ? filters[filter].filter(fil => fil !== value) : [...filters[filter], value];
-    filters = {
-      ...filters,
+  $scope.handleFilterToggle = function (filter, value) {
+    const updatedFilter = $scope.filters[filter].includes(value) ? $scope.filters[filter].filter(fil => fil !== value) : [...$scope.filters[filter], value];
+    $scope.filters = {
+      ...$scope.filters,
       [filter]: updatedFilter
     };
 
@@ -56,10 +69,9 @@ let filters = {
     } else {
       button.addClass(selectedClass);
     }
-  }
+  };
 
-
-  //Year range slider
+//Year range slider
   $(function () {
     $("#slider-range").slider({
       range: true,
@@ -67,8 +79,8 @@ let filters = {
       max: 2020,
       values: [1996, 2020],
       slide: function (event, ui) {
-        filters = {
-          ...filters,
+        $scope.filters = {
+          ...$scope.filters,
           year: [ui.values[0], ui.values[1]]
         };
         // This runs when the slider is moved
@@ -81,23 +93,34 @@ let filters = {
       " - $" + $("#slider-range").slider("values", 1));
   });
 
-  //Cylinders slider
-  $(function () {
-    $("#slider-range2").slider({
-      range: true,
-      min: 1,
-      max: 20,
-      values: [1, 20],
-      slide: function (event, ui) {
-        filters = {
-          ...filters,
-          cylinders: [ui.values[0], ui.values[1]]
-        };
-        $('#cylinder1').text(ui.values[0]);
-        $('#cylinder2').text(ui.values[1]);
-        $("#amount").val("$" + ui.values[0] + " - $" + ui.values[1]);
-      }
+  $scope.QueryManufacturers = function(){
+
+    //Sparql query
+    $scope.ManufacturersQuery = `
+    PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+    PREFIX auto: <http://example.com/group36/>
+    select ?Manufacturer where {?Manufacturer rdf:type auto:CarManufacturer.} `;
+    $scope.SparqlManufacturersQuery = encodeURI($scope.ManufacturersQuery).replace(/#/g, '%23');
+
+    $http( {
+      method: "GET",
+      url : $scope.GraphDBSparqlEndpoint + "?query=" + $scope.SparqlManufacturersQuery   ,
+      headers : {'Accept':'application/sparql-results+json', 'Content-Type':'application/sparql-results+json'}
+    } )
+    .success(function(data, status ) {
+      $scope.CarManufacturers = [];
+      // Iterate over the results and append the created list
+      angular.forEach(data.results.bindings, function(val) {
+        $scope.CarManufacturers.push(val.Manufacturer.value);
+      });
+      // Add the CarManufacturers to the dropdown menu
+      const div = document.querySelector('.dropdown-menu');
+      $scope.CarManufacturers.forEach(manufacturer => {
+        div.innerHTML += `<a class="dropdown-item" href="#">${manufacturer.replace("http://example.com/group36/", "").replace('_', ' ').toLowerCase()}</a>`;
+      })
+    })
+    .error(function(error ){
+      console.log('Error running the input query!'+error);
     });
-    $("#amount").val("$" + $("#slider-range2").slider("values", 0) +
-      " - $" + $("#slider-range2").slider("values", 1));
-  });
+  };
+};
