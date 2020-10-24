@@ -6,6 +6,7 @@ html {
 body {
   margin: 0;
   background-color: #C9E1F6;
+  font-family: 'Roboto', sans-serif;
 }
 
 main {
@@ -229,7 +230,7 @@ template {
 }
 
 .ui-widget-header {
-  background: #006400 url("images/ui-bg_highlight-soft_75_cccccc_1x100.png") 50% 50% repeat-x !important;
+  background: #006400 50% 50% repeat-x !important;
 }
 
 .ui-state-default {
@@ -237,15 +238,31 @@ template {
   background-color: #ffffff !important;
 }
 
+.dropdown-menu.show {
+  width: 100%;
+}
+
 .dropdown-item--selected {
-  background-color: #006400;
-  color: #ffffff;
+  background-color: #ffffff;
+  color: #006400;
+  font-weight: bold;
+}
+
+.ui-corner-all {
+  height: 10px !important;
 }
 
 .ui-state-default, .ui-widget-content .ui-state-default, .ui-widget-header .ui-state-default {
   border: 3px solid #d3d3d3 !important;
-  background: #e6e6e6 url(images/ui-bg_glass_75_e6e6e6_1x400.png) 50% 50% repeat-x;
+  background: #e6e6e6 50% 50% repeat-x;
   font-weight: normal;
-  color: #555555;
-  border-radius: 25px;
+  width: 20px !important;
+  height: 20px !important;
+  border-radius: 100px;
+}
+
+.ui-widget-content {
+  background: none !important;
+  background-color: #e6e6e6 !important;
+  border: none !important;
 }

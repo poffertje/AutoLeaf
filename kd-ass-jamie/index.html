@@ -21,6 +21,7 @@
     <script src="js/main.js"></script>
     <meta name="theme-color" content="#fafafa">
 </head>
+
 <body ng-controller="CarController">
 <div class="dashboard">
     <div class="filter_column">
@@ -30,7 +31,7 @@
             <div class="dropdown">
                 <button class="btn w-100 bg-light dropdown-toggle" type="button" id="countryDropdownMenuButton"
                         data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                    Select Country Manufacturer
+                    Select Country
                 </button>
                 <div class="dropdown-menu country-dropdown" aria-labelledby="countryDropdownMenuButton">
                     <a class="dropdown-item" href="#">Germany</a>
@@ -45,7 +46,7 @@
                     Select a brand
                 </button>
                 <div class="dropdown-menu brand-dropdown" aria-labelledby="dropdownMenuButton">
-                    <a class="dropdown-item " href="#">Ferrari</a>
+                    <a class="dropdown-item" href="#">Ferrari</a>
                     <a class="dropdown-item" href="#">Ford</a>
                     <a class="dropdown-item" href="#">Joe mamma</a>
                 </div>
@@ -55,7 +56,7 @@
         <div class="filter">
             <label class="filter--label">Year Range</label>
             <div style="margin: 5px 10px 3px 10px;" id="slider-range"></div>
-            <div class="flex justify-between">
+            <div class="flex justify-between pt-1">
                 <span id="year1">1996</span>
                 <span id="year2">2020</span>
             </div>
@@ -65,42 +66,30 @@
             <label class="filter--label">Category</label>
             <div class="flex justify-between mb-2">
                 <button id="family" class="multi_selection--button"
-                       ng-click="handleFilterToggle('category', 'family')">Family
+                        ng-click="handleFilterToggle('category', 'family')">Family
                 </button>
                 <button id="performance" class="multi_selection--button"
-                       ng-click="handleFilterToggle('category', 'performance')">Performance
+                        ng-click="handleFilterToggle('category', 'performance')">Performance
                 </button>
             </div>
             <div class="flex justify-between mb-2">
                 <button id="luxury" class="multi_selection--button"
-                       ng-click="handleFilterToggle('category', 'luxury')">Luxury
+                        ng-click="handleFilterToggle('category', 'luxury')">Luxury
                 </button>
                 <button id="highCapacity" class="multi_selection--button"
-                       ng-click="handleFilterToggle('category', 'highCapacity')">High Capacity
+                        ng-click="handleFilterToggle('category', 'highCapacity')">High Capacity
                 </button>
             </div>
         </div>
 
         <div class="filter">
             <label class="filter--label">Transmission</label>
-            <div class="flex justify-between"> 
+            <div class="flex justify-between">
                 <button id="manual" class="multi_selection--button"
-                       ng-click="handleFilterToggle('transmission', 'manual')">Manual
+                        ng-click="handleFilterToggle('transmission', 'manual')">Manual
                 </button>
                 <button id="automatic" class="multi_selection--button"
-                       ng-click="handleFilterToggle('transmission', 'automatic')">Automatic
-                </button>
-            </div>
-        </div>
-
-        <div class="filter">
-            <label class="filter--label">No. of Doors</label>
-            <div class="flex justify-between">
-                <button id="twoDoors" class="multi_selection--button"
-                       ng-click="handleFilterToggle('noOfDoors', 'twoDoors')">Two Doors
-                </button>
-                <button id="fourDoors" class="multi_selection--button"
-                       ng-click="handleFilterToggle('noOfDoors', 'fourDoors')">Four Doors
+                        ng-click="handleFilterToggle('transmission', 'automatic')">Automatic
                 </button>
             </div>
         </div>
@@ -112,23 +101,23 @@
                         ng-click="handleFilterToggle('vehicleStyle', 'sedan')">Sedan
                 </button>
                 <button id="coupe" class="multi_selection--button"
-                       ng-click="handleFilterToggle('vehicleStyle', 'coupe')">Coupe
+                        ng-click="handleFilterToggle('vehicleStyle', 'coupe')">Coupe
                 </button>
             </div>
             <div class="flex justify-between mb-2">
                 <button id="convertible" class="multi_selection--button"
-                       ng-click="handleFilterToggle('vehicleStyle', 'convertible')">Convertible
+                        ng-click="handleFilterToggle('vehicleStyle', 'convertible')">Convertible
                 </button>
                 <button id="wagon" class="multi_selection--button"
-                       ng-click="handleFilterToggle('vehicleStyle', 'wagon')">Wagon
+                        ng-click="handleFilterToggle('vehicleStyle', 'wagon')">Wagon
                 </button>
             </div>
             <div class="flex justify-between mb-2">
                 <button id="hatchback" class="multi_selection--button"
-                       ng-click="handleFilterToggle('vehicleStyle', 'hatchback')">Hatchback
+                        ng-click="handleFilterToggle('vehicleStyle', 'hatchback')">Hatchback
                 </button>
                 <button id="minivan" class="multi_selection--button"
-                       ng-click="handleFilterToggle('vehicleStyle', 'minivan')">Minivan
+                        ng-click="handleFilterToggle('vehicleStyle', 'minivan')">Minivan
                 </button>
             </div>
             <div class="flex justify-between">
@@ -158,8 +147,32 @@
             </div>
             <img class="results_header--img" src="img/results-header.jpg"/>
         </div>
+
+        <div class="car-card">
+            <img class="car-image" src="img/car.png"/>
+            <div class="car-info">
+                <h4>Atura Model S 2015</h4>
+                <div class="car-tags">
+                    <span class="tag transmission-tag">Automatic</span>
+                    <span class="tag fuel-tag">Gasoline</span>
+                    <span class="tag style-tag">Sedan</span>
+                    <span class="tag doors-tag">Japan</span>
+                    <span class="tag whatever-tag">Something</span>
+                </div>
+                <div class="flex space-between w-100">
+                    <img class="eco-leaf-image" src="img/leaf.png"/>
+                    <div class="pl-2 w-100 flex-column justify-between">
+                        <span style="font-weight: bold; margin-bottom: 3px;">Eco-friendly rating </span>
+                        <div class="progress eco-progress">
+                            <div class="progress-bar" role="progressbar" style="width: 75%" aria-valuenow="75"
+                                 aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
     </div>
 </div>
 </body>
-
 </html>

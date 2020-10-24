@@ -3,40 +3,17 @@ angular.module('carSearch', []).controller('CarController', ['$scope', '$http', 
 function carController($scope, $http) {
 
   $scope.filters = {
-    brand: "",
+    brands: [],
     country: [],
     year: [1996, 2020],
     category:[],
     transmission: [],
-    noOfDoors: [],
     vehicleStyle: [],
     fuelType: [],
-    cylinders: [1, 20]
-  };
-
-  $scope.httpGet = function (theUrl) {
-    const xmlHttp = new XMLHttpRequest();
-    xmlHttp.open("GET", theUrl, false); // false for synchronous request
-    xmlHttp.send(null);
-    return JSON.parse(xmlHttp.responseText);
   };
 
   window.onload = () => {
-    $('.brand-dropdown a').click(function () {
-      const selectedClass = "dropdown-item--selected";
-      $(".dropdown-item").removeClass(selectedClass);
-      $scope.filters = {
-        ...$scope.filters,
-        brand: this.innerHTML
-      };
-      $('#dropdownMenuButton').text(this.innerHTML);
-      if($(this).hasClass(selectedClass)) {
-        $(this).removeClass(selectedClass);
-      } else {
-        $(this).addClass(selectedClass);
-      }
-    });
-
+      // Countries dropdown
       $('.country-dropdown a').click(function () {
         const selectedClass = ".dropdown-item--selected";
         $(".dropdown-item").removeClass(selectedClass);
@@ -51,15 +28,23 @@ function carController($scope, $http) {
           $(this).addClass(selectedClass);
         }
     });
-    // const query = httpGet("https://api.unsplash.com/search/photos?client_id=1R7OEW7YscUFiapoATUJqdO8x-O4naIgxOM9mlxxsy8&page=3&query=ferrari");
-    // const images = query.results.map(result => result.urls.full);
-    // const container = document.getElementById('imageContainer');
-    // images.map(image => {
-    //   let img = document.createElement('img');
-    //   img.src = image;
-    //   img.style = "max-width: 200px;";
-    //   container.appendChild(img);
-    // });
+
+    // Brand dropdown
+    $('.brand-dropdown a').click(function () {
+      const { brands } = $scope.filters;
+      const selectedClass = "dropdown-item--selected";
+      const updatedBrands = brands.includes(this.innerHTML) ? brands.filter(brand => brand !== this.innerHTML) : [...brands, this.innerHTML]
+      $scope.filters = {
+        ...$scope.filters,
+        brands: updatedBrands
+      };
+      $('#dropdownMenuButton').text(updatedBrands.length ? updatedBrands.join(', ') : "Select brand(s)");
+      if($(this).hasClass(selectedClass)) {
+        $(this).removeClass(selectedClass);
+      } else {
+        $(this).addClass(selectedClass);
+      }
+    });
   };
 
   $scope.handleFilterToggle = function (filter, value) {
@@ -101,28 +86,6 @@ function carController($scope, $http) {
     $("#amount").val("$" + $("#slider-range").slider("values", 0) +
       " - $" + $("#slider-range").slider("values", 1));
   });
-
 }
 
-const myQuery = `
-PREFIX dbo: <http://dbpedia.org/ontology/>
-PREFIX dbr: <http://dbpedia.org/resource/>
-PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
-SELECT COUNT(DISTINCT ?car)
-WHERE {
-?car rdf:type auto:Car .
-?car auto:fuelType ns:${$scope.filters.transmission} . 
-}
-`;
 
-
-$http({
-  method: "GET",
-  url: "http://example.com/group36/" + encodeURI(myQuery).replace(/#/g, '%23'),
-  headers: {
-    'Accept': 'application/sparql-results+json',
-    'Content-Type': 'application/sparql-results+json'
-  }
-})
-  .success(function (data) {
-    console.log(data)  });
