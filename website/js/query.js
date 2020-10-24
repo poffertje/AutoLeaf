@@ -26,7 +26,7 @@ function mainCtrl($scope, $http){
       // Add the CarManufacturers to the dropdown menu
       const div = document.querySelector('.dropdown-menu');
       $scope.CarManufacturers.forEach(manufacturer => {
-        div.innerHTML += `<a class="dropdown-item" href="#">${manufacturer.replace("http://example.com/group36/", "")}</a>`;
+        div.innerHTML += `<a class="dropdown-item" href="#">${manufacturer.replace("http://example.com/group36/", "").replace('_', ' ').toLowerCase()}</a>`;
       })
     })
     .error(function(error ){
