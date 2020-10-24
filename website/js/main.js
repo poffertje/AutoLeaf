@@ -1,43 +1,19 @@
 angular.module('carSearch', []).controller('CarController', ['$scope', '$http', carController]);
 
 function carController($scope, $http) {
-  $scope.GraphDBSparqlEndpoint = "http://192.168.1.251:7200/repositories/Group_36";
 
   $scope.filters = {
-    brand: "",
+    brands: [],
     country: [],
     year: [1996, 2020],
     category:[],
     transmission: [],
-    noOfDoors: [],
     vehicleStyle: [],
     fuelType: [],
-    cylinders: [1, 20]
-  };
-
-  $scope.httpGet = function (theUrl) {
-    const xmlHttp = new XMLHttpRequest();
-    xmlHttp.open("GET", theUrl, false); // false for synchronous request
-    xmlHttp.send(null);
-    return JSON.parse(xmlHttp.responseText);
   };
 
   window.onload = () => {
-    $('.brand-dropdown a').click(function () {
-      const selectedClass = "dropdown-item--selected";
-      $(".dropdown-item").removeClass(selectedClass);
-      $scope.filters = {
-        ...$scope.filters,
-        brand: this.innerHTML
-      };
-      $('#dropdownMenuButton').text(this.innerHTML);
-      if($(this).hasClass(selectedClass)) {
-        $(this).removeClass(selectedClass);
-      } else {
-        $(this).addClass(selectedClass);
-      }
-    });
-
+      // Countries dropdown
       $('.country-dropdown a').click(function () {
         const selectedClass = ".dropdown-item--selected";
         $(".dropdown-item").removeClass(selectedClass);
@@ -51,6 +27,23 @@ function carController($scope, $http) {
         } else {
           $(this).addClass(selectedClass);
         }
+    });
+
+    // Brand dropdown
+    $('.brand-dropdown a').click(function () {
+      const { brands } = $scope.filters;
+      const selectedClass = "dropdown-item--selected";
+      const updatedBrands = brands.includes(this.innerHTML) ? brands.filter(brand => brand !== this.innerHTML) : [...brands, this.innerHTML]
+      $scope.filters = {
+        ...$scope.filters,
+        brands: updatedBrands
+      };
+      $('#dropdownMenuButton').text(updatedBrands.length ? updatedBrands.join(', ') : "Select brand(s)");
+      if($(this).hasClass(selectedClass)) {
+        $(this).removeClass(selectedClass);
+      } else {
+        $(this).addClass(selectedClass);
+      }
     });
   };
 
@@ -70,6 +63,7 @@ function carController($scope, $http) {
       button.addClass(selectedClass);
     }
   };
+
 
 //Year range slider
   $(function () {
@@ -92,35 +86,6 @@ function carController($scope, $http) {
     $("#amount").val("$" + $("#slider-range").slider("values", 0) +
       " - $" + $("#slider-range").slider("values", 1));
   });
+}
 
-  $scope.QueryManufacturers = function(){
 
-    //Sparql query
-    $scope.ManufacturersQuery = `
-    PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
-    PREFIX auto: <http://example.com/group36/>
-    select ?Manufacturer where {?Manufacturer rdf:type auto:CarManufacturer.} `;
-    $scope.SparqlManufacturersQuery = encodeURI($scope.ManufacturersQuery).replace(/#/g, '%23');
-
-    $http( {
-      method: "GET",
-      url : $scope.GraphDBSparqlEndpoint + "?query=" + $scope.SparqlManufacturersQuery   ,
-      headers : {'Accept':'application/sparql-results+json', 'Content-Type':'application/sparql-results+json'}
-    } )
-    .success(function(data, status ) {
-      $scope.CarManufacturers = [];
-      // Iterate over the results and append the created list
-      angular.forEach(data.results.bindings, function(val) {
-        $scope.CarManufacturers.push(val.Manufacturer.value);
-      });
-      // Add the CarManufacturers to the dropdown menu
-      const div = document.querySelector('.dropdown-menu');
-      $scope.CarManufacturers.forEach(manufacturer => {
-        div.innerHTML += `<a class="dropdown-item" href="#">${manufacturer.replace("http://example.com/group36/", "").replace('_', ' ').toLowerCase()}</a>`;
-      })
-    })
-    .error(function(error ){
-      console.log('Error running the input query!'+error);
-    });
-  };
-};
