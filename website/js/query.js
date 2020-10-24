@@ -19,11 +19,8 @@ function mainCtrl($scope, $http){
     } )
     .success(function(data, status ) {
       $scope.CarManufacturers = [];
-      var count = 0;
       // Iterate over the results and append the created list
       angular.forEach(data.results.bindings, function(val) {
-        count += 1;
-        var ManufacturerName = val.Manufacturer.value;
         $scope.CarManufacturers.push(val.Manufacturer.value);
       });
       // Add the CarManufacturers to the dropdown menu
