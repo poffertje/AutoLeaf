@@ -1,35 +1,35 @@
 angular.module('KRRclass', [ 'chart.js']).controller('MainCtrl', ['$scope','$http', mainCtrl]);
 
 function mainCtrl($scope, $http){
-  $scope.mySparqlEndpoint = "http://192.168.1.251:7200/repositories/Group_36";
+  $scope.GraphDBSparqlEndpoint = "http://192.168.1.251:7200/repositories/Group_36";
 
-  $scope.startMakeQuery = function(){
-    $scope.displayMakeMessage = "Car Manufactureres";
+  $scope.QueryManufacturers = function(){
+
     //Sparql query
-    $scope.myMakeQuery = `
+    $scope.ManufacturersQuery = `
     PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
     PREFIX auto: <http://example.com/group36/>
-    select ?Car where {  ?Car rdf:type auto:CarManufacturer. } `;
-    $scope.mySparqlMake  = encodeURI($scope.myMakeQuery).replace(/#/g, '%23');
+    select ?Manufacturer where {?Manufacturer rdf:type auto:CarManufacturer.} `;
+    $scope.SparqlManufacturersQuery = encodeURI($scope.ManufacturersQuery).replace(/#/g, '%23');
 
     $http( {
       method: "GET",
-      url : $scope.mySparqlEndpoint + "?query=" + $scope.mySparqlMake ,
+      url : $scope.GraphDBSparqlEndpoint + "?query=" + $scope.SparqlManufacturersQuery   ,
       headers : {'Accept':'application/sparql-results+json', 'Content-Type':'application/sparql-results+json'}
     } )
     .success(function(data, status ) {
       $scope.CarManufacturers = [];
       var count = 0;
-      // now iterate on the results
+      // Iterate over the results and append the created list
       angular.forEach(data.results.bindings, function(val) {
         count += 1;
-        var ManufacturerName = val.Car.value;
-        $scope.CarManufacturers.push(val.Car.value);
+        var ManufacturerName = val.Manufacturer.value;
+        $scope.CarManufacturers.push(val.Manufacturer.value);
       });
+      // Add the CarManufacturers to the dropdown menu
       const div = document.querySelector('.dropdown-menu');
-      const regions = $scope.CarManufacturers;
-      regions.forEach(region => {
-        div.innerHTML += `<a class="dropdown-item" href="#">${region}</a>`;
+      $scope.CarManufacturers.forEach(manufacturer => {
+        div.innerHTML += `<a class="dropdown-item" href="#">${manufacturer}</a>`;
       })
     })
     .error(function(error ){
