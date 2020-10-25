@@ -120,6 +120,9 @@ function carController($scope, $http) {
       class_var_1 = "dropdown-menu"
       class_var_2 = "brand-dropdown"
       const div = document.querySelector("."+class_var_1+"."+class_var_2);
+      var itemSelectorOption = $('#select-id option:selected');
+      itemSelectorOption.remove();
+      $('#select-id').selectpicker('refresh');
       $scope.CarManufacturers.forEach(manufacturer => {
         div.innerHTML += `<a class="dropdown-item" href="#">${manufacturer.replace("http://example.com/group36/", "").replace('_', ' ').toLowerCase()}</a>`;
       })
@@ -128,7 +131,6 @@ function carController($scope, $http) {
       console.log('Error running the input query!'+error);
     });
   };
-
 
   //
   $scope.QueryCountries = function(){
