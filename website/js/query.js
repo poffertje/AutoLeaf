@@ -1,4 +1,4 @@
-angular.module('KRRclass', [ 'chart.js']).controller('MainCtrl', ['$scope','$http', mainCtrl]);
+angular.module('KRRclass', []).controller('MainCtrl', ['$scope','$http', mainCtrl]);
 
 function mainCtrl($scope, $http){
   $scope.GraphDBSparqlEndpoint = "http://192.168.1.251:7200/repositories/Group_36";
