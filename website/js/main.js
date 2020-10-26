@@ -6,7 +6,7 @@ function removeURI(URI) {
 
 function carController($scope, $http) {
   //Insert Sparql Endpoint here -->
-  const graphDBSparqlEndpoint = "http://192.168.1.251:7200/repositories/Group_36";
+  const graphDBSparqlEndpoint = "http://192.168.1.251:7200/repositories/Vehicles";
 
   //Website Filters
   let filters = {
@@ -104,30 +104,6 @@ function carController($scope, $http) {
     fetchCars();
   };
 
-
-//Year range slider
-  $(function () {
-    $("#slider-range").slider({
-      range: true,
-      min: 1996,
-      max: 2020,
-      values: [1996, 2020],
-      slide: function (event, ui) {
-        filters = {
-          ...filters,
-          year: [ui.values[0], ui.values[1]]
-        };
-        // This runs when the slider is moved
-        $('#year1').text(ui.values[0]);
-        $('#year2').text(ui.values[1]);
-        $("#amount").val("$" + ui.values[0] + " - $" + ui.values[1]);
-      }
-    });
-    $("#amount").val("$" + $("#slider-range").slider("values", 0) +
-      " - $" + $("#slider-range").slider("values", 1));
-  });
-
-
   //QUERIES
   //Query the Countries from the triplestore
   function queryCountries() {
@@ -145,7 +121,7 @@ function carController($scope, $http) {
       headers: {'Accept': 'application/sparql-results+json', 'Content-Type': 'application/sparql-results+json'}
     })
       .success(function (data, status) {
-        // Add the CarManufacturers to the dropdown menu
+        // Add the Countries to the dropdown menu
         const div = document.querySelector(".dropdown-menu.country-dropdown");
         // Iterate over the results and append the created list
         data.results.bindings.map(val => {
@@ -211,26 +187,26 @@ function carController($scope, $http) {
         PREFIX dbo: <http://dbpedia.org/ontology/>
         PREFIX dbr: <http://dbpedia.org/resource/>
         PREFIX ns: <http://www.heppnetz.de/ontologies/vso/ns#>
-        SELECT distinct ?Car ?EcoScore ?CarCategory ?CarWheelDrive ?CarBodyStyle ?CarTransmission ?CarFuelType
+        SELECT distinct ?Car ?EcoScore ?CarCategory ?CarWheelDrive ?CarBodyStyle ?CarTransmission ?CarFuelType ?CarCategory2
         WHERE {
             ${brands.length ? `${brands.map((style, index) => `{ ?Car auto:hasManufacturer auto:${brands[index].replace(/ /g, "_").toUpperCase()} . } ${index + 1 < brands.length ? "UNION " : ""}`).join('')}` : ""}
             ?Car auto:hasEcoScore ?EcoScore .
-            ${category === "" ? "?Car rdf:type auto:Car ." : `?Car rdf:type auto:${category} .`}
             ${transmission === "" ? "?Car ns:transmission ?CarTransmission ." : `?Car ns:transmission auto:${transmission} . `}
             ?Car auto:hasFuelType ?CarFuelType .
-            ${fuelType === "gasoline" ? 'FILTER (?CarFuelType != "diesel")' : fuelType === "diesel" ? "?Car auto:hasFuelType 'diesel'" : ""}
+            OPTIONAL{?Car a ?CarCategory . FILTER(?CarCategory = auto:LuxuryCar || ?CarCategory = auto:SpaciousCar)}
+            ${fuelType === "gasoline" ? 'FILTER (?CarFuelType != "diesel")' : fuelType === "diesel" ? 'FILTER (?CarFuelType = "diesel")' : ""}
             ${driveConfig === "" ? "?Car ns:driveWheelConfiguration ?CarWheelDrive ." : `?Car ns:driveWheelConfiguration auto:${driveConfig} . `}
             ${vehicleStyle === "" ? "?Car ns:bodyStyle ?CarBodyStyle ." : `?Car ns:bodyStyle auto:${vehicleStyle} . `}
 
-            ${category ? `BIND(auto:${category} AS ?CarCategory) .` : ""}
             ${transmission ? `BIND(auto:${transmission} AS ?CarTransmission) .` : ""}
-            ${fuelType ? `BIND(auto:${fuelType} AS ?CarFuelType) . ` : ""}
             ${vehicleStyle ? `BIND(auto:${vehicleStyle} AS ?CarBodyStyle) .` : ""}
             ${driveConfig ? `BIND(auto:${driveConfig} AS ?CarWheelDrive) .` : ""}
+            BIND (exists{?Car a ?CarCategory. FILTER (?CarCategory = auto:LuxuryCar || ?CarCategory = auto:SpaciousCar)} AS ?existsCategory )
+            BIND (IF(?existsCategory , ?CarCategory, "Other") AS ?CarCategory2)
           }
         ORDER BY (?EcoScore)
         `;
-
+          console.log(query)
       $http({
       method: "GET",
       url: graphDBSparqlEndpoint + "?query=" + encodeURI(query).replace(/#/g, '%23'),
@@ -248,16 +224,18 @@ function carController($scope, $http) {
             const drive = removeURI(car.CarWheelDrive.value);
             const ecoScore = 100 - car.EcoScore.value;
             const ecoScoreColor = ecoScore <= 40 ? "red" : ecoScore > 40 && ecoScore <= 70 ? "orange" : "green";
+            const carCategories = removeURI(car.CarCategory2.value);
+            console.log(carCategories)
             resultsDiv.innerHTML += (
               `<div class="car-card">
               <img class="car-image" src="${images[brandName + formatedStyle] || images[brandName + "Other"]}" />
               <div class="car-info">
-                  <h4>${name.toUpperCase()}</h4>
+                  <h4>${(name.charAt(0) + name.slice(1)).toUpperCase()}</h4>
                   <div class="car-tags">
-                      <span class="tag transmission-tag">Automatic</span>
+                      <span class="tag category-tag">${carCategories}</span>
                       <span class="tag fuel-tag">${car.CarFuelType.value === "diesel" ? "Diesel" : "Gasoline"}</span>
                       <span class="tag style-tag">${formatedStyle}</span>
-                      <span class="tag doors-tag">${transmission.charAt(0).toUpperCase() + transmission.slice(1)}</span>
+                      <span class="tag transmission-tag">${transmission.charAt(0).toUpperCase() + transmission.slice(1)}</span>
                       <span class="tag drive-tag">${drive.charAt(0).toUpperCase() + drive.slice(1)}</span>
                   </div>
                   <div class="flex space-between w-100">
@@ -287,7 +265,7 @@ function carController($scope, $http) {
   }
 }
 
-
+//Dictionary for Images
 var images = {
   acuraSedan: "https://www.motortrend.com/uploads/sites/10/2017/07/2018-acura-tlx-base-sedan-angular-front.png?fit=around%7C875:492.1875",
   acuraOther: "https://cars.usnews.com/static/images/Auto/izmo/i2314360/2017_acura_rdx_angularfront.jpg",
