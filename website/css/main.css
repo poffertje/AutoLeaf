@@ -81,15 +81,16 @@
 }
 
 .header_text--first {
- font-size: 28px;
+ font-size: 50px;
+ font-weight:bold;
   margin-bottom: -8px;
   color: #424242;
 }
 
 .header_text--second {
-  font-size: 28px;
-  font-weight: bold;
-  color: #424242;
+  font-size: 24px;
+  /* font-weight: bold; */
+  color: #6a6a6a;
 }
 
 .results_header--img {

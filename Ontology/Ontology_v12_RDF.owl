@@ -27157,25 +27157,6 @@
     
 
 
-    <!-- http://example.com/group36/MERCEDES-BENZ_B-CLASS_ELECTRIC_DRIVE -->
-
-    <owl:NamedIndividual rdf:about="http://example.com/group36/MERCEDES-BENZ_B-CLASS_ELECTRIC_DRIVE">
-        <rdf:type rdf:resource="http://dbpedia.org/ontology/Automobile"/>
-        <dbo:manufacturer rdf:resource="http://example.com/group36/MERCEDES-BENZ"/>
-        <ns:bodyStyle rdf:resource="http://example.com/group36/Hatchback"/>
-        <ns:driveWheelConfiguration rdf:resource="http://example.com/group36/FrontWheelDrive"/>
-        <ns:transmission rdf:resource="http://example.com/group36/DirectDrive"/>
-        <auto:hasCylinders rdf:datatype="http://www.w3.org/2001/XMLSchema#int">0</auto:hasCylinders>
-        <auto:hasEcoScore rdf:datatype="http://www.w3.org/2001/XMLSchema#int">0</auto:hasEcoScore>
-        <auto:hasFuelType>electric</auto:hasFuelType>
-        <auto:hasModel>B-Class Electric Drive</auto:hasModel>
-        <auto:hasProductionYear rdf:datatype="http://www.w3.org/2001/XMLSchema#int">2015</auto:hasProductionYear>
-        <ns:doors rdf:datatype="http://www.w3.org/2001/XMLSchema#int">4</ns:doors>
-        <ns:enginePower rdf:datatype="http://www.w3.org/2001/XMLSchema#int">177</ns:enginePower>
-    </owl:NamedIndividual>
-    
-
-
     <!-- http://example.com/group36/MERCEDES-BENZ_B_250 -->
 
     <owl:NamedIndividual rdf:about="http://example.com/group36/MERCEDES-BENZ_B_250">

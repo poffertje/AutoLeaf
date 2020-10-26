@@ -20882,21 +20882,6 @@ auto:MERCEDES-BENZ_A_250_4MATIC a owl:NamedIndividual , auto:Car ;
 	auto:hasFuelConsumptionHighway "7.0"^^xsd:float ;
 	auto:hasModel "A_250_4MATIC" .
 # 
-# http://example.com/group36/MERCEDES-BENZ_B-CLASS_ELECTRIC_DRIVE
-
-auto:MERCEDES-BENZ_B-CLASS_ELECTRIC_DRIVE a owl:NamedIndividual , dbo:Automobile ;
-	dbo:manufacturer auto:MERCEDES-BENZ ;
-	ns:bodyStyle auto:Hatchback ;
-	ns:driveWheelConfiguration auto:FrontWheelDrive ;
-	ns:transmission auto:DirectDrive ;
-	auto:hasCylinders "0"^^xsd:int ;
-	auto:hasEcoScore "0"^^xsd:int ;
-	auto:hasFuelType "electric" ;
-	auto:hasModel "B-Class Electric Drive" ;
-	auto:hasProductionYear "2015"^^xsd:int ;
-	ns:doors "4"^^xsd:int ;
-	ns:enginePower "177"^^xsd:int .
-# 
 # http://example.com/group36/MERCEDES-BENZ_B_250
 
 auto:MERCEDES-BENZ_B_250 a owl:NamedIndividual , auto:Car ;
