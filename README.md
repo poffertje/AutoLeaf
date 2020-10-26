@@ -11,4 +11,4 @@ Below you will find the steps required in order to run our semantic web applicat
 
 4: You may now open index.html and run the application.
 
-Here is the link to the screencast with the walktrhough of our application: https://www.youtube.com/watch?v=2xOf08f53MA&feature=youtu.be&ab_channel=SimonBergler
+Here is the link to the screencast with the walktrhough of our application: https://www.youtube.com/watch?v=0wIDiaUJRjQ&feature=youtu.be&ab_channel=SimonBergler
