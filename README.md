@@ -10,3 +10,5 @@ Below you will find the steps required in order to run our semantic web applicat
 3: Copy the repository URL. In line 9 of main.js, paste it as the value for the variable "graphDBSparqlEndpoint".
 
 4: You may now open index.html and run the application.
+
+Here is the link to the screencast with the walktrhough of our application: https://www.youtube.com/watch?v=2xOf08f53MA&feature=youtu.be&ab_channel=SimonBergler
