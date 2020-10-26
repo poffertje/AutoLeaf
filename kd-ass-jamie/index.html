@@ -56,39 +56,39 @@
             </div>
         </div> -->
 
-        <div class="filter">
+        <!-- <div class="filter">
             <label class="filter--label">Category</label>
             <div class="flex justify-between mb-2">
-                <button id="Performance" class="multi_selection--button"
-                        ng-click="handleFilterToggle('category', 'Performance')">Performance
+                <button id="PerformanceCar" class="multi_selection--button"
+                        ng-click="handleFilterToggle('category', 'PerformanceCar')">Performance
                 </button>
-                <button id="Luxury" class="multi_selection--button"
-                        ng-click="handleFilterToggle('category', 'Luxury')">Luxury
+                <button id="LuxuryCar" class="multi_selection--button"
+                        ng-click="handleFilterToggle('category', 'LuxuryCar')">Luxury
                 </button>
             </div>
             <div class="flex justify-between mb-2">
-                <button id="Spacious" class="multi_selection--button"
-                        ng-click="handleFilterToggle('category', 'Spacious')">Spacious
+                <button id="SpaciousCar" class="multi_selection--button"
+                        ng-click="handleFilterToggle('category', 'SpaciousCar')">Spacious
                 </button>
             </div>
-        </div>
+        </div> -->
 
         <div class="filter">
             <label class="filter--label">Drive Configuration</label>
             <div class="flex justify-between mb-2">
-                <button id="AllWheel" class="multi_selection--button"
-                        ng-click="handleFilterToggle('driveConfig', 'AllWheel')">All Wheel
+                <button id="AllWheelDrive" class="multi_selection--button"
+                        ng-click="handleFilterToggle('driveConfig', 'AllWheelDrive')">All Wheel
                 </button>
-                <button id="twoWheel" class="multi_selection--button"
-                        ng-click="handleFilterToggle('driveConfig', 'TwoWheel')">Two Wheel
+                <button id="FourWheelDrive" class="multi_selection--button"
+                        ng-click="handleFilterToggle('driveConfig', 'FourWheelDrive')">Four Wheel
                 </button>
             </div>
             <div class="flex justify-between mb-2">
-                <button id="rearWheel" class="multi_selection--button"
-                        ng-click="handleFilterToggle('driveConfig', 'RearWheel')">Rear Wheel
+                <button id="RearWheelDrive" class="multi_selection--button"
+                        ng-click="handleFilterToggle('driveConfig', 'RearWheelDrive')">Rear Wheel
                 </button>
-                <button id="frontWheel" class="multi_selection--button"
-                        ng-click="handleFilterToggle('driveConfig', 'FrontWheel')">Front Wheel
+                <button id="FrontWheelDrive" class="multi_selection--button"
+                        ng-click="handleFilterToggle('driveConfig', 'FrontWheelDrive')">Front Wheel
                 </button>
             </div>
         </div>
@@ -116,31 +116,31 @@
         <div class="filter">
             <label class="filter--label">Vehicle Style</label>
             <div class="flex justify-between mb-2">
-                <button id="sedan" class="multi_selection--button"
-                        ng-click="handleFilterToggle('vehicleStyle', 'sedan')">Sedan
+                <button id="Sedan" class="multi_selection--button"
+                        ng-click="handleFilterToggle('vehicleStyle', 'Sedan')">Sedan
                 </button>
-                <button id="coupe" class="multi_selection--button"
-                        ng-click="handleFilterToggle('vehicleStyle', 'coupe')">Coupe
-                </button>
-            </div>
-            <div class="flex justify-between mb-2">
-                <button id="convertible" class="multi_selection--button"
-                        ng-click="handleFilterToggle('vehicleStyle', 'convertible')">Convertible
-                </button>
-                <button id="wagon" class="multi_selection--button"
-                        ng-click="handleFilterToggle('vehicleStyle', 'wagon')">Wagon
+                <button id="Coupe" class="multi_selection--button"
+                        ng-click="handleFilterToggle('vehicleStyle', 'Coupe')">Coupe
                 </button>
             </div>
             <div class="flex justify-between mb-2">
-                <button id="hatchback" class="multi_selection--button"
-                        ng-click="handleFilterToggle('vehicleStyle', 'hatchback')">Hatchback
+                <button id="Convertible" class="multi_selection--button"
+                        ng-click="handleFilterToggle('vehicleStyle', 'Convertible')">Convertible
                 </button>
-                <button id="minivan" class="multi_selection--button"
-                        ng-click="handleFilterToggle('vehicleStyle', 'minivan')">Minivan
+                <button id="Wagon" class="multi_selection--button"
+                        ng-click="handleFilterToggle('vehicleStyle', 'Wagon')">Wagon
+                </button>
+            </div>
+            <div class="flex justify-between mb-2">
+                <button id="Hatchback" class="multi_selection--button"
+                        ng-click="handleFilterToggle('vehicleStyle', 'Hatchback')">Hatchback
+                </button>
+                <button id="Minivan" class="multi_selection--button"
+                        ng-click="handleFilterToggle('vehicleStyle', 'Minivan')">Minivan
                 </button>
             </div>
             <div class="flex justify-between">
-                <button id="suv" class="multi_selection--button" ng-click="handleFilterToggle('vehicleStyle', 'suv')">
+                <button id="SUV" class="multi_selection--button" ng-click="handleFilterToggle('vehicleStyle', 'SUV')">
                     SUV
                 </button>
             </div>
@@ -149,10 +149,10 @@
         <div class="filter">
             <label class="filter--label">Fuel Type</label>
             <div class="flex justify-between">
-                <button id="gasoline" class="multi_selection--button"
+                <button id="gasoline" class="multi_selection--button fuelType"
                         ng-click="handleFilterToggle('fuelType', 'gasoline')">Gasoline
                 </button>
-                <button id="diesel" class="multi_selection--button" ng-click="handleFilterToggle('fuelType', 'diesel')">
+                <button id="diesel" class="multi_selection--button fuelType" ng-click="handleFilterToggle('fuelType', 'diesel')">
                     Diesel
                 </button>
             </div>
@@ -167,34 +167,8 @@
             </div>
             <img class="results_header--img" src="img/results-header.jpg"/>
         </div>
-
-        <div class="car-card">
-            <img class="car-image" src="img/car.png"/>
-            <div class="car-info">
-                <h4>Atura Model S 2015</h4>
-                <div class="car-tags">
-                    <span class="tag transmission-tag">Automatic</span>
-                    <span class="tag fuel-tag">Gasoline</span>
-                    <span class="tag style-tag">Sedan</span>
-                    <span class="tag doors-tag">Japan</span>
-                    <span class="tag whatever-tag">Something</span>
-                </div>
-                <div class="flex space-between w-100">
-                    <img class="eco-leaf-image" src="img/leaf.png"/>
-                    <div class="pl-2 w-100 flex-column justify-between">
-                        <div class="flex">
-                        <span style="font-weight: bold; margin-bottom: 3px;">Eco-friendly rating</span>
-                        <span tabindex="0" class="ml-2" role="button" data-trigger="focus" data-toggle="popover" data-placement="top" data-content="Calculated as follows: Emission Score= ((Fuel Consumption Highway + Fuel Consumption City) / FuelConsumptionCombined ) * CO2 Emissions">ⓘ</span>
-                    </div>
-                        <div class="progress eco-progress">
-                            <div class="progress-bar" role="progressbar" style="width: 75%" aria-valuenow="75"
-                                 aria-valuemin="0" aria-valuemax="100"></div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-
+    <div class="results">    
+        <h4 class="text-center mt-4">Please select a combination of filters to see some results</h4>
     </div>
 </div>
 </body>
