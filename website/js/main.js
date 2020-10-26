@@ -158,8 +158,9 @@ function carController($scope, $http) {
         // Remove brands from previous country
         div.innerHTML = "";
         data.results.bindings.map(val => {
-          const text = removeURI(val.Manufacturer.value);
-          div.innerHTML += `<a class="dropdown-item" href="#">${text.charAt(0).toUpperCase() + text.slice(1)}</a>`;
+          var text = removeURI(val.Manufacturer.value);
+          text = text.charAt(0).toUpperCase() + text.slice(1)
+          div.innerHTML += `<a class="dropdown-item" href="#">${text.replace("Bmw", "BMW").replace("Gmc", "GMC").replace("Alfa romeo", "Alfa Romeo").replace("Aston martin", "Aston Martin").replace("Mercedes-benz", "Mercedes-Benz").replace("Rolls-royce","Rolls-Royce").replace("Land rover", "Land Rover")}</a>`;
         });
         $(".brands-button").prop('disabled', false);
         handleBrandDropdown();
@@ -187,13 +188,12 @@ function carController($scope, $http) {
         PREFIX dbo: <http://dbpedia.org/ontology/>
         PREFIX dbr: <http://dbpedia.org/resource/>
         PREFIX ns: <http://www.heppnetz.de/ontologies/vso/ns#>
-        SELECT distinct ?Car ?EcoScore ?CarCategory ?CarWheelDrive ?CarBodyStyle ?CarTransmission ?CarFuelType ?CarCategory2
+        SELECT distinct ?Car ?EcoScore ?CarWheelDrive ?CarBodyStyle ?CarTransmission ?CarFuelType ?CarCategory2
         WHERE {
             ${brands.length ? `${brands.map((style, index) => `{ ?Car auto:hasManufacturer auto:${brands[index].replace(/ /g, "_").toUpperCase()} . } ${index + 1 < brands.length ? "UNION " : ""}`).join('')}` : ""}
             ?Car auto:hasEcoScore ?EcoScore .
             ${transmission === "" ? "?Car ns:transmission ?CarTransmission ." : `?Car ns:transmission auto:${transmission} . `}
             ?Car auto:hasFuelType ?CarFuelType .
-            OPTIONAL{?Car a ?CarCategory . FILTER(?CarCategory = auto:LuxuryCar || ?CarCategory = auto:SpaciousCar)}
             ${fuelType === "gasoline" ? 'FILTER (?CarFuelType != "diesel")' : fuelType === "diesel" ? 'FILTER (?CarFuelType = "diesel")' : ""}
             ${driveConfig === "" ? "?Car ns:driveWheelConfiguration ?CarWheelDrive ." : `?Car ns:driveWheelConfiguration auto:${driveConfig} . `}
             ${vehicleStyle === "" ? "?Car ns:bodyStyle ?CarBodyStyle ." : `?Car ns:bodyStyle auto:${vehicleStyle} . `}
@@ -201,8 +201,11 @@ function carController($scope, $http) {
             ${transmission ? `BIND(auto:${transmission} AS ?CarTransmission) .` : ""}
             ${vehicleStyle ? `BIND(auto:${vehicleStyle} AS ?CarBodyStyle) .` : ""}
             ${driveConfig ? `BIND(auto:${driveConfig} AS ?CarWheelDrive) .` : ""}
-            BIND (exists{?Car a ?CarCategory. FILTER (?CarCategory = auto:LuxuryCar || ?CarCategory = auto:SpaciousCar)} AS ?existsCategory )
-            BIND (IF(?existsCategory , ?CarCategory, "Other") AS ?CarCategory2)
+
+            BIND (exists{?Car rdf:type ?CarCategory. ?Car rdf:type ?CarCategorytwo. FILTER (?CarCategory = auto:LuxuryCar) FILTER(?CarCategorytwo = auto:SpaciousCar)} AS ?existsBoth )
+            BIND (exists{?Car rdf:type ?CarCategory. FILTER (?CarCategory = auto:LuxuryCar)} AS ?existsLuxury)
+            BIND (exists{?Car rdf:type ?CarCategory. FILTER (?CarCategory = auto:SpaciousCar)} AS ?existsSpacious)
+            BIND (IF(?existsBoth, "Spacious, Luxury", IF(?existsLuxury, "Luxury", IF(?existsSpacious, "Spacious", "Other"))) AS ?CarCategory2)
           }
         ORDER BY (?EcoScore)
         `;
@@ -232,7 +235,7 @@ function carController($scope, $http) {
               <div class="car-info">
                   <h4>${(name.charAt(0) + name.slice(1)).toUpperCase()}</h4>
                   <div class="car-tags">
-                      <span class="tag category-tag">${carCategories.charAt(0).toUpperCase() + carCategories.slice(1).replace("car", "")}</span>
+                      <span class="tag category-tag">${carCategories.charAt(0).toUpperCase() + carCategories.slice(1)}</span>
                       <span class="tag fuel-tag">${car.CarFuelType.value === "diesel" ? "Diesel" : "Gasoline"}</span>
                       <span class="tag style-tag">${formatedStyle}</span>
                       <span class="tag transmission-tag">${transmission === "automatedmanual" ? "Automated Manual" : transmission.charAt(0).toUpperCase() + transmission.slice(1).replace("drive", " Drive")}</span>
@@ -242,7 +245,7 @@ function carController($scope, $http) {
                       <img class="eco-leaf-image" src="img/leaf.png"/>
                       <div class="pl-2 w-100 flex-column justify-between">
                           <div class="flex">
-                          <span style="font-weight: bold; margin-bottom: 3px;">Eco-friendly rating</span>
+                          <span style="font-weight: bold; margin-bottom: 3px;">Eco-friendliness rating</span>
                           <span tabindex="0" class="ml-2" role="button" data-trigger="focus" data-toggle="popover" data-placement="top" data-content="Calculated as follows: Emission Score= ((Fuel Consumption Highway + Fuel Consumption City) / FuelConsumptionCombined ) * CO2 Emissions">ⓘ</span>
                       </div>
                           <div class="progress eco-progress">
