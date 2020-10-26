@@ -1,5 +1,5 @@
 # Knowledge and Data. Project Group 36.
-Simon Bergler * Sergei Agaronian * Tan Wei Lin Jamie * Sarah Mei Kwakkelaar
+Simon Bergler, Sergei Agaronian, Tan Wei Lin Jamie, Sarah Mei Kwakkelaar
 
 Below you will find the steps required in order to run our semantic web application Autoleaf. 
 
