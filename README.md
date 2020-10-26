@@ -1,4 +1,10 @@
 # Knowledge and Data. Project Group 36.
-Development repo for our project
+Below you will find the steps required in order to run our semantic web application Autoleaf. 
 
-Overleaf link: https://www.overleaf.com/9891939582mvxbzqrxtvhs
+1: Open GraphDB workbench and create a new repository with the OWL-Max ruleset (can be either optimized or not, it does not matter).
+
+2: Upload and import the file titled Ontology_v12_RDF.owl into your repository.
+
+3: Copy the repository URL. In line 9 of main.js, paste it as the value for the variable "graphDBSparqlEndpoint".
+
+4: You may now open index.html and run the application.
