@@ -252,7 +252,7 @@ function carController($scope, $http) {
               `<div class="car-card">
               <img class="car-image" src="${images[brandName + formatedStyle] || images[brandName + "Other"]}" />
               <div class="car-info">
-                  <h4>${name.charAt(0).toUpperCase() + name.slice(1)}</h4>
+                  <h4>${name.toUpperCase()}</h4>
                   <div class="car-tags">
                       <span class="tag transmission-tag">Automatic</span>
                       <span class="tag fuel-tag">${car.CarFuelType.value === "diesel" ? "Diesel" : "Gasoline"}</span>
