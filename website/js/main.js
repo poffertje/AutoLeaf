@@ -2,53 +2,71 @@ angular.module('carSearch', []).controller('CarController', ['$scope', '$http', 
 
 function carController($scope, $http) {
   //Insert Sparql Endpoint here -->
-  $scope.GraphDBSparqlEndpoint = "http://192.168.1.251:7200/repositories/Group_36";
+  const graphDBSparqlEndpoint = "http://192.168.1.251:7200/repositories/Group_36";
 
   //Website Filters
   $scope.filters = {
     brands: [],
-    country: [],
+    country: "",
     year: [1996, 2020],
-    category:[],
+    category: [],
     transmission: [],
     vehicleStyle: [],
     fuelType: [],
+    driveConfig: [],
   };
 
   window.onload = () => {
-      // Countries dropdown
-      $('.country-dropdown a').click(function () {
-        const selectedClass = ".dropdown-item--selected";
-        $(".dropdown-item").removeClass(selectedClass);
-        $scope.filters = {
-          ...$scope.filters,
-          country: this.innerHTML
-        };
-        $('#countryDropdownMenuButton').text(this.innerHTML);
-        if($(this).hasClass(selectedClass)) {
-          $(this).removeClass(selectedClass);
-        } else {
-          $(this).addClass(selectedClass);
-        }
-    });
+    // Populate the countries dropdown
+    queryCountries();
 
-    // Brand dropdown
-    $('.brand-dropdown a').click(function () {
-      const { brands } = $scope.filters;
+    //Popover
+    $.noConflict();
+    $(function () {
+      $('[data-toggle="popover"]').popover();
+    });
+  };
+
+  function handleCountryDropdown() {
+    $('.country-dropdown a').click(function () {
       const selectedClass = "dropdown-item--selected";
-      const updatedBrands = brands.includes(this.innerHTML) ? brands.filter(brand => brand !== this.innerHTML) : [...brands, this.innerHTML]
+      $(".dropdown-item").removeClass(selectedClass);
+      $scope.filters = {
+        ...$scope.filters,
+        country: this.innerHTML,
+        brands: []
+      };
+      $('#brandDropdownMenuButton').text("Select a brand");
+      $('#countryDropdownMenuButton').text(this.innerHTML);
+      if($(this).hasClass(selectedClass)) {
+        $(this).removeClass(selectedClass);
+      } else {
+        $(this).addClass(selectedClass);
+        queryManufacturers(this.innerHTML);
+      }
+    });
+  }
+
+  function handleBrandDropdown() {
+    $('.brand-dropdown a').click(function () {
+      const {brands} = $scope.filters;
+      if(brands.length === 3 && !brands.includes(this.innerHTML)) {
+        return;
+      }
+      const selectedClass = "dropdown-item--selected";
+      const updatedBrands = brands.includes(this.innerHTML) ? brands.filter(brand => brand !== this.innerHTML) : [...brands, this.innerHTML];
       $scope.filters = {
         ...$scope.filters,
         brands: updatedBrands
       };
-      $('#dropdownMenuButton').text(updatedBrands.length ? updatedBrands.join(', ') : "Select brand(s)");
+      $('#brandDropdownMenuButton').text(updatedBrands.length ? updatedBrands.join(', ') : "Select brand(s)");
       if($(this).hasClass(selectedClass)) {
         $(this).removeClass(selectedClass);
       } else {
         $(this).addClass(selectedClass);
       }
     });
-  };
+  }
 
   $scope.handleFilterToggle = function (filter, value) {
     const updatedFilter = $scope.filters[filter].includes(value) ? $scope.filters[filter].filter(fil => fil !== value) : [...$scope.filters[filter], value];
@@ -93,76 +111,71 @@ function carController($scope, $http) {
 
   //QUERIES
 
-
   //Query the Car Manufacturers from the triplestore
-  $scope.QueryManufacturers = function(){
+  function queryManufacturers(country) {
     //Sparql query
-    $scope.ManufacturersQuery = `
+    const manufacturersQuery = `
     PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
     PREFIX auto: <http://example.com/group36/>
     PREFIX dbo: <http://dbpedia.org/ontology/>
     PREFIX dbr: <http://dbpedia.org/resource/>
-    select ?Manufacturer where {?Manufacturer dbo:locationCountry dbr:` + $scope.filters.country.replace(' ', '_') + " .}" ;
-    $scope.SparqlManufacturersQuery = encodeURI($scope.ManufacturersQuery).replace(/#/g, '%23');
+    select ?Manufacturer where {?Manufacturer dbo:locationCountry dbr:` + country.replace(' ', '_') + " .}";
 
-    $http( {
+    $http({
       method: "GET",
-      url : $scope.GraphDBSparqlEndpoint + "?query=" + $scope.SparqlManufacturersQuery,
-      headers : {'Accept':'application/sparql-results+json', 'Content-Type':'application/sparql-results+json'}
-    } )
-    .success(function(data, status ) {
-      $scope.CarManufacturers = [];
-      // Iterate over the results and append the created list
-      angular.forEach(data.results.bindings, function(val) {
-        $scope.CarManufacturers.push(val.Manufacturer.value);
-      });
-      // Add the CarManufacturers to the dropdown menu
-      class_var_1 = "dropdown-menu"
-      class_var_2 = "brand-dropdown"
-      const div = document.querySelector("."+class_var_1+"."+class_var_2);
-      var itemSelectorOption = $('#select-id option:selected');
-      itemSelectorOption.remove();
-      $('#select-id').selectpicker('refresh');
-      $scope.CarManufacturers.forEach(manufacturer => {
-        div.innerHTML += `<a class="dropdown-item" href="#">${manufacturer.replace("http://example.com/group36/", "").replace('_', ' ').toLowerCase()}</a>`;
-      })
+      url: graphDBSparqlEndpoint + "?query=" + encodeURI(manufacturersQuery).replace(/#/g, '%23'),
+      headers: {'Accept': 'application/sparql-results+json', 'Content-Type': 'application/sparql-results+json'}
     })
-    .error(function(error ){
-      console.log('Error running the input query!'+error);
-    });
+      .success(function (data, status) {
+        // Add the CarManufacturers to the dropdown menu
+        class_var_1 = "dropdown-menu";
+        class_var_2 = "brand-dropdown";
+        // Iterate over the results and append the created list
+        const div = document.querySelector("." + class_var_1 + "." + class_var_2);
+        div.innerHTML = "";
+        data.results.bindings.map(val => {
+          const text = val.Manufacturer.value.replace("http://example.com/group36/", "").replace('_', ' ').toLowerCase();
+          div.innerHTML += `<a class="dropdown-item" href="#">${text.charAt(0).toUpperCase() + text.slice(1)}</a>`;
+        });
+        $(".brands-button").prop('disabled', false);
+        handleBrandDropdown();
+      })
+      .error(function (error) {
+        console.log('Error running the input query!' + error);
+      });
   };
 
+
   //
-  $scope.QueryCountries = function(){
+  function queryCountries() {
     //Sparql query
-    $scope.CountriesQuery = `
+    const countriesQuery = `
     PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
     PREFIX auto: <http://example.com/group36/>
     PREFIX dbo: <http://dbpedia.org/ontology/>
-    select ?Country where {?Country rdf:type dbo:Country.} `;
-    $scope.SparqlCountriesQuery = encodeURI($scope.CountriesQuery).replace(/#/g, '%23');
+    select ?Country where {?Country rdf:type dbo:Country.}
+    `;
 
-    $http( {
+    $http({
       method: "GET",
-      url : $scope.GraphDBSparqlEndpoint + "?query=" + $scope.SparqlCountriesQuery,
-      headers : {'Accept':'application/sparql-results+json', 'Content-Type':'application/sparql-results+json'}
-    } )
-    .success(function(data, status ) {
-      $scope.Countries = [];
-      // Iterate over the results and append the created list
-      angular.forEach(data.results.bindings, function(val) {
-        $scope.Countries.push(val.Country.value);
-      });
-      // Add the CarManufacturers to the dropdown menu
-      class_var_1="dropdown-menu"
-      class_var_2="country-dropdown"
-      const div = document.querySelector("."+class_var_1+"."+class_var_2);
-      $scope.Countries.forEach(country => {
-        div.innerHTML += `<a class="dropdown-item" href="#">${country.replace("http://dbpedia.org/resource/", "").replace('_', ' ')}</a>`;
-      })
+      url: graphDBSparqlEndpoint + "?query=" + encodeURI(countriesQuery).replace(/#/g, '%23'),
+      headers: {'Accept': 'application/sparql-results+json', 'Content-Type': 'application/sparql-results+json'}
     })
-    .error(function(error ){
-      console.log('Error running the input query!'+error);
-    });
+      .success(function (data, status) {
+        // Add the CarManufacturers to the dropdown menu
+        class_var_1 = "dropdown-menu";
+        class_var_2 = "country-dropdown";
+        const div = document.querySelector("." + class_var_1 + "." + class_var_2);
+        // Iterate over the results and append the created list
+        data.results.bindings.map(val => {
+          div.innerHTML += `<a class="dropdown-item" href="#">${val.Country.value.replace("http://dbpedia.org/resource/", "").replace('_', ' ')}</a>`;
+        });
+        // Enable button now that there's options on the dropdown
+        $(".country-button").prop('disabled', false);
+        handleCountryDropdown();
+      })
+      .error(function (error) {
+        console.log('Error running the input query!' + error);
+      });
   };
 }
