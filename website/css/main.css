@@ -66,6 +66,10 @@
 
 /* Results side */
 
+.results_column {
+  overflow-y: scroll;
+}
+
 .results_header {
   display: flex;
   justify-content: space-between;
@@ -102,18 +106,25 @@
   justify-content: space-between;
   align-items: center;
   border-radius: 5px;
+  background-color: #ffffff;
   box-shadow: 0 2px 50px 0 rgba(0,0,0,0.10);
-  margin: 10px 0;
-  padding: 15px;
+  margin: 20px 0;
+  padding: 25px 15px;
+}
+
+.car-card:hover {
+  transform: scale(1.02);
+  transition: .3s;
+  z-index: 10;
 }
 
 .car-image {
-  max-width: 40%;
+  max-width: 30%;
   height: auto;
 }
 
 .car-info {
-  width: 60%;
+  width: 65%;
 }
 
 .car-tags {
@@ -148,7 +159,7 @@ tag:last-child {
   background-color: #D0ECD0;
 }
 
-.whatever-tag {
+.drive-tag {
   background-color: #E2D0EC;
 }
 
