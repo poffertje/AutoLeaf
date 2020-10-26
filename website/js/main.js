@@ -232,11 +232,11 @@ function carController($scope, $http) {
               <div class="car-info">
                   <h4>${(name.charAt(0) + name.slice(1)).toUpperCase()}</h4>
                   <div class="car-tags">
-                      <span class="tag category-tag">${carCategories}</span>
+                      <span class="tag category-tag">${carCategories.charAt(0).toUpperCase() + carCategories.slice(1).replace("car", "")}</span>
                       <span class="tag fuel-tag">${car.CarFuelType.value === "diesel" ? "Diesel" : "Gasoline"}</span>
                       <span class="tag style-tag">${formatedStyle}</span>
-                      <span class="tag transmission-tag">${transmission.charAt(0).toUpperCase() + transmission.slice(1)}</span>
-                      <span class="tag drive-tag">${drive.charAt(0).toUpperCase() + drive.slice(1)}</span>
+                      <span class="tag transmission-tag">${transmission === "automatedmanual" ? "Automated Manual" : transmission.charAt(0).toUpperCase() + transmission.slice(1).replace("drive", " Drive")}</span>
+                      <span class="tag drive-tag">${drive.replace("fourwheeldrive", "4WD").replace("allwheeldrive","AWD").replace("rearwheeldrive", "RWD").replace("frontwheeldrive", "FWD")}</span>
                   </div>
                   <div class="flex space-between w-100">
                       <img class="eco-leaf-image" src="img/leaf.png"/>
