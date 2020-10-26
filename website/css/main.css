@@ -43,7 +43,8 @@
 }
 
 .filter--label {
-  margin-bottom: 2px;
+  margin-top: 3px;
+  margin-bottom: 10px;
   font-weight: bold;
 }
 
@@ -166,7 +167,7 @@ tag:last-child {
 
 .eco-leaf-image {
   max-height: 45px;
-  height: auto;  
+  height: auto;
 }
 
 .eco-progress {
